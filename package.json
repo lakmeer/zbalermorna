@@ -1,0 +1,22 @@
+{
+  "name": "zbalermorna-font-development-kit",
+  "version": "1.0.0",
+  "description": "Tools and processes for designing typefaces for Zbalermorna",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc",
+    "test": "test"
+  },
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-connect": "^5.0.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-shell": "^0.5.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "la kmir",
+  "license": "ISC"
+}

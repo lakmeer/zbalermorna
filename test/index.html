@@ -1,0 +1,108 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>ZLM FDK Test Page</title>
+    <meta name="viewport" content="width=device-width">
+    <style>
+
+    @font-face {
+      font-family: "ZLM Manri";
+      font-weight: normal;
+      src: url('font/zlm-manri.otf') format('opentype');
+    }
+
+    * { box-sizing: border-box; }
+
+    .reference { font-family: 'ZLM Manri'; }
+
+    p {
+      font-size: 40px;
+      font-feature-settings: "liga", "dott";
+    }
+
+    p span {
+      margin:  0;
+      display: block;
+    }
+
+    textarea {
+      width:     100%;
+      display:   block;
+      font-size: 40px;
+    }
+
+    small {
+      font-size:   20px;
+      font-family: monospace;
+    }
+
+    </style>
+  </head>
+
+  <body>
+    <h1>ZLM FDK Test Page</h1>
+
+    <div class="test-block">
+      <h3>CV ligatures</h3>
+      <p class="reference" >
+        <span data-zlm-translate> pa pe pi po pu py pai pei poi pau </span>
+        <span data-zlm-translate> ta te ti to tu ty tai tei toi tau </span>
+        <span data-zlm-translate> ka ke ki ko ku ky kai kei koi kau </span>
+        <span data-zlm-translate> fa fe fi fo fu fy fai fei foi fau </span>
+        <span data-zlm-translate> la le li lo lu ly lai lei loi lau </span>
+        <span data-zlm-translate> sa se si so su sy sai sei soi sau </span>
+        <span data-zlm-translate> ca ce ci co cu cy cai cei coi cau </span>
+        <span data-zlm-translate> ma me mi mo mu my mai mei moi mau </span>
+        <span data-zlm-translate> xa xe xi xo xu xy xai xei xoi xau </span>
+        <span data-zlm-translate> ba be bi bo bu by bai bei boi bau </span>
+        <span data-zlm-translate> da de di do du dy dai dei doi dau </span>
+        <span data-zlm-translate> ga ge gi go gu gy gai gei goi gau </span>
+        <span data-zlm-translate> va ve vi vo vu vy vai vei voi vau </span>
+        <span data-zlm-translate> ra re ri ro ru ry rai rei roi rau </span>
+        <span data-zlm-translate> za ze zi zo zu zy zai zei zoi zau </span>
+        <span data-zlm-translate> ja je ji jo ju jy jai jei joi jau </span>
+        <span data-zlm-translate> na ne ni no nu ny nai nei noi nau </span>
+      </p>
+
+      <h3>Diacritic vertical alignment</h3>
+      <p data-zlm-translate class="reference"> a e i o u y ai ei oi au </p>
+
+      <h3>Vowel combinations</h3>
+      <p class="reference">
+        <span data-zlm-translate>    a    e    i    o    u    y    ai    ei    oi    au </span>
+        <span data-zlm-translate>   ia   ie   ii   io   iu   iy   iai   iei   ioi   iau </span>
+        <span data-zlm-translate>   ua   ue   ui   uo   uu   uy   uai   uei   uoi   uau </span>
+        <span data-zlm-translate>  a'a  a'e  a'i  a'o  a'u  a'y  a'ai  a'ei  a'oi  a'au </span>
+        <span data-zlm-translate>  e'a  e'e  e'i  e'o  e'u  e'y  e'ai  e'ei  e'oi  e'au </span>
+        <span data-zlm-translate>  i'a  i'e  i'i  i'o  i'u  i'y  i'ai  i'ei  i'oi  i'au </span>
+        <span data-zlm-translate>  o'a  o'e  o'i  o'o  o'u  o'y  o'ai  o'ei  o'oi  o'au </span>
+        <span data-zlm-translate>  u'a  u'e  u'i  u'o  u'u  u'y  u'ai  u'ei  u'oi  u'au </span>
+        <span data-zlm-translate>  i'a  i'e  i'i  i'o  i'u  i'y  i'ai  i'ei  i'oi  i'au </span>
+        <span data-zlm-translate>  y'a  y'e  y'i  y'o  y'u  y'y  y'ai  y'ei  y'oi  y'au </span>
+        <span data-zlm-translate> ai'a ai'e ai'i ai'o ai'u ai'y ai'ai ai'ei ai'oi ai'au </span>
+        <span data-zlm-translate> ei'a ei'e ei'i ei'o ei'u ei'y ei'ai ei'ei ei'oi ei'au </span>
+        <span data-zlm-translate> oi'a oi'e oi'i oi'o oi'u oi'y oi'ai oi'ei oi'oi oi'au </span>
+        <span data-zlm-translate> au'a au'e au'i au'o au'u au'y au'ai au'ei au'oi au'au </span>
+      </p>
+    </div>
+
+    <!--
+    <div class="test-block">
+      <h2>Size WRT latin text</h2>
+      <p class="reference">
+        k<span data-zlm-translate>pa</span>
+        h<span data-zlm-translate>ta</span>
+        g<span data-zlm-translate>ka</span>
+        o<span data-zlm-translate>xau</span>
+        i<span data-zlm-translate>.i'i</span>
+      </p>
+    </div>
+    -->
+
+    <h2>IME Emulation</h2>
+    <textarea data-ime-emulation class="reference" rows="10"></textarea>
+
+    <script src="preview.js"></script>
+  </body>
+</html>
