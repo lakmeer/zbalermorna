@@ -1,0 +1,395 @@
+### File header must not be modified
+### This file must be encoded into UTF-8.
+### This table under LGPL
+### comments start with ### not single #
+### Derive from the format of SCIM Table, so you can modify the table from
+### scim-tables' table
+SCIM_Generic_Table_Phrase_Library_TEXT
+VERSION_1_0
+
+### Begin Table definition.
+BEGIN_DEFINITION
+
+### License
+LICENSE = LGPL
+
+### An unique id to distinguish this table among others.
+### Use uuidgen to generate this kind of id.
+UUID = cfcdc3e2-ffab-415c-b6f7-f91b4ce52bfa
+
+### A unique number indicates the version of this file.
+### For example the last modified date of this file.
+### This number must be less than 2^32.
+### Just make your table version-able
+SERIAL_NUMBER = 20161123
+
+### ICON can be any format as long as your pygtk can recognized
+### the most widely ones are "png" and "svg", letter one is recommended
+ICON = mlatu.svg
+
+### Attempt to disable the annoying popup table
+PAGE_SIZE = 0
+
+### The symbol to be displayed in IM switchers
+SYMBOL = Zba
+
+### The default name of this table, this is needed
+NAME = Zbalermorna
+
+### The local names of this table, this is optional
+### NAME.zh_CN = 形码
+### NAME.zh_HK = 形碼
+### NAME.zh_TW = 形碼
+
+### Description
+DESCRIPTION = This is a template engine table for IBus Table.
+
+### Supported languages of this table
+### sigle "zh_CN" just be recognized as zh_CN,
+### but "zh_CN, zh_HK" or more zh_XX will be recognized as zh;
+### and "en_US, zh_CN" will be just ignored.
+LANGUAGES = en_US
+
+### The author of this table
+AUTHOR = suzil
+
+### Prompt string to be displayed in the status area, CN will be replaced by
+### the gettext tools in runtime as 中.
+STATUS_PROMPT = Zba
+
+### Valid input chars.
+VALID_INPUT_CHARS = abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ,.?!1234567890()":;#/'
+
+### Layout
+LAYOUT = us
+
+### The max number of input keys for every phrase or character.
+MAX_KEY_LENGTH = 3
+
+### Use auto_commit mode as default
+AUTO_COMMIT = TRUE
+
+### Automatically selects the first phrase when typing
+AUTO_SELECT = TRUE
+
+### Use full width punctuation by default
+DEF_FULL_WIDTH_PUNCT = TRUE
+### Not use full width letter by default
+DEF_FULL_WIDTH_LETTER = TRUE
+
+### Whether user are allow to define phrase, default is true
+### You have to define the word construction rules below.
+### For input methods which do not input phrases, set this to False
+USER_CAN_DEFINE_PHRASE = FALSE
+
+### Whether support PinYin Mode, default is true.
+### this feature is just for Chinese, set it to False if your IM is not
+### Chinese.
+PINYIN_MODE = FALSE
+
+### If true then the phrases' frequencies will be adjusted dynamically
+### according your using frequency.
+DYNAMIC_ADJUST = FALSE
+
+### Some characters whose frequencies should be fix all the time, e.g. 
+### some punctuations
+### NO_CHECK_CHARS = 
+
+### Rules for constructing user defined phrase
+### "ce" stands for "ci equal", a Chinese English :), means "phrase length
+### equal to", thus ce2 -> phrase length equal to 2; and "ca" means "phrase
+### length equal or above", so ca4 -> phrase length equal or above 4.
+### p21 -> the 1st key of 2nd character in the phrase, and so on.
+### Each rule separate via ";". 
+### Example below is a complete rule-set, 
+### becuase [2,2] ∩ [3,3] ∩ [4,+∞] = [2,+∞], which is the range of length
+### of phrase. This have to be satisfied if you need ibus-table to build up
+### your own inputed phrase via your daily using.
+### RULES = ce2:p11+p12+p21+p22;ce3:p11+p21+p22+p31;ca4:p11+p21+p31+p41
+
+### The key strokes to page up the lookup table.
+### PAGE_UP_KEYS = Page_Up,KP_Page_Up,minus,comma
+
+### The key strokes to page down.
+### PAGE_DOWN_KEYS = Page_Down,KP_Page_Down,equal,period
+
+END_DEFINITION
+
+### Begin Table data.
+### Format of every line whose formated in "input_keys\tphrase\tfreq\n" is an
+### entry.
+### From left to right, the 1st column are the input key combination that you
+### entered via keyboard; the 2nd column are presented character or phrase of
+### the key combination you want; the 3rd column are frequency of the character
+### or phrase.
+BEGIN_TABLE
+b	󢍟	1
+by	󢍠	2
+bu	󢍡	2
+bo	󢍢	2
+bi	󢍣	2
+be	󢍤	2
+ba	󢍥	2
+bai	󢍦	3
+bau	󢍧	3
+bei	󢍨	3
+boi	󢍩	3
+c	󢍪	1
+cy	󢍫	2
+cu	󢍬	2
+co	󢍭	2
+ci	󢍮	2
+ce	󢍯	2
+ca	󢍰	2
+cai	󢍱	3
+cau	󢍲	3
+cei	󢍳	3
+coi	󢍴	3
+d	󢍵	1
+dy	󢍶	2
+du	󢍷	2
+do	󢍸	2
+di	󢍹	2
+de	󢍺	2
+da	󢍻	2
+dai	󢍼	3
+dau	󢍽	3
+dei	󢍾	3
+doi	󢍿	3
+f	󢎀	1
+fy	󢎁	2
+fu	󢎂	2
+fo	󢎃	2
+fi	󢎄	2
+fe	󢎅	2
+fa	󢎆	2
+fai	󢎇	3
+fau	󢎈	3
+fei	󢎉	3
+foi	󢎊	3
+j	󢎋	1
+jy	󢎌	2
+ju	󢎍	2
+jo	󢎎	2
+ji	󢎏	2
+je	󢎐	2
+ja	󢎑	2
+jai	󢎒	3
+jau	󢎓	3
+jei	󢎔	3
+joi	󢎕	3
+k	󢎖	1
+ky	󢎗	2
+ku	󢎘	2
+ko	󢎙	2
+ki	󢎚	2
+ke	󢎛	2
+ka	󢎜	2
+kai	󢎝	3
+kau	󢎞	3
+kei	󢎟	3
+koi	󢎠	3
+l	󢎡	1
+ly	󢎢	2
+lu	󢎣	2
+lo	󢎤	2
+li	󢎥	2
+le	󢎦	2
+la	󢎧	2
+lai	󢎨	3
+lau	󢎩	3
+lei	󢎪	3
+loi	󢎫	3
+m	󢎬	1
+my	󢎭	2
+mu	󢎮	2
+mo	󢎯	2
+mi	󢎰	2
+me	󢎱	2
+ma	󢎲	2
+mai	󢎳	3
+mau	󢎴	3
+mei	󢎵	3
+moi	󢎶	3
+n	󢎷	1
+ny	󢎸	2
+nu	󢎹	2
+no	󢎺	2
+ni	󢎻	2
+ne	󢎼	2
+na	󢎽	2
+nai	󢎾	3
+nau	󢎿	3
+nei	󢏀	3
+noi	󢏁	3
+p	󢏂	1
+py	󢏃	1
+pu	󢏄	2
+po	󢏅	2
+pi	󢏆	2
+pe	󢏇	2
+pa	󢏈	2
+pai	󢏉	3
+pau	󢏊	3
+pei	󢏋	3
+poi	󢏌	3
+r	󢏍	1
+ry	󢏎	2
+ru	󢏏	2
+ro	󢏐	2
+ri	󢏑	2
+re	󢏒	2
+ra	󢏓	2
+rai	󢏔	3
+rau	󢏕	3
+rei	󢏖	3
+roi	󢏗	3
+s	󢏘	1
+sy	󢏙	2
+su	󢏚	2
+so	󢏛	2
+si	󢏜	2
+se	󢏝	2
+sa	󢏞	2
+sai	󢏟	3
+sau	󢏠	3
+sei	󢏡	3
+soi	󢏢	3
+t	󢏣	1
+ty	󢏤	2
+tu	󢏥	2
+to	󢏦	2
+ti	󢏧	2
+te	󢏨	2
+ta	󢏩	2
+tai	󢏪	3
+tau	󢏫	3
+tei	󢏬	3
+toi	󢏭	3
+v	󢏮	1
+vy	󢏯	2
+vu	󢏰	2
+vo	󢏱	2
+vi	󢏲	2
+ve	󢏳	2
+va	󢏴	2
+vai	󢏵	3
+vau	󢏶	3
+vei	󢏷	3
+voi	󢏸	3
+z	󢏹	1
+zy	󢏺	2
+zu	󢏻	2
+zo	󢏼	2
+zi	󢏽	2
+ze	󢏾	2
+za	󢏿	2
+zai	󢐀	3
+zau	󢐁	3
+zei	󢐂	3
+zoi	󢐃	3
+g	󢐄	1
+gy	󢐅	2
+gu	󢐆	2
+go	󢐇	2
+gi	󢐈	2
+ge	󢐉	2
+ga	󢐊	2
+gai	󢐋	3
+gau	󢐌	3
+gei	󢐍	3
+goi	󢐎	3
+'	󢐏	1
+'y	󢐐	2
+'u	󢐑	2
+'o	󢐒	2
+'i	󢐓	2
+'e	󢐔	2
+'a	󢐕	2
+'ai	󢐖	3
+'au	󢐗	3
+'ei	󢐘	3
+'oi	󢐙	3
+iy	󢐚	5
+iu	󢐛	5
+io	󢐜	5
+ii	󢐝	5
+ie	󢐞	5
+ia	󢐟	5
+uy	󢐠	5
+uu	󢐡	5
+uo	󢐢	5
+ui	󢐣	5
+ue	󢐤	5
+ua	󢐥	5
+y'y	󢐦	5
+u'y	󢐧	5
+e'y	󢐨	5
+i'y	󢐩	5
+o'y	󢐪	5
+a'y	󢐫	5
+u'u	󢐬	5
+e'u	󢐭	5
+i'u	󢐮	5
+o'u	󢐯	5
+a'u	󢐰	5
+u'i	󢐱	5
+e'i	󢐲	5
+i'i	󢐳	5
+o'i	󢐴	5
+a'i	󢐵	5
+u'o	󢐶	5
+e'o	󢐷	5
+i'o	󢐸	5
+o'o	󢐹	5
+a'o	󢐺	5
+u'a	󢐻	5
+e'a	󢐼	5
+i'a	󢐽	5
+o'a	󢐾	5
+a'a	󢐿	5
+u'e	󢑀	5
+e'e	󢑁	5
+i'e	󢑂	5
+o'e	󢑃	5
+a'e	󢑄	5
+ai'y	󢑅	5
+oi'y	󢑆	5
+ei'y	󢑇	5
+au'y	󢑈	5
+oi	󢍕	3
+ei	󢍖	3
+au	󢍗	3
+ai	󢍘	3
+a	󢍙	1
+e	󢍚	1
+i	󢍛	1
+o	󢍜	1
+u	󢍝	1
+y	󢍞	1
+x	󢑉	1
+xy	󢑊	2
+xai	󢑐	3
+xau	󢑑	3
+xei	󢑒	3
+xoi	󢑓	3
+xu	󢑋	2
+xo	󢑌	2
+xi	󢑍	2
+xe	󢑎	2
+xa	󢑏	2
+END_TABlE
+
+### Since some input methods use different table for every character to make
+### phrase, such as ZhengMa, they need explict define the goucima (the
+### phrase-building code for the given character), the format of every entry is
+### "character\tgoucima\n". 
+### For the input method which just use the full code as word-building code
+### just skip this field. The ibus-table will build the codes needed from
+### above TABLE.
+### if you don't need different word-building code, please comment out the
+### next few lines with ###, just like these lines you are look at now.
+### BEGIN_GOUCI
+### character_1	goucima_1
+### character_1	goucima_2
+### END_GOUCI
