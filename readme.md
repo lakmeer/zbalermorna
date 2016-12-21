@@ -4,6 +4,38 @@
 A collection of tools and processes for using and developing typefaces for
 Zbalermorna, an alternative orthography for the constructed language Lojban.
 
+## Project status
+
+###### Done
+
+- Design unicode layout
+- Create reference glyphs
+
+
+###### To Do
+
+- Complete opentype features declaration
+- Complete first working ZLM font
+- Create ibus config for new unicode range
+- Finalise buid process for new ont development
+- Port the old ZLM font, now called 'Drakono' to new system
+- Create alternate typefaces and add them to this repo
+
+
+### How to type ZLM text
+
+- Install an IME file and a ZLM font
+- Type native ZLM directly into any app or website
+
+**or**
+
+- Clone this repo
+- Open `test/index.html` and use the IME emulator
+- Copy-paste the generated ZLM text
+
+Soon we will also have an online version of the IME emulator you can use to play
+with ZLM text. You'll still need a font to support the generated ZLM text~
+
 
 ### How a ZLM font works
 
@@ -21,10 +53,20 @@ as assembled composite glpyhs using OpenType features.
 
 ### Currently Supported IMEs
 
-- `ibus`
+None so far.
+
+
+#### IME support roadmap
+
+- `ibus` - just need to convert la suzil's original ibus config to the proper
+  range and create a non-ligating version.
 
 
 ### Creating a new Zbalermorna typeface
+
+```
+This procedure is still incomplete - build script and feature file have bugs
+```
 
 - Install [FontForge](http://fontforge.github.io)
 - Launch the Preview page: `gulp preview`
@@ -35,5 +77,5 @@ as assembled composite glpyhs using OpenType features.
   if your typeface wants to use special forms for certain composites.
 - When your `.sfd` file is saved, Gulp will automatically recompile it into a
   TrueType font, and refresh the preview page so you can see how your updates
-  effect ligaturing and kerning.
+  effect ligatures and kerning.
 
