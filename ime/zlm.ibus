@@ -1,0 +1,55 @@
+SCIM_Generic_Table_Phrase_Library_TEXT
+VERSION_1_0
+
+BEGIN_DEFINITION
+LICENSE = LGPL
+UUID = 40560e0f-10cb-45f5-8037-1cc8a37aa8c9
+SERIAL_NUMBER = 20161224
+ICON = zybu.svg
+PAGE_SIZE = 0
+SYMBOL = ZLM
+NAME = Zbalermorna
+DESCRIPTION = Basic input method for Zbalermorna text. Requires ligature support in font engine.
+LANGUAGES = en_US
+AUTHOR = la kmir joi la suzil
+STATUS_PROMPT = ZLM
+VALID_INPUT_CHARS = abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ,.?!1234567890()":;#/'
+LAYOUT = us
+MAX_KEY_LENGTH = 1
+AUTO_COMMIT = TRUE
+AUTO_SELECT = TRUE
+DEF_FULL_WIDTH_PUNCT = TRUE
+DEF_FULL_WIDTH_LETTER = TRUE
+USER_CAN_DEFINE_PHRASE = FALSE
+PINYIN_MODE = FALSE
+DYNAMIC_ADJUST = FALSE
+END_DEFINITION
+BEGIN_TABLE
+' 󢌐 1
+h 󢌐 1
+p 󢌠 1
+t 󢌰 1
+k 󢍀 1
+f 󢍐 1
+l 󢍠 1
+s 󢍰 1
+c 󢎀 1
+m 󢎐 1
+x 󢎠 1
+b 󢎰 1
+d 󢏀 1
+g 󢏐 1
+v 󢏠 1
+r 󢏰 1
+z 󢐀 1
+j 󢐐 1
+n 󢐠 1
+q 󢐰 1
+w 󢑀 1
+a 󢑐 1
+e 󢑠 1
+i 󢑰 1
+o 󢒀 1
+u 󢒐 1
+y 󢒠 1
+END_TABLE

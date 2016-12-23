@@ -10,12 +10,13 @@ Zbalermorna, an alternative orthography for the constructed language Lojban.
 
 - Design unicode layout
 - Create reference glyphs
+- Complete opentype features declaration
+- Complete first working ZLM font
 
 
 ###### To Do
 
-- Complete opentype features declaration
-- Complete first working ZLM font
+- More complete sample jufra for test page
 - Create ibus config for new unicode range
 - Finalise buid process for new ont development
 - Port the old ZLM font, now called 'Drakono' to new system
