@@ -3,96 +3,115 @@
 # Setup
 #
 
-# Render glyph names
+# Generic helpers
 
-cons-name = (cons) ->
-  if cons is \Q or cons is \W
-    \ZLM_SEMIVOWEL_ + cons
+log      = console.log.bind console
+join     = (.join '')
+debug    = -> &0 = "---- " + &0; log ...
+map      = (λ, xs) --> [ λ x for x in xs ]
+filter   = (λ, xs) --> [ x for x in xs when λ x ]
+contains = (xs, needle) -> (xs.index-of needle) > -1
+
+
+# ZLM DSL
+
+glyph = (g) ->
+  if SEMIV `contains` g
+    \ZLM_SEMIVOWEL_ + g
+  else if CONSN `contains` g
+    \ZLM_ + g
+  else if ALL_VOWELS `contains` g
+    \ZLM_DIACRITIC_ + g
   else
-    \ZLM_ + cons
+    \ZLM_ + g
 
-vowel-name = (vowel) ->
-  \ZLM_DIACRITIC_ + vowel
+dot  = (g) -> \ZLM_DOT_ + g
+cas  = (before, after) -> \ZLM_CAS_ + join before ++ \H ++ after
+list = (.join ' ') << map glyph
 
-liga-cvv = (cons, vowel) ->
-  if vowel is ''
-    \ZLM_ + cons
-  else if cons is \DOT
-    \ZLM_DOT_ + vowel
+
+# Features DSL
+
+def-class = (name, members) ->
+  if typeof members is \string
+    log "@#name = [ #members ];"
   else
-    \ZLM_ + cons + vowel
+    log "@#name = [ #{ list members } ];"
 
-liga-cvvhvv = (a, b) ->
-  \ZLM_CAS_ + a + \H + b
-
-
-# Opentype feature syntax
-
-sub = (...comp, liga) ->
-  "sub " + (comp.join ' ') + " by #liga;"
-
-feature = (name, xx) ->
-  write 0 "feature #name {"
-  xx!
-  write 0 "} #name;"
-  blank!
-
-
-# Output helpers
-
-log = console.log.bind console
-
-indent = (n, text) -->
-  (" " * n) + text
-
-comment = (n, text) -->
-  log indent n, "# #text"
-
-write = log . indent
-
-blank = -> log ""
+comment     = (text) -> log "\n# #text\n"
+big-comment = (text) -> log "\n\n#\n# #text\n#\n"
+description = (title, λ) -> big-comment title; λ!
+section     = (name, λ) -> big-comment name; λ!
+feature     = (name, λ) -> comment name; log "feature rlig {"; λ!; log "} rlig;"
+sub         = (...parts, lig) -> log "  sub #{ list parts } by #lig;"
+ignore      = (text) -> log "  ignore #text;"
 
 
 # Data
 
-CONSN = <[ DOT H P T K F L S C M X B D G V R Z J N Q W ]>
-VOWEL = <[ A E I O U Y AI EI OI AU ]>
+STOPS  = <[ DOT H ]>
+SEMIV  = <[ Q W ]>
+CONSN  = <[ P T K F L S C M X B D G V R Z J N ]>
+VOWELS = <[ A E I O U Y ]>
+DIPHTH = <[ AI EI OI AU ]>
+
+ALL_CONSN  = STOPS ++ CONSN ++ SEMIV
+ALL_VOWELS = VOWELS ++ DIPHTH
 
 
-#
-# Generation
-#
+description "ZLM OpenType Feature Table Definitions", ->
 
-# Generate class defs
-blank!
-comment 0, "Class Defs"
-write 0 "@vowel     = [ " + (VOWEL.map vowel-name) + " ]"
-write 0 "@consonant = [ " + (CONSN.map  cons-name) + " ]"
-write 0 "@anything  = [ @vowel @consonant ]"
-blank!
+  def-class \consonant, ALL_CONSN
+  def-class \vowel,     ALL_VOWELS
+  def-class \anything, "@consonant @vowel"
 
-# Generate self-dotting vowels
-comment 0, "Self-dotting vowels"
-feature \rlig, ->
-  write 2 "ignore sub @anything @vowel';"
-  for vowel in VOWEL
-    write 2 sub (vowel-name vowel), (liga-cvv \DOT, vowel)
+  section "5-part ligatures", ->
+    feature \VV'VV, ->
+      for [ a, b ] in DIPHTH
+        for [ c, d ] in DIPHTH
+          sub a, b, \H, c, d, cas [ a, b ], [ c, d ]
 
-# Generate CV series
-comment 0, "CV Series"
-feature \rlig, ->
-  for cons in CONSN
-    blank!
-    comment 2, "#cons Series"
-    for vowel in VOWEL
-      write 2 sub (cons-name cons), (vowel-name vowel), (liga-cvv cons, vowel)
+  section "4-part ligatures", ->
+    feature \VV'V, ->
+      for [ a, b ] in DIPHTH
+        for v in VOWELS
+          sub a, b, \H, v, cas [ a, b ], [ v ]
+    feature \V'VV, ->
+      for v in VOWELS
+        for [ a, b ] in DIPHTH
+          sub v, \H, a, b, cas [ v ], [ a, b ]
 
-# Generate CVV'VV series
-comment 0, "CVV'VV Series"
-feature \rlig, ->
-  for vowel-a in VOWEL
-    blank!
-    comment 2, "#vowel-a Series"
-    for vowel-b in VOWEL
-      write 2, sub (vowel-name vowel-a), \ZLM_H, (vowel-name vowel-b), (liga-cvvhvv vowel-a, vowel-b)
+  section "3-part ligatures", ->
+    feature \V'V, ->
+      for a in VOWELS
+        for b in VOWELS
+          sub a, \H, b, cas [ a ], [ b ]
+    feature \QVV, ->
+      for q in SEMIV
+        for [ a, b ] in DIPHTH
+          sub q, a, b, glyph q + a + b
+    feature \CVV, ->
+      for c in CONSN
+        for [ a, b ] in DIPHTH
+          sub c, a, b, glyph c + a + b
+
+  section "2-part ligatures", ->
+    feature \QV, ->
+      for q in SEMIV
+        for v in VOWELS
+          sub q, v, glyph q + v
+    feature \CV, ->
+      for c in CONSN
+        for v in VOWELS
+          sub c, v, glyph c + v
+    feature \VV, ->
+      for [ a, b ] in DIPHTH
+        sub a, b, glyph a + b
+
+  section "Single substitutions", ->
+    feature ".V", ->
+      ignore "sub @anything @vowel'"
+      for v in ALL_VOWELS
+        sub v, dot v
+
 
