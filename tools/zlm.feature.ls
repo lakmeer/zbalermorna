@@ -28,6 +28,7 @@ glyph = (g) ->
 dot  = (g) -> \ZLM_DOT_ + g
 cas  = (before, after) -> \ZLM_CAS_ + join before ++ \H ++ after
 list = (.join ' ') << map glyph
+to-v = (q) -> if q is \Q then \I else if q is \W then \U else \UNKNOWN
 
 
 # Features DSL
@@ -49,13 +50,12 @@ ignore      = (text) -> log "  ignore #text;"
 
 # Data
 
-STOPS  = <[ DOT H ]>
 SEMIV  = <[ Q W ]>
-CONSN  = <[ P T K F L S C M X B D G V R Z J N ]>
+CONSN  = <[ P T K F L S C M X B D G V R Z J N H ]>
 VOWELS = <[ A E I O U Y ]>
 DIPHTH = <[ AI EI OI AU ]>
 
-ALL_CONSN  = STOPS ++ CONSN ++ SEMIV
+ALL_CONSN  = CONSN ++ SEMIV
 ALL_VOWELS = VOWELS ++ DIPHTH
 
 
@@ -89,7 +89,7 @@ description "ZLM OpenType Feature Table Definitions", ->
     feature \QVV, ->
       for q in SEMIV
         for [ a, b ] in DIPHTH
-          sub q, a, b, glyph q + a + b
+          sub (to-v q), a, b, glyph q + a + b
     feature \CVV, ->
       for c in CONSN
         for [ a, b ] in DIPHTH
@@ -99,7 +99,7 @@ description "ZLM OpenType Feature Table Definitions", ->
     feature \QV, ->
       for q in SEMIV
         for v in VOWELS
-          sub q, v, glyph q + v
+          sub (to-v q), v, glyph q + v
     feature \CV, ->
       for c in CONSN
         for v in VOWELS
@@ -108,7 +108,7 @@ description "ZLM OpenType Feature Table Definitions", ->
       for [ a, b ] in DIPHTH
         sub a, b, glyph a + b
 
-  section "Single substitutions", ->
+  section "Single Substitutions", ->
     feature ".V", ->
       ignore "sub @anything @vowel'"
       for v in ALL_VOWELS
