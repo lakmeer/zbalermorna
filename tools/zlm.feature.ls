@@ -7,6 +7,7 @@
 
 log      = console.log.bind console
 join     = (.join '')
+spaces   = (.join ' ')
 debug    = -> &0 = "---- " + &0; log ...
 map      = (λ, xs) --> [ λ x for x in xs ]
 filter   = (λ, xs) --> [ x for x in xs when λ x ]
@@ -27,7 +28,7 @@ glyph = (g) ->
 
 dot  = (g) -> \ZLM_DOT_ + g
 cas  = (before, after) -> \ZLM_CAS_ + join before ++ \H ++ after
-list = (.join ' ') << map glyph
+list = spaces << map glyph
 to-v = (q) -> if q is \Q then \I else if q is \W then \U else \UNKNOWN
 
 
@@ -44,8 +45,9 @@ big-comment = (text) -> log "\n\n#\n# #text\n#\n"
 description = (title, λ) -> big-comment title; λ!
 section     = (name, λ) -> big-comment name; λ!
 feature     = (name, λ) -> comment name; log "feature rlig {"; λ!; log "} rlig;"
-sub         = (...parts, lig) -> log "  sub #{ list parts } by #lig;"
-ignore      = (text) -> log "  ignore #text;"
+sub         = (...parts, lig) -> log "  sub #{ map glyph, parts |> spaces } by #lig;"
+sub-tick    = (...parts, lig) -> log "  sub #{ map glyph, parts |> map (+ \') |> spaces } by #lig;"
+ignore      = (ctx, ...gs) -> log "  ignore sub #ctx #{ map (+ \'), gs |> spaces  };"
 
 
 # Data
@@ -67,29 +69,34 @@ description "ZLM OpenType Feature Table Definitions", ->
 
   section "5-part ligatures", ->
     feature \VV'VV, ->
+      ignore \@consonant \@vowel \@vowel \ZLM_H \@vowel \@vowel
       for [ a, b ] in DIPHTH
         for [ c, d ] in DIPHTH
-          sub a, b, \H, c, d, cas [ a, b ], [ c, d ]
+          sub-tick a, b, \H, c, d, cas [ a, b ], [ c, d ]
 
   section "4-part ligatures", ->
     feature \VV'V, ->
+      ignore \@consonant \@vowel \@vowel \ZLM_H \@vowel
       for [ a, b ] in DIPHTH
         for v in VOWELS
-          sub a, b, \H, v, cas [ a, b ], [ v ]
+          sub-tick a, b, \H, v, cas [ a, b ], [ v ]
     feature \V'VV, ->
+      ignore \@consonant \@vowel \ZLM_H \@vowel \@vowel
       for v in VOWELS
         for [ a, b ] in DIPHTH
-          sub v, \H, a, b, cas [ v ], [ a, b ]
+          sub-tick v, \H, a, b, cas [ v ], [ a, b ]
 
   section "3-part ligatures", ->
     feature \V'V, ->
+      ignore \@consonant \@vowel \ZLM_H \@vowel
       for a in VOWELS
         for b in VOWELS
-          sub a, \H, b, cas [ a ], [ b ]
+          sub-tick a, \H, b, cas [ a ], [ b ]
     feature \QVV, ->
+      ignore \@consonant \@vowel \@vowel \@vowel"
       for q in SEMIV
         for [ a, b ] in DIPHTH
-          sub (to-v q), a, b, glyph q + a + b
+          sub-tick (to-v q), a, b, glyph q + a + b
     feature \CVV, ->
       for c in CONSN
         for [ a, b ] in DIPHTH
@@ -97,9 +104,10 @@ description "ZLM OpenType Feature Table Definitions", ->
 
   section "2-part ligatures", ->
     feature \QV, ->
+      ignore \@consonant \@vowel \@vowel
       for q in SEMIV
         for v in VOWELS
-          sub (to-v q), v, glyph q + v
+          sub-tick (to-v q), v, glyph q + v
     feature \CV, ->
       for c in CONSN
         for v in VOWELS
@@ -110,8 +118,8 @@ description "ZLM OpenType Feature Table Definitions", ->
 
   section "Single Substitutions", ->
     feature ".V", ->
-      ignore "sub @anything @vowel'"
+      ignore \@anything \@vowel
       for v in ALL_VOWELS
-        sub v, dot v
+        sub-tick v, dot v
 
 

@@ -50,6 +50,14 @@ function comp (a, b) {
   return function (x) { return a(b(x)); }
 }
 
+function defer (λ) {
+  return setTimeout(λ, 0);
+}
+
+function deferOf (λ) {
+  return function () { defer(λ); };
+}
+
 
 // Domain Helpers
 
@@ -66,7 +74,7 @@ function latinToZLM (chr) {
     return UNICODE_RANGE_START + 16;
   if (-1 < lerfu.indexOf(chr))
     return UNICODE_RANGE_START + lerfu.indexOf(chr) * 16;
-  return chr.charCodeAt(0);
+  return chr.codePointAt(0);
 }
 
 function keyCodeToZLM (code) {
@@ -104,20 +112,13 @@ Q('[data-zlm-translate]').forEach(function (phrase) {
 });
 
 
-// Intercept
+// Intercept typing in IME zone
 
 Q('[data-ime-emulation]').forEach(function (textarea) {
-  textarea.addEventListener('keydown', function (event) {
-    if (event.ctrlKey || event.metaKey) {
-      return event;
-    }
-
-    if ((event.which > 64 && event.which < 92) || event.which === KEY_CODE_APOSTROPHE) {
-      var newChr = String.fromCodePoint(keyCodeToZLM(event.which));
-      textarea.insertAtCaret(newChr);
-      event.preventDefault();
-    }
-  });
+  output = Q('[data-ime-output]')[0]
+  function update () { output.innerHTML = translate( textarea.value ); }
+  textarea.addEventListener('keydown', deferOf(update));
+  update();
 });
 
 
