@@ -17,12 +17,7 @@ echo ""
 echo "Building font: $INFILE -> $OUTFILE"
 echo ""
 
-FF_SCRIPT="'Open(\"$INFILE\"); MergeFeature(\"$FEATURE\"); Generate(\"$OUTFILE\");'"
-
-echo $FF_SCRIPT
-
-fontforge -lang=ff -c "$FF_SCRIPT"
-
+fontforge -lang=ff -c 'Open($1); MergeFeature($2); Generate($3)' $INFILE $FEATURE $OUTFILE
 
 # Copy generated file to update test page
 if [ "$2" == "--update-test" ]; then
