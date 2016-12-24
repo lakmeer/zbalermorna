@@ -14,9 +14,17 @@
 
     * { box-sizing: border-box; }
 
-    p, pre {
+    table, p, pre {
       font-size: 40px;
       margin: 1em 0;
+    }
+
+    table th {
+      font-size: 24px;
+    }
+
+    table td {
+      padding-right: 20px;
     }
 
     p + p {
@@ -118,13 +126,24 @@
 
 
       <h3>Ligature precedence</h3>
-      <p class="reference">
-        <span data-zlm-translate> co'o ci'izra </span> → &#xe2384;&#xe2314; &#Xe2383;&#Xe2313;&#Xe2400;&#Xe23f1;
-      </p>
 
-      <p class="reference">
-        <span data-zlm-translate> uau je'u do'oi </span> → &#xe244a; &#xe2412;&#xe2315; &#xe23c4;&#xe2319;
-      </p>
+      <table class="reference">
+        <tr>
+          <th> output</th> <th>should be</th>
+        </tr>
+
+        <tr>
+          <td data-zlm-translate> co'o ci'izra </td> <td>&#xe2384;&#xe2314; &#Xe2383;&#Xe2313;&#Xe2400;&#Xe23f1;</td>
+        </tr>
+
+        <tr>
+          <td data-zlm-translate> uau je'u do'oi </td> <td> &#xe244a; &#xe2412;&#xe2315; &#xe23c4;&#xe2319;</td>
+        </tr>
+
+        <tr>
+          <td data-zlm-translate> plukauaii </td> <td> &#xe2320;&#xe2365;&#xe2341;&#xe2441;&#xe2433;</td>
+        </tr>
+      </table>
     </div>
 
     <!--

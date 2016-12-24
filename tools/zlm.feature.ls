@@ -93,6 +93,10 @@ description "ZLM OpenType Feature Table Definitions", ->
         for b in VOWELS
           sub-tick a, \H, b, cas [ a ], [ b ]
     feature \QVV, ->
+      for q in SEMIV
+        for [ a, b ] in DIPHTH
+          sub-tick q, a, b, glyph q + a + b
+    feature \WVV, ->
       ignore \@consonant \@vowel \@vowel \@vowel"
       for q in SEMIV
         for [ a, b ] in DIPHTH
@@ -104,6 +108,10 @@ description "ZLM OpenType Feature Table Definitions", ->
 
   section "2-part ligatures", ->
     feature \QV, ->
+      for q in SEMIV
+        for v in VOWELS
+          sub-tick q, v, glyph q + v
+    feature \WV, ->
       ignore \@consonant \@vowel \@vowel
       for q in SEMIV
         for v in VOWELS

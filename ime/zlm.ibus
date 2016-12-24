@@ -3,14 +3,14 @@ VERSION_1_0
 
 BEGIN_DEFINITION
 LICENSE = LGPL
-UUID = 40560e0f-10cb-45f5-8037-1cc8a37aa8c9
+UUID = 26d097fd-0bb6-4fb6-a358-73dbc6754408
 SERIAL_NUMBER = 20161224
 ICON = zybu.svg
 PAGE_SIZE = 0
 SYMBOL = ZLM
 NAME = Zbalermorna
 DESCRIPTION = Basic input method for Zbalermorna text. Requires ligature support in font engine.
-LANGUAGES = en_US
+LANGUAGES = jbo
 AUTHOR = la kmir joi la suzil
 STATUS_PROMPT = ZLM
 VALID_INPUT_CHARS = abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ,.?!1234567890()":;#/'
