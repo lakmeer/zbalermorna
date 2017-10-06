@@ -100,8 +100,6 @@ Width: 300
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 157 156<96.2149 203.785>
-VStem: 72 156<181.215 288.785>
 LayerCount: 2
 Fore
 SplineSet
@@ -119,12 +117,10 @@ Width: 300
 VWidth: 0
 GlyphClass: 2
 Flags: HW
-HStem: 157 156<46.2149 153.785> 556 244<72 127>
-VStem: 22 156<181.215 288.785> 55 90<631.778 800>
 LayerCount: 2
 Fore
 Refer: 0 926464 N 1 0 0 1 0 0 2
-Refer: 244 926800 S 1 0 0 1 0 450 2
+Refer: 336 926800 S 1 0 0 1 0 450 2
 EndChar
 
 StartChar: ZLM_DOT_E
@@ -133,8 +129,6 @@ Width: 300
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 157 156<96.2149 203.785> 642 72<26 266>
-VStem: 26 240<642 714> 72 156<181.215 288.785>
 LayerCount: 2
 Fore
 Refer: 255 926816 S 1 0 0 1 -4 442 2
@@ -147,8 +141,6 @@ Width: 300
 VWidth: 0
 GlyphClass: 2
 Flags: HW
-HStem: 157 156<46.2149 153.785> 621 120<53.7454 146.255>
-VStem: 22 156<181.215 288.785> 40 120<634.745 727.255>
 LayerCount: 2
 Fore
 Refer: 266 926832 S 1 0 0 1 0 446 2
@@ -161,8 +153,6 @@ Width: 300
 VWidth: 0
 GlyphClass: 2
 Flags: HW
-HStem: 157 156<46.2149 153.785> 627 61<97.8514 181.539> 667 57<19.5447 99.1776>
-VStem: -45 58<626 655.67> 22 156<181.215 288.785> 189 56<695.237 725>
 LayerCount: 2
 Fore
 Refer: 277 926848 N 1 0 0 1 1 442 2
@@ -175,8 +165,6 @@ Width: 300
 VWidth: 0
 GlyphClass: 2
 Flags: HW
-HStem: 157 156<46.2149 153.785> 597.1 61.1006<39.6182 160.502>
-VStem: 22 156<181.215 288.785> 184.7 62.3994<678.862 724.5>
 LayerCount: 2
 Fore
 Refer: 288 926864 S 1 0 0 1 -3 423 2
@@ -189,8 +177,6 @@ Width: 300
 VWidth: 0
 GlyphClass: 2
 Flags: HW
-HStem: 157 156<46.2149 153.785> 581.05 45.9502<59.4025 142.263> 733 44.9502<60.1319 142.135>
-VStem: 3.2002 45.7998<637.341 722.505> 22 156<181.215 288.785> 153 43.7998<638.173 721.748>
 LayerCount: 2
 Fore
 Refer: 0 926464 N 1 0 0 1 0 0 2
@@ -203,8 +189,6 @@ Width: 300
 VWidth: 0
 GlyphClass: 2
 Flags: HW
-HStem: 157 156<46.2149 153.785> 773 37<126.194 133.162>
-VStem: 22 156<181.215 288.785> 40.7979 73.4521<697.918 765.63> 87.3926 79.54<596.326 668.324>
 LayerCount: 2
 Fore
 Refer: 310 926896 S 1 0 0 1 -7 443 2
@@ -217,8 +201,6 @@ Width: 300
 VWidth: 0
 GlyphClass: 2
 Flags: HW
-HStem: 157 156<46.2149 153.785> 680 61<38.477 160.718>
-VStem: -45 61<614 656.855> 22 156<181.215 288.785> 184 60<614 656.855>
 LayerCount: 2
 Fore
 Refer: 0 926464 N 1 0 0 1 0 0 2
@@ -231,8 +213,6 @@ Width: 300
 VWidth: 0
 GlyphClass: 2
 Flags: HW
-HStem: 157 156<46.2149 153.785> 572 61<112.58 177.539> 621 60.6954<48.7979 91.9856>
-VStem: 22 156<181.215 288.785> 185 56<640.237 670>
 LayerCount: 2
 Fore
 Refer: 0 926464 N 1 0 0 1 0 0 2
@@ -245,8 +225,6 @@ Width: 300
 VWidth: 0
 GlyphClass: 2
 Flags: HW
-HStem: 157 156<46.2149 153.785> 730.968 92.0319<35.3944 83.6918>
-VStem: 22 156<181.215 288.785> 97.6106 70.4574<647.414 733.87>
 LayerCount: 2
 Fore
 Refer: 0 926464 N 1 0 0 1 0 0 2
@@ -254,7 +232,7 @@ Refer: 343 926944 S 1 0 0 1 34 469 2
 EndChar
 
 StartChar: ZLM_SLAKABU
-Encoding: 15 926479 11
+Encoding: 15 926479 15
 Width: 300
 VWidth: 0
 GlyphClass: 2
@@ -263,13 +241,11 @@ LayerCount: 2
 EndChar
 
 StartChar: ZLM_H
-Encoding: 16 926480 12
+Encoding: 16 926480 16
 Width: 300
 VWidth: 0
 GlyphClass: 2
 Flags: HW
-HStem: 0 21G<80 180>
-VStem: 80 100<0 470>
 LayerCount: 2
 Fore
 SplineSet
@@ -282,27 +258,23 @@ EndSplineSet
 EndChar
 
 StartChar: ZLM_HA
-Encoding: 17 926481 13
+Encoding: 17 926481 17
 Width: 300
 VWidth: 0
 GlyphClass: 2
 Flags: HW
-HStem: 0 21G<50 150> 556 244<72 127>
-VStem: 50 100<0 470> 55 90<631.778 800>
 LayerCount: 2
 Fore
 Refer: 12 926480 N 1 0 0 1 0 0 2
-Refer: 244 926800 S 1 0 0 1 0 450 2
+Refer: 336 926800 S 1 0 0 1 0 450 2
 EndChar
 
 StartChar: ZLM_HE
-Encoding: 18 926482 14
+Encoding: 18 926482 18
 Width: 300
 VWidth: 0
 GlyphClass: 2
 Flags: HW
-HStem: 0 21G<50 150> 642 72<-24 216>
-VStem: -24 240<642 714> 50 100<0 470>
 LayerCount: 2
 Fore
 Refer: 12 926480 N 1 0 0 1 0 0 2
@@ -310,13 +282,11 @@ Refer: 255 926816 S 1 0 0 1 -4 442 2
 EndChar
 
 StartChar: ZLM_HI
-Encoding: 19 926483 15
+Encoding: 19 926483 19
 Width: 300
 VWidth: 0
 GlyphClass: 2
 Flags: HW
-HStem: 0 21G<50 150> 621 120<53.7454 146.255>
-VStem: 40 120<634.745 727.255> 50 100<0 470>
 LayerCount: 2
 Fore
 Refer: 12 926480 N 1 0 0 1 0 0 2
@@ -324,13 +294,11 @@ Refer: 266 926832 S 1 0 0 1 0 446 2
 EndChar
 
 StartChar: ZLM_HO
-Encoding: 20 926484 16
+Encoding: 20 926484 20
 Width: 300
 VWidth: 0
 GlyphClass: 2
 Flags: HW
-HStem: 0 21G<50 150> 627 61<97.8514 181.539> 667 57<19.5447 99.1776>
-VStem: -45 58<626 655.67> 50 100<0 470> 189 56<695.237 725>
 LayerCount: 2
 Fore
 Refer: 12 926480 N 1 0 0 1 0 0 2
@@ -338,13 +306,11 @@ Refer: 277 926848 S 1 0 0 1 1 442 2
 EndChar
 
 StartChar: ZLM_HU
-Encoding: 21 926485 17
+Encoding: 21 926485 21
 Width: 300
 VWidth: 0
 GlyphClass: 2
 Flags: HW
-HStem: 0 21G<50 150> 597.1 61.1006<39.6182 160.502>
-VStem: 50 100<0 470> 184.7 62.3994<678.862 724.5>
 LayerCount: 2
 Fore
 Refer: 12 926480 N 1 0 0 1 0 0 2
@@ -352,13 +318,11 @@ Refer: 288 926864 S 1 0 0 1 -3 423 2
 EndChar
 
 StartChar: ZLM_HY
-Encoding: 22 926486 18
+Encoding: 22 926486 22
 Width: 300
 VWidth: 0
 GlyphClass: 2
 Flags: HW
-HStem: 0 21G<50 150> 581.05 45.9502<59.4025 142.263> 733 44.9502<60.1319 142.135>
-VStem: 3.2002 45.7998<637.341 722.505> 50 100<0 470> 153 43.7998<638.173 721.748>
 LayerCount: 2
 Fore
 Refer: 12 926480 N 1 0 0 1 0 0 2
@@ -366,13 +330,11 @@ Refer: 299 926880 S 1 0 0 1 -5 445 2
 EndChar
 
 StartChar: ZLM_HAI
-Encoding: 23 926487 19
+Encoding: 23 926487 23
 Width: 300
 VWidth: 0
 GlyphClass: 2
 Flags: HW
-HStem: 0 21G<50 150> 773 37<126.194 133.162>
-VStem: 40.7979 73.4521<697.918 765.63> 50 100<0 470> 87.3926 79.54<596.326 668.324>
 LayerCount: 2
 Fore
 Refer: 12 926480 N 1 0 0 1 0 0 2
@@ -380,13 +342,11 @@ Refer: 310 926896 S 1 0 0 1 -7 443 2
 EndChar
 
 StartChar: ZLM_HEI
-Encoding: 24 926488 20
+Encoding: 24 926488 24
 Width: 300
 VWidth: 0
 GlyphClass: 2
 Flags: HW
-HStem: 0 21G<50 150> 680 61<38.477 160.718>
-VStem: -45 61<614 656.855> 50 100<0 470> 184 60<614 656.855>
 LayerCount: 2
 Fore
 Refer: 12 926480 N 1 0 0 1 0 0 2
@@ -394,13 +354,11 @@ Refer: 321 926912 S 1 0 0 1 0 439 2
 EndChar
 
 StartChar: ZLM_HOI
-Encoding: 25 926489 21
+Encoding: 25 926489 25
 Width: 300
 VWidth: 0
 GlyphClass: 2
 Flags: HW
-HStem: 0 21G<50 150> 572 61<112.58 177.539> 621 60.6954<48.7979 91.9856>
-VStem: 50 100<0 470> 185 56<640.237 670>
 LayerCount: 2
 Fore
 Refer: 12 926480 N 1 0 0 1 0 0 2
@@ -408,13 +366,11 @@ Refer: 332 926928 S 1 0 0 1 0 444 2
 EndChar
 
 StartChar: ZLM_HAU
-Encoding: 26 926490 22
+Encoding: 26 926490 26
 Width: 300
 VWidth: 0
 GlyphClass: 2
 Flags: HW
-HStem: 0 21G<50 150> 730.968 92.0319<35.3944 83.6918>
-VStem: 50 100<0 470> 97.6106 70.4574<647.414 733.87>
 LayerCount: 2
 Fore
 Refer: 12 926480 N 1 0 0 1 0 0 2
@@ -422,7 +378,7 @@ Refer: 343 926944 S 1 0 0 1 -16 469 2
 EndChar
 
 StartChar: ZLM_TONE_UP
-Encoding: 31 926495 23
+Encoding: 31 926495 31
 Width: 454
 VWidth: 0
 GlyphClass: 2
@@ -433,12 +389,10 @@ Validated: 1
 EndChar
 
 StartChar: ZLM_P
-Encoding: 32 926496 24
+Encoding: 32 926496 32
 Width: 600
 VWidth: 0
 Flags: W
-HStem: 0 21G<50.9724 167.021>
-VStem: 51 99<119 725>
 LayerCount: 2
 Fore
 SplineSet
@@ -455,29 +409,25 @@ Validated: 1
 EndChar
 
 StartChar: ZLM_PA
-Encoding: 33 926497 25
+Encoding: 33 926497 33
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<50.9724 167.021> 558 244<322 377>
-VStem: 51 99<119 725> 305 90<633.778 802>
 LayerCount: 2
 Fore
 Refer: 24 926496 N 1 0 0 1 0 0 2
-Refer: 244 926800 S 1 0 0 1 200 452 2
+Refer: 336 926800 S 1 0 0 1 200 452 2
 Validated: 1
 LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_PE
-Encoding: 34 926498 26
+Encoding: 34 926498 34
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<50.9724 167.021> 644 72<264 504>
-VStem: 51 99<119 725> 264 240<644 716>
 LayerCount: 2
 Fore
 Refer: 24 926496 N 1 0 0 1 0 0 2
@@ -486,13 +436,11 @@ Validated: 1
 EndChar
 
 StartChar: ZLM_PI
-Encoding: 35 926499 27
+Encoding: 35 926499 35
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<50.9724 167.021> 621 120<335.745 428.255>
-VStem: 51 99<119 725> 322 120<634.745 727.255>
 LayerCount: 2
 Fore
 Refer: 24 926496 N 1 0 0 1 0 0 2
@@ -501,13 +449,11 @@ Validated: 1
 EndChar
 
 StartChar: ZLM_PO
-Encoding: 36 926500 28
+Encoding: 36 926500 36
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<50.9724 167.021> 634 61<389.851 473.539> 674 57<311.545 391.178>
-VStem: 51 99<119 725> 247 58<633 662.67> 481 56<702.237 732>
 LayerCount: 2
 Fore
 Refer: 24 926496 N 1 0 0 1 0 0 2
@@ -516,13 +462,11 @@ Validated: 1
 EndChar
 
 StartChar: ZLM_PU
-Encoding: 37 926501 29
+Encoding: 37 926501 37
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: HW
-HStem: 0 21G<50.9724 167.021> 618.1 61.1006<322.618 443.502>
-VStem: 51 99<119 725> 467.7 62.3994<699.862 745.5>
 LayerCount: 2
 Fore
 Refer: 24 926496 N 1 0 0 1 0 0 2
@@ -530,13 +474,11 @@ Refer: 288 926864 S 1 0 0 1 230 444 2
 EndChar
 
 StartChar: ZLM_PY
-Encoding: 38 926502 30
+Encoding: 38 926502 38
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<50.9724 167.021> 581.05 45.9502<332.403 415.263> 733 44.9502<333.132 415.135>
-VStem: 51 99<119 725> 276.2 45.7998<637.341 722.505> 426 43.7998<638.173 721.748>
 LayerCount: 2
 Fore
 Refer: 24 926496 N 1 0 0 1 0 0 2
@@ -545,13 +487,11 @@ Validated: 1
 EndChar
 
 StartChar: ZLM_PAI
-Encoding: 39 926503 31
+Encoding: 39 926503 39
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<50.9724 167.021> 775 37<387.194 394.162>
-VStem: 51 99<119 725> 301.798 73.4521<699.918 767.63> 348.393 79.54<598.326 670.324>
 LayerCount: 2
 Fore
 Refer: 24 926496 N 1 0 0 1 0 0 2
@@ -559,13 +499,11 @@ Refer: 310 926896 S 1 0 0 1 204 445 2
 EndChar
 
 StartChar: ZLM_PEI
-Encoding: 40 926504 32
+Encoding: 40 926504 40
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: HW
-HStem: 0 21G<50.9724 167.021> 689 61<325.477 447.718>
-VStem: 51 99<119 725> 242 61<623 665.855> 471 60<623 665.855>
 LayerCount: 2
 Fore
 Refer: 24 926496 N 1 0 0 1 0 0 2
@@ -574,13 +512,11 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_POI
-Encoding: 41 926505 33
+Encoding: 41 926505 41
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<50.9724 167.021> 573 61<418.58 483.539> 622 60.6954<354.798 397.986>
-VStem: 51 99<119 725> 491 56<641.237 671>
 LayerCount: 2
 Fore
 Refer: 24 926496 N 1 0 0 1 0 0 2
@@ -589,13 +525,11 @@ Validated: 1
 EndChar
 
 StartChar: ZLM_PAU
-Encoding: 42 926506 34
+Encoding: 42 926506 42
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<50.9724 167.021> 754.968 92.0319<317.394 365.692>
-VStem: 51 99<119 725> 379.611 70.4574<671.414 757.87>
 LayerCount: 2
 Fore
 Refer: 24 926496 N 1 0 0 1 0 0 2
@@ -604,7 +538,7 @@ Validated: 1
 EndChar
 
 StartChar: ZLM_TONE_DOWN
-Encoding: 47 926511 35
+Encoding: 47 926511 47
 Width: 454
 VWidth: 0
 GlyphClass: 2
@@ -615,13 +549,11 @@ Validated: 1
 EndChar
 
 StartChar: ZLM_T
-Encoding: 48 926512 36
+Encoding: 48 926512 48
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<50 150 450 550> 400 80<228.671 371.847>
-VStem: 50 100<0 313.49 434 725> 450 100<0 311.21>
 LayerCount: 2
 Fore
 SplineSet
@@ -642,27 +574,23 @@ EndSplineSet
 EndChar
 
 StartChar: ZLM_TA
-Encoding: 49 926513 37
+Encoding: 49 926513 49
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<50 150 450 550> 400 80<228.671 371.847> 558 244<322 377>
-VStem: 50 100<0 313.49 434 725> 305 90<633.778 802> 450 100<0 311.21>
 LayerCount: 2
 Fore
 Refer: 36 926512 N 1 0 0 1 0 0 2
-Refer: 244 926800 S 1 0 0 1 200 452 2
+Refer: 336 926800 S 1 0 0 1 200 452 2
 EndChar
 
 StartChar: ZLM_TE
-Encoding: 50 926514 38
+Encoding: 50 926514 50
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<50 150 450 550> 400 80<228.671 371.847> 644 72<264 504>
-VStem: 50 100<0 313.49 434 725> 264 240<644 716> 450 100<0 311.21>
 LayerCount: 2
 Fore
 Refer: 36 926512 N 1 0 0 1 0 0 2
@@ -670,13 +598,11 @@ Refer: 255 926816 S 1 0 0 1 234 444 2
 EndChar
 
 StartChar: ZLM_TI
-Encoding: 51 926515 39
+Encoding: 51 926515 51
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<50 150 450 550> 400 80<228.671 371.847> 621 120<335.745 428.255>
-VStem: 50 100<0 313.49 434 725> 322 120<634.745 727.255> 450 100<0 311.21>
 LayerCount: 2
 Fore
 Refer: 36 926512 N 1 0 0 1 0 0 2
@@ -684,13 +610,11 @@ Refer: 266 926832 S 1 0 0 1 232 446 2
 EndChar
 
 StartChar: ZLM_TO
-Encoding: 52 926516 40
+:
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<50 150 450 550> 400 80<228.671 371.847> 634 61<389.851 473.539> 674 57<311.545 391.178>
-VStem: 50 100<0 313.49 434 725> 247 58<633 662.67> 450 100<0 311.21> 481 56<702.237 732>
 LayerCount: 2
 Fore
 Refer: 36 926512 N 1 0 0 1 0 0 2
@@ -698,13 +622,11 @@ Refer: 277 926848 S 1 0 0 1 243 449 2
 EndChar
 
 StartChar: ZLM_TU
-Encoding: 53 926517 41
+Encoding: 53 926517 53
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: HW
-HStem: 0 21G<50 150 450 550> 400 80<228.671 371.847> 618.1 61.1006<322.618 443.502>
-VStem: 50 100<0 313.49 434 725> 450 100<0 311.21> 467.7 62.3994<699.862 745.5>
 LayerCount: 2
 Fore
 Refer: 36 926512 N 1 0 0 1 0 0 2
@@ -712,13 +634,11 @@ Refer: 288 926864 S 1 0 0 1 230 444 2
 EndChar
 
 StartChar: ZLM_TY
-Encoding: 54 926518 42
+Encoding: 54 926518 54
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<50 150 450 550> 400 80<228.671 371.847> 581.05 45.9502<332.403 415.263> 733 44.9502<333.132 415.135>
-VStem: 50 100<0 313.49 434 725> 276.2 45.7998<637.341 722.505> 426 43.7998<638.173 721.748> 450 100<0 311.21>
 LayerCount: 2
 Fore
 Refer: 36 926512 N 1 0 0 1 0 0 2
@@ -726,13 +646,11 @@ Refer: 299 926880 S 1 0 0 1 218 445 2
 EndChar
 
 StartChar: ZLM_TAI
-Encoding: 55 926519 43
+Encoding: 55 926519 55
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<50 150 450 550> 400 80<228.671 371.847> 775 37<387.194 394.162>
-VStem: 50 100<0 313.49 434 725> 301.798 73.4521<699.918 767.63> 348.393 79.54<598.326 670.324> 450 100<0 311.21>
 LayerCount: 2
 Fore
 Refer: 36 926512 N 1 0 0 1 0 0 2
@@ -740,13 +658,11 @@ Refer: 310 926896 S 1 0 0 1 204 445 2
 EndChar
 
 StartChar: ZLM_TEI
-Encoding: 56 926520 44
+Encoding: 56 926520 56
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: HW
-HStem: 0 21G<50 150 450 550> 400 80<228.671 371.847> 689 61<325.477 447.718>
-VStem: 50 100<0 313.49 434 725> 242 61<623 665.855> 450 100<0 311.21> 471 60<623 665.855>
 LayerCount: 2
 Fore
 Refer: 36 926512 N 1 0 0 1 0 0 2
@@ -755,13 +671,11 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_TOI
-Encoding: 57 926521 45
+Encoding: 57 926521 57
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<50 150 450 550> 400 80<228.671 371.847> 573 61<418.58 483.539> 622 60.6954<354.798 397.986>
-VStem: 50 100<0 313.49 434 725> 450 100<0 311.21> 491 56<641.237 671>
 LayerCount: 2
 Fore
 Refer: 36 926512 N 1 0 0 1 0 0 2
@@ -769,13 +683,11 @@ Refer: 332 926928 S 1 0 0 1 253 445 2
 EndChar
 
 StartChar: ZLM_TAU
-Encoding: 58 926522 46
+Encoding: 58 926522 58
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<50 150 450 550> 400 80<228.671 371.847> 754.968 92.0319<317.394 365.692>
-VStem: 50 100<0 313.49 434 725> 379.611 70.4574<671.414 757.87> 450 100<0 311.21>
 LayerCount: 2
 Fore
 Refer: 36 926512 N 1 0 0 1 0 0 2
@@ -783,7 +695,7 @@ Refer: 343 926944 S 1 0 0 1 266 493 2
 EndChar
 
 StartChar: ZLM_TONE_UPDOWN
-Encoding: 63 926527 47
+Encoding: 63 926527 63
 Width: 454
 VWidth: 0
 GlyphClass: 2
@@ -794,13 +706,11 @@ Validated: 1
 EndChar
 
 StartChar: ZLM_K
-Encoding: 64 926528 48
+Encoding: 64 926528 64
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<50 166.901 450 550>
-VStem: 50 101<133 725> 450 100<0 355>
 LayerCount: 2
 Fore
 SplineSet
@@ -820,28 +730,24 @@ Validated: 1
 EndChar
 
 StartChar: ZLM_KA
-Encoding: 65 926529 49
+Encoding: 65 926529 65
 Width: 619
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<50 166.901 450 550> 558 244<322 377>
-VStem: 50 101<133 725> 305 90<633.778 802> 450 100<0 355>
 LayerCount: 2
 Fore
 Refer: 48 926528 N 1 0 0 1 0 0 2
-Refer: 244 926800 S 1 0 0 1 200 452 2
+Refer: 336 926800 S 1 0 0 1 200 452 2
 Validated: 1
 EndChar
 
 StartChar: ZLM_KE
-Encoding: 66 926530 50
+Encoding: 66 926530 66
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<50 166.901 450 550> 644 72<264 504>
-VStem: 50 101<133 725> 264 240<644 716> 450 100<0 355>
 LayerCount: 2
 Fore
 Refer: 255 926816 S 1 0 0 1 234 444 2
@@ -850,13 +756,11 @@ Validated: 1
 EndChar
 
 StartChar: ZLM_KI
-Encoding: 67 926531 51
+Encoding: 67 926531 67
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<50 166.901 450 550> 621 120<335.745 428.255>
-VStem: 50 101<133 725> 322 120<634.745 727.255> 450 100<0 355>
 LayerCount: 2
 Fore
 Refer: 266 926832 S 1 0 0 1 232 446 2
@@ -865,13 +769,11 @@ Validated: 1
 EndChar
 
 StartChar: ZLM_KO
-Encoding: 68 926532 52
+Encoding: 68 926532 68
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<50 166.901 450 550> 634 61<389.851 473.539> 674 57<311.545 391.178>
-VStem: 50 101<133 725> 247 58<633 662.67> 450 100<0 355> 481 56<702.237 732>
 LayerCount: 2
 Fore
 Refer: 277 926848 S 1 0 0 1 243 449 2
@@ -880,13 +782,11 @@ Validated: 1
 EndChar
 
 StartChar: ZLM_KU
-Encoding: 69 926533 53
+Encoding: 69 926533 69
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: HW
-HStem: 0 21G<50 166.901 450 550> 618.1 61.1006<322.618 443.502>
-VStem: 50 101<133 725> 450 100<0 355> 467.7 62.3994<699.862 745.5>
 LayerCount: 2
 Fore
 Refer: 288 926864 S 1 0 0 1 230 444 2
@@ -895,13 +795,11 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_KY
-Encoding: 70 926534 54
+Encoding: 70 926534 70
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<50 166.901 450 550> 581.05 45.9502<332.403 415.263> 733 44.9502<333.132 415.135>
-VStem: 50 101<133 725> 276.2 45.7998<637.341 722.505> 426 43.7998<638.173 721.748> 450 100<0 355>
 LayerCount: 2
 Fore
 Refer: 48 926528 N 1 0 0 1 0 0 2
@@ -910,13 +808,11 @@ Validated: 1
 EndChar
 
 StartChar: ZLM_KAI
-Encoding: 71 926535 55
+Encoding: 71 926535 71
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<50 166.901 450 550> 775 37<387.194 394.162>
-VStem: 50 101<133 725> 301.798 73.4521<699.918 767.63> 348.393 79.54<598.326 670.324> 450 100<0 355>
 LayerCount: 2
 Fore
 Refer: 48 926528 N 1 0 0 1 0 0 2
@@ -924,13 +820,11 @@ Refer: 310 926896 S 1 0 0 1 204 445 2
 EndChar
 
 StartChar: ZLM_KEI
-Encoding: 72 926536 56
+Encoding: 72 926536 72
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: HW
-HStem: 0 21G<50 166.901 450 550> 689 61<325.477 447.718>
-VStem: 50 101<133 725> 242 61<623 665.855> 450 100<0 355> 471 60<623 665.855>
 LayerCount: 2
 Fore
 Refer: 48 926528 N 1 0 0 1 0 0 2
@@ -939,13 +833,11 @@ LCarets2: 1 0
 EndChar
 
 StartChar: ZLM_KOI
-Encoding: 73 926537 57
+Encoding: 73 926537 73
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<50 166.901 450 550> 573 61<418.58 483.539> 622 60.6954<354.798 397.986>
-VStem: 50 101<133 725> 450 100<0 355> 491 56<641.237 671>
 LayerCount: 2
 Fore
 Refer: 48 926528 N 1 0 0 1 0 0 2
@@ -954,13 +846,11 @@ Validated: 1
 EndChar
 
 StartChar: ZLM_KAU
-Encoding: 74 926538 58
+Encoding: 74 926538 74
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<50 166.901 450 550> 754.968 92.0319<317.394 365.692>
-VStem: 50 101<133 725> 379.611 70.4574<671.414 757.87> 450 100<0 355>
 LayerCount: 2
 Fore
 Refer: 343 926944 S 1 0 0 1 266 493 2
@@ -969,7 +859,7 @@ Validated: 1
 EndChar
 
 StartChar: ZLM_TONE_DOWNUP
-Encoding: 79 926543 59
+Encoding: 79 926543 79
 Width: 454
 VWidth: 0
 GlyphClass: 2
@@ -980,13 +870,11 @@ Validated: 1
 EndChar
 
 StartChar: ZLM_F
-Encoding: 80 926544 60
+Encoding: 80 926544 80
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<230 330> 390 80<50 348.588 440.267 550>
-VStem: 230 100<0 296.395>
 LayerCount: 2
 Fore
 SplineSet
@@ -1004,27 +892,23 @@ EndSplineSet
 EndChar
 
 StartChar: ZLM_FA
-Encoding: 81 926545 61
+Encoding: 81 926545 81
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<230 330> 390 80<50 348.588 440.267 550> 556 244<272 327>
-VStem: 230 100<0 296.395> 255 90<631.778 800>
 LayerCount: 2
 Fore
 Refer: 60 926544 N 1 0 0 1 0 0 2
-Refer: 244 926800 S 1 0 0 1 150 450 2
+Refer: 336 926800 S 1 0 0 1 150 450 2
 EndChar
 
 StartChar: ZLM_FE
-Encoding: 82 926546 62
+Encoding: 82 926546 82
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<230 330> 390 80<50 348.588 440.267 550> 645 72<180 420>
-VStem: 180 240<645 717> 230 100<0 296.395>
 LayerCount: 2
 Fore
 Refer: 255 926816 S 1 0 0 1 150 445 2
@@ -1032,13 +916,11 @@ Refer: 60 926544 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: ZLM_FI
-Encoding: 83 926547 63
+Encoding: 83 926547 83
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<230 330> 390 80<50 348.588 440.267 550> 621 120<253.745 346.255>
-VStem: 230 100<0 296.395> 240 120<634.745 727.255>
 LayerCount: 2
 Fore
 Refer: 60 926544 N 1 0 0 1 0 0 2
@@ -1046,13 +928,11 @@ Refer: 266 926832 S 1 0 0 1 150 446 2
 EndChar
 
 StartChar: ZLM_FO
-Encoding: 84 926548 64
+Encoding: 84 926548 84
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<230 330> 390 80<50 348.588 440.267 550> 627 61<297.851 381.539> 667 57<219.545 299.178>
-VStem: 155 58<626 655.67> 230 100<0 296.395> 389 56<695.237 725>
 LayerCount: 2
 Fore
 Refer: 60 926544 N 1 0 0 1 0 0 2
@@ -1060,13 +940,11 @@ Refer: 277 926848 S 1 0 0 1 151 442 2
 EndChar
 
 StartChar: ZLM_FU
-Encoding: 85 926549 65
+Encoding: 85 926549 85
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: HW
-HStem: 0 21G<230 330> 390 80<50 348.588 440.267 550> 597.1 61.1006<239.618 360.502>
-VStem: 230 100<0 296.395> 384.7 62.3994<678.862 724.5>
 LayerCount: 2
 Fore
 Refer: 60 926544 N 1 0 0 1 0 0 2
@@ -1074,13 +952,11 @@ Refer: 288 926864 S 1 0 0 1 147 423 2
 EndChar
 
 StartChar: ZLM_FY
-Encoding: 86 926550 66
+Encoding: 86 926550 86
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<230 330> 390 80<50 348.588 440.267 550> 581.05 45.9502<259.403 342.263> 733 44.9502<260.132 342.135>
-VStem: 203.2 45.7998<637.341 722.505> 230 100<0 296.395> 353 43.7998<638.173 721.748>
 LayerCount: 2
 Fore
 Refer: 60 926544 N 1 0 0 1 0 0 2
@@ -1088,13 +964,11 @@ Refer: 299 926880 S 1 0 0 1 145 445 2
 EndChar
 
 StartChar: ZLM_FAI
-Encoding: 87 926551 67
+Encoding: 87 926551 87
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<230 330> 390 80<50 348.588 440.267 550> 773 37<326.194 333.162>
-VStem: 230 100<0 296.395> 240.798 73.4521<697.918 765.63> 287.393 79.54<596.326 668.324>
 LayerCount: 2
 Fore
 Refer: 60 926544 N 1 0 0 1 0 0 2
@@ -1102,13 +976,11 @@ Refer: 310 926896 S 1 0 0 1 143 443 2
 EndChar
 
 StartChar: ZLM_FEI
-Encoding: 88 926552 68
+Encoding: 88 926552 88
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: HW
-HStem: 0 21G<230 330> 390 80<50 348.588 440.267 550> 680 61<238.477 360.718>
-VStem: 155 61<614 656.855> 230 100<0 296.395> 384 60<614 656.855>
 LayerCount: 2
 Fore
 Refer: 60 926544 N 1 0 0 1 0 0 2
@@ -1116,13 +988,11 @@ Refer: 321 926912 S 1 0 0 1 150 439 2
 EndChar
 
 StartChar: ZLM_FOI
-Encoding: 89 926553 69
+Encoding: 89 926553 89
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<230 330> 390 80<50 348.588 440.267 550> 573 61<316.58 381.539> 622 60.6954<252.798 295.986>
-VStem: 230 100<0 296.395> 389 56<641.237 671>
 LayerCount: 2
 Fore
 Refer: 60 926544 N 1 0 0 1 0 0 2
@@ -1130,13 +1000,11 @@ Refer: 332 926928 S 1 0 0 1 151 445 2
 EndChar
 
 StartChar: ZLM_FAU
-Encoding: 90 926554 70
+Encoding: 90 926554 90
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<230 330> 390 80<50 348.588 440.267 550> 730.968 92.0319<241.394 289.692>
-VStem: 230 100<0 296.395> 303.611 70.4574<647.414 733.87>
 LayerCount: 2
 Fore
 Refer: 60 926544 N 1 0 0 1 0 0 2
@@ -1144,13 +1012,11 @@ Refer: 343 926944 S 1 0 0 1 190 469 2
 EndChar
 
 StartChar: ZLM_BAHEBU_1
-Encoding: 95 926559 71
+Encoding: 95 926559 95
 Width: 227
 VWidth: 0
 GlyphClass: 2
 Flags: HW
-HStem: -241 120<71.7454 164.255>
-VStem: 58 120<-227.255 -134.745>
 LayerCount: 2
 Fore
 SplineSet
@@ -1163,13 +1029,11 @@ EndSplineSet
 EndChar
 
 StartChar: ZLM_L
-Encoding: 96 926560 72
+Encoding: 96 926560 96
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: -10 80<229.445 375.827> 400 80<229.445 380.338>
-VStem: 43 110<148.617 321.383>
 LayerCount: 2
 Fore
 SplineSet
@@ -1188,27 +1052,23 @@ EndSplineSet
 EndChar
 
 StartChar: ZLM_LA
-Encoding: 97 926561 73
+Encoding: 97 926561 97
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: -10 80<229.445 375.827> 400 80<229.445 380.338> 556 244<272 327>
-VStem: 43 110<148.617 321.383> 255 90<631.778 800>
 LayerCount: 2
 Fore
 Refer: 72 926560 N 1 0 0 1 0 0 2
-Refer: 244 926800 S 1 0 0 1 150 450 2
+Refer: 336 926800 S 1 0 0 1 150 450 2
 EndChar
 
 StartChar: ZLM_LE
-Encoding: 98 926562 74
+Encoding: 98 926562 98
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: -10 80<229.445 375.827> 400 80<229.445 380.338> 645 72<180 420>
-VStem: 43 110<148.617 321.383> 180 240<645 717>
 LayerCount: 2
 Fore
 Refer: 72 926560 N 1 0 0 1 0 0 2
@@ -1216,13 +1076,11 @@ Refer: 255 926816 S 1 0 0 1 150 445 2
 EndChar
 
 StartChar: ZLM_LI
-Encoding: 99 926563 75
+Encoding: 99 926563 99
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: -10 80<229.445 375.827> 400 80<229.445 380.338> 621 120<253.745 346.255>
-VStem: 43 110<148.617 321.383> 240 120<634.745 727.255>
 LayerCount: 2
 Fore
 Refer: 72 926560 N 1 0 0 1 0 0 2
@@ -1230,13 +1088,11 @@ Refer: 266 926832 S 1 0 0 1 150 446 2
 EndChar
 
 StartChar: ZLM_LO
-Encoding: 100 926564 76
+Encoding: 100 926564 100
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: -10 80<229.445 375.827> 400 80<229.445 380.338> 627 61<297.851 381.539> 667 57<219.545 299.178>
-VStem: 43 110<148.617 321.383> 155 58<626 655.67> 389 56<695.237 725>
 LayerCount: 2
 Fore
 Refer: 72 926560 N 1 0 0 1 0 0 2
@@ -1244,13 +1100,11 @@ Refer: 277 926848 S 1 0 0 1 151 442 2
 EndChar
 
 StartChar: ZLM_LU
-Encoding: 101 926565 77
+Encoding: 101 926565 101
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: HW
-HStem: -10 80<229.445 375.827> 400 80<229.445 380.338> 597.1 61.1006<239.618 360.502>
-VStem: 43 110<148.617 321.383> 384.7 62.3994<678.862 724.5>
 LayerCount: 2
 Fore
 Refer: 72 926560 N 1 0 0 1 0 0 2
@@ -1258,13 +1112,11 @@ Refer: 288 926864 S 1 0 0 1 147 423 2
 EndChar
 
 StartChar: ZLM_LY
-Encoding: 102 926566 78
+Encoding: 102 926566 102
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: -10 80<229.445 375.827> 400 80<229.445 380.338> 581.05 45.9502<259.403 342.263> 733 44.9502<260.132 342.135>
-VStem: 43 110<148.617 321.383> 203.2 45.7998<637.341 722.505> 353 43.7998<638.173 721.748>
 LayerCount: 2
 Fore
 Refer: 72 926560 N 1 0 0 1 0 0 2
@@ -1272,13 +1124,11 @@ Refer: 299 926880 S 1 0 0 1 145 445 2
 EndChar
 
 StartChar: ZLM_LAI
-Encoding: 103 926567 79
+Encoding: 103 926567 103
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: -10 80<229.445 375.827> 400 80<229.445 380.338> 773 37<326.194 333.162>
-VStem: 43 110<148.617 321.383> 240.798 73.4521<697.918 765.63> 287.393 79.54<596.326 668.324>
 LayerCount: 2
 Fore
 Refer: 72 926560 N 1 0 0 1 0 0 2
@@ -1286,13 +1136,11 @@ Refer: 310 926896 S 1 0 0 1 143 443 2
 EndChar
 
 StartChar: ZLM_LEI
-Encoding: 104 926568 80
+Encoding: 104 926568 104
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: HW
-HStem: -10 80<229.445 375.827> 400 80<229.445 380.338> 680 61<238.477 360.718>
-VStem: 43 110<148.617 321.383> 155 61<614 656.855> 384 60<614 656.855>
 LayerCount: 2
 Fore
 Refer: 72 926560 N 1 0 0 1 0 0 2
@@ -1300,13 +1148,11 @@ Refer: 321 926912 S 1 0 0 1 150 439 2
 EndChar
 
 StartChar: ZLM_LOI
-Encoding: 105 926569 81
+Encoding: 105 926569 105
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: -10 80<229.445 375.827> 400 80<229.445 380.338> 573 61<316.58 381.539> 622 60.6954<252.798 295.986>
-VStem: 43 110<148.617 321.383> 389 56<641.237 671>
 LayerCount: 2
 Fore
 Refer: 72 926560 N 1 0 0 1 0 0 2
@@ -1314,13 +1160,11 @@ Refer: 332 926928 S 1 0 0 1 151 445 2
 EndChar
 
 StartChar: ZLM_LAU
-Encoding: 106 926570 82
+Encoding: 106 926570 106
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: -10 80<229.445 375.827> 400 80<229.445 380.338> 730.968 92.0319<241.394 289.692>
-VStem: 43 110<148.617 321.383> 303.611 70.4574<647.414 733.87>
 LayerCount: 2
 Fore
 Refer: 72 926560 N 1 0 0 1 0 0 2
@@ -1328,13 +1172,11 @@ Refer: 343 926944 S 1 0 0 1 190 469 2
 EndChar
 
 StartChar: ZLM_BAHEBU_2
-Encoding: 111 926575 83
+Encoding: 111 926575 111
 Width: 227
 VWidth: 0
 GlyphClass: 2
 Flags: HW
-HStem: -241 120<71.7454 164.255>
-VStem: 58 120<-227.255 -134.745>
 LayerCount: 2
 Fore
 SplineSet
@@ -1352,13 +1194,11 @@ EndSplineSet
 EndChar
 
 StartChar: ZLM_S
-Encoding: 112 926576 84
+Encoding: 112 926576 112
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: -9 80<230.445 373.547> 401 80<186.933 278.709>
-VStem: 44 110<149.617 359.406> 290.87 105.893<323.147 389.515> 451 100<157.313 726>
 LayerCount: 2
 Fore
 SplineSet
@@ -1379,27 +1219,23 @@ EndSplineSet
 EndChar
 
 StartChar: ZLM_SA
-Encoding: 113 926577 85
+Encoding: 113 926577 113
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: -9 80<230.445 373.547> 401 80<186.933 278.709> 558 244<202 257>
-VStem: 44 110<149.617 359.406> 185 90<633.778 802> 290.87 105.893<323.147 389.515> 451 100<157.313 726>
 LayerCount: 2
 Fore
 Refer: 84 926576 N 1 0 0 1 0 0 2
-Refer: 244 926800 S 1 0 0 1 80 452 2
+Refer: 336 926800 S 1 0 0 1 80 452 2
 EndChar
 
 StartChar: ZLM_SE
-Encoding: 114 926578 86
+Encoding: 114 926578 114
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: -9 80<230.445 373.547> 401 80<186.933 278.709> 645 72<100 340>
-VStem: 44 110<149.617 359.406> 100 240<645 717> 290.87 105.893<323.147 389.515> 451 100<157.313 726>
 LayerCount: 2
 Fore
 Refer: 84 926576 N 1 0 0 1 0 0 2
@@ -1407,13 +1243,11 @@ Refer: 255 926816 S 1 0 0 1 70 445 2
 EndChar
 
 StartChar: ZLM_SI
-Encoding: 115 926579 87
+Encoding: 115 926579 115
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: -9 80<230.445 373.547> 401 80<186.933 278.709> 621 120<183.745 276.255>
-VStem: 44 110<149.617 359.406> 170 120<634.745 727.255> 290.87 105.893<323.147 389.515> 451 100<157.313 726>
 LayerCount: 2
 Fore
 Refer: 84 926576 N 1 0 0 1 0 0 2
@@ -1421,13 +1255,11 @@ Refer: 266 926832 S 1 0 0 1 80 446 2
 EndChar
 
 StartChar: ZLM_SO
-Encoding: 116 926580 88
+Encoding: 116 926580 116
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: -9 80<230.445 373.547> 401 80<186.933 278.709> 627 61<222.851 306.539> 667 57<144.545 224.178>
-VStem: 44 110<149.617 359.406> 80 58<626 655.67> 290.87 105.893<323.147 389.515> 314 56<695.237 725> 451 100<157.313 726>
 LayerCount: 2
 Fore
 Refer: 84 926576 N 1 0 0 1 0 0 2
@@ -1435,13 +1267,11 @@ Refer: 277 926848 S 1 0 0 1 76 442 2
 EndChar
 
 StartChar: ZLM_SU
-Encoding: 117 926581 89
+Encoding: 117 926581 117
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: HW
-HStem: -9 80<230.445 373.547> 401 80<186.933 278.709> 597.1 61.1006<164.618 285.502>
-VStem: 44 110<149.617 359.406> 290.87 105.893<323.147 389.515> 309.7 62.3994<678.862 724.5> 451 100<157.313 726>
 LayerCount: 2
 Fore
 Refer: 84 926576 N 1 0 0 1 0 0 2
@@ -1449,13 +1279,11 @@ Refer: 288 926864 S 1 0 0 1 72 423 2
 EndChar
 
 StartChar: ZLM_SY
-Encoding: 118 926582 90
+Encoding: 118 926582 118
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: -9 80<230.445 373.547> 401 80<186.933 278.709> 581.05 45.9502<185.403 268.263> 733 44.9502<186.132 268.135>
-VStem: 44 110<149.617 359.406> 129.2 45.7998<637.341 722.505> 279 43.7998<638.173 721.748> 290.87 105.893<323.147 389.515> 451 100<157.313 726>
 LayerCount: 2
 Fore
 Refer: 84 926576 N 1 0 0 1 0 0 2
@@ -1463,13 +1291,11 @@ Refer: 299 926880 S 1 0 0 1 71 445 2
 EndChar
 
 StartChar: ZLM_SAI
-Encoding: 119 926583 91
+Encoding: 119 926583 119
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: -9 80<230.445 373.547> 401 80<186.933 278.709> 773 37<253.194 260.162>
-VStem: 44 110<149.617 359.406> 167.798 73.4521<697.918 765.63> 214.393 79.54<596.326 668.324> 290.87 105.893<323.147 389.515> 451 100<157.313 726>
 LayerCount: 2
 Fore
 Refer: 84 926576 N 1 0 0 1 0 0 2
@@ -1477,13 +1303,11 @@ Refer: 310 926896 S 1 0 0 1 70 443 2
 EndChar
 
 StartChar: ZLM_SEI
-Encoding: 120 926584 92
+Encoding: 120 926584 120
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: HW
-HStem: -9 80<230.445 373.547> 401 80<186.933 278.709> 680 61<163.477 285.718>
-VStem: 44 110<149.617 359.406> 80 61<614 656.855> 290.87 105.893<323.147 389.515> 309 60<614 656.855> 451 100<157.313 726>
 LayerCount: 2
 Fore
 Refer: 84 926576 N 1 0 0 1 0 0 2
@@ -1491,13 +1315,11 @@ Refer: 321 926912 S 1 0 0 1 75 439 2
 EndChar
 
 StartChar: ZLM_SOI
-Encoding: 121 926585 93
+Encoding: 121 926585 121
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: -9 80<230.445 373.547> 401 80<186.933 278.709> 573 61<246.58 311.539> 622 60.6954<182.798 225.986>
-VStem: 44 110<149.617 359.406> 290.87 105.893<323.147 389.515> 319 56<641.237 671> 451 100<157.313 726>
 LayerCount: 2
 Fore
 Refer: 84 926576 N 1 0 0 1 0 0 2
@@ -1505,13 +1327,11 @@ Refer: 332 926928 S 1 0 0 1 81 445 2
 EndChar
 
 StartChar: ZLM_SAU
-Encoding: 122 926586 94
+Encoding: 122 926586 122
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: -9 80<230.445 373.547> 401 80<186.933 278.709> 730.968 92.0319<161.394 209.692>
-VStem: 44 110<149.617 359.406> 223.611 70.4574<647.414 733.87> 290.87 105.893<323.147 389.515> 451 100<157.313 726>
 LayerCount: 2
 Fore
 Refer: 84 926576 N 1 0 0 1 0 0 2
@@ -1519,13 +1339,11 @@ Refer: 343 926944 S 1 0 0 1 110 469 2
 EndChar
 
 StartChar: ZLM_BAHEBU_3
-Encoding: 127 926591 95
+Encoding: 127 926591 127
 Width: 227
 VWidth: 0
 GlyphClass: 2
 Flags: HW
-HStem: -241 120<71.7454 164.255>
-VStem: 58 120<-227.255 -134.745>
 LayerCount: 2
 Fore
 SplineSet
@@ -1548,13 +1366,11 @@ EndSplineSet
 EndChar
 
 StartChar: ZLM_C
-Encoding: 128 926592 96
+Encoding: 128 926592 128
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<50 150 450 550> 400 80<227.223 371.329>
-VStem: 50 100<0 315.47 437.527 470> 450 100<0 313.49 434 725>
 LayerCount: 2
 Fore
 SplineSet
@@ -1580,27 +1396,23 @@ EndSplineSet
 EndChar
 
 StartChar: ZLM_CA
-Encoding: 129 926593 97
+Encoding: 129 926593 129
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<50 150 450 550> 400 80<227.223 371.329> 558 244<202 257>
-VStem: 50 100<0 315.47 437.527 470> 185 90<633.778 802> 450 100<0 313.49 434 725>
 LayerCount: 2
 Fore
 Refer: 96 926592 N 1 0 0 1 0 0 2
-Refer: 244 926800 S 1 0 0 1 80 452 2
+Refer: 336 926800 S 1 0 0 1 80 452 2
 EndChar
 
 StartChar: ZLM_CE
-Encoding: 130 926594 98
+Encoding: 130 926594 130
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<50 150 450 550> 400 80<227.223 371.329> 645 72<100 340>
-VStem: 50 100<0 315.47 437.527 470> 100 240<645 717> 450 100<0 313.49 434 725>
 LayerCount: 2
 Fore
 Refer: 96 926592 N 1 0 0 1 0 0 2
@@ -1608,13 +1420,11 @@ Refer: 255 926816 S 1 0 0 1 70 445 2
 EndChar
 
 StartChar: ZLM_CI
-Encoding: 131 926595 99
+Encoding: 131 926595 131
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<50 150 450 550> 400 80<227.223 371.329> 621 120<183.745 276.255>
-VStem: 50 100<0 315.47 437.527 470> 170 120<634.745 727.255> 450 100<0 313.49 434 725>
 LayerCount: 2
 Fore
 Refer: 96 926592 N 1 0 0 1 0 0 2
@@ -1622,13 +1432,11 @@ Refer: 266 926832 S 1 0 0 1 80 446 2
 EndChar
 
 StartChar: ZLM_CO
-Encoding: 132 926596 100
+Encoding: 132 926596 132
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<50 150 450 550> 400 80<227.223 371.329> 627 61<222.851 306.539> 667 57<144.545 224.178>
-VStem: 50 100<0 315.47 437.527 470> 80 58<626 655.67> 314 56<695.237 725> 450 100<0 313.49 434 725>
 LayerCount: 2
 Fore
 Refer: 96 926592 N 1 0 0 1 0 0 2
@@ -1636,13 +1444,11 @@ Refer: 277 926848 S 1 0 0 1 76 442 2
 EndChar
 
 StartChar: ZLM_CU
-Encoding: 133 926597 101
+Encoding: 133 926597 133
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: HW
-HStem: 0 21G<50 150 450 550> 400 80<227.223 371.329> 597.1 61.1006<164.618 285.502>
-VStem: 50 100<0 315.47 437.527 470> 309.7 62.3994<678.862 724.5> 450 100<0 313.49 434 725>
 LayerCount: 2
 Fore
 Refer: 96 926592 N 1 0 0 1 0 0 2
@@ -1650,13 +1456,11 @@ Refer: 288 926864 S 1 0 0 1 72 423 2
 EndChar
 
 StartChar: ZLM_CY
-Encoding: 134 926598 102
+Encoding: 134 926598 134
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<50 150 450 550> 400 80<227.223 371.329> 581.05 45.9502<185.403 268.263> 733 44.9502<186.132 268.135>
-VStem: 50 100<0 315.47 437.527 470> 129.2 45.7998<637.341 722.505> 279 43.7998<638.173 721.748> 450 100<0 313.49 434 725>
 LayerCount: 2
 Fore
 Refer: 96 926592 N 1 0 0 1 0 0 2
@@ -1664,13 +1468,11 @@ Refer: 299 926880 S 1 0 0 1 71 445 2
 EndChar
 
 StartChar: ZLM_CAI
-Encoding: 135 926599 103
+Encoding: 135 926599 135
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<50 150 450 550> 400 80<227.223 371.329> 773 37<253.194 260.162>
-VStem: 50 100<0 315.47 437.527 470> 167.798 73.4521<697.918 765.63> 214.393 79.54<596.326 668.324> 450 100<0 313.49 434 725>
 LayerCount: 2
 Fore
 Refer: 96 926592 N 1 0 0 1 0 0 2
@@ -1678,13 +1480,11 @@ Refer: 310 926896 S 1 0 0 1 70 443 2
 EndChar
 
 StartChar: ZLM_CEI
-Encoding: 136 926600 104
+Encoding: 136 926600 136
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: HW
-HStem: 0 21G<50 150 450 550> 400 80<227.223 371.329> 680 61<163.477 285.718>
-VStem: 50 100<0 315.47 437.527 470> 80 61<614 656.855> 309 60<614 656.855> 450 100<0 313.49 434 725>
 LayerCount: 2
 Fore
 Refer: 96 926592 N 1 0 0 1 0 0 2
@@ -1692,13 +1492,11 @@ Refer: 321 926912 S 1 0 0 1 75 439 2
 EndChar
 
 StartChar: ZLM_COI
-Encoding: 137 926601 105
+Encoding: 137 926601 137
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<50 150 450 550> 400 80<227.223 371.329> 573 61<246.58 311.539> 622 60.6954<182.798 225.986>
-VStem: 50 100<0 315.47 437.527 470> 319 56<641.237 671> 450 100<0 313.49 434 725>
 LayerCount: 2
 Fore
 Refer: 96 926592 N 1 0 0 1 0 0 2
@@ -1706,13 +1504,11 @@ Refer: 332 926928 S 1 0 0 1 81 445 2
 EndChar
 
 StartChar: ZLM_CAU
-Encoding: 138 926602 106
+Encoding: 138 926602 138
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<50 150 450 550> 400 80<227.223 371.329> 730.968 92.0319<161.394 209.692>
-VStem: 50 100<0 315.47 437.527 470> 223.611 70.4574<647.414 733.87> 450 100<0 313.49 434 725>
 LayerCount: 2
 Fore
 Refer: 96 926592 N 1 0 0 1 0 0 2
@@ -1720,7 +1516,7 @@ Refer: 343 926944 S 1 0 0 1 110 469 2
 EndChar
 
 StartChar: ZLM_STRETCH
-Encoding: 143 926607 107
+Encoding: 143 926607 143
 Width: 454
 VWidth: 0
 GlyphClass: 2
@@ -1731,13 +1527,11 @@ Validated: 1
 EndChar
 
 StartChar: ZLM_M
-Encoding: 144 926608 108
+Encoding: 144 926608 144
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 80<50 303.953 441.412 550> 400 80<217.241 375.275>
-VStem: 439.997 110.002<186.082 338.106>
 LayerCount: 2
 Fore
 SplineSet
@@ -1758,27 +1552,23 @@ EndSplineSet
 EndChar
 
 StartChar: ZLM_MA
-Encoding: 145 926609 109
+Encoding: 145 926609 145
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 80<50 303.953 441.412 550> 400 80<217.241 375.275> 556 244<272 327>
-VStem: 255 90<631.778 800> 439.997 110.002<186.082 338.106>
 LayerCount: 2
 Fore
 Refer: 108 926608 N 1 0 0 1 0 0 2
-Refer: 244 926800 S 1 0 0 1 150 450 2
+Refer: 336 926800 S 1 0 0 1 150 450 2
 EndChar
 
 StartChar: ZLM_ME
-Encoding: 146 926610 110
+Encoding: 146 926610 146
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 80<50 303.953 441.412 550> 400 80<217.241 375.275> 645 72<180 420>
-VStem: 180 240<645 717> 439.997 110.002<186.082 338.106>
 LayerCount: 2
 Fore
 Refer: 108 926608 N 1 0 0 1 0 0 2
@@ -1786,13 +1576,11 @@ Refer: 255 926816 S 1 0 0 1 150 445 2
 EndChar
 
 StartChar: ZLM_MI
-Encoding: 147 926611 111
+Encoding: 147 926611 147
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 80<50 303.953 441.412 550> 400 80<217.241 375.275> 621 120<253.745 346.255>
-VStem: 240 120<634.745 727.255> 439.997 110.002<186.082 338.106>
 LayerCount: 2
 Fore
 Refer: 108 926608 N 1 0 0 1 0 0 2
@@ -1800,13 +1588,11 @@ Refer: 266 926832 S 1 0 0 1 150 446 2
 EndChar
 
 StartChar: ZLM_MO
-Encoding: 148 926612 112
+Encoding: 148 926612 148
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 80<50 303.953 441.412 550> 400 80<217.241 375.275> 627 61<297.851 381.539> 667 57<219.545 299.178>
-VStem: 155 58<626 655.67> 389 56<695.237 725> 439.997 110.002<186.082 338.106>
 LayerCount: 2
 Fore
 Refer: 108 926608 N 1 0 0 1 0 0 2
@@ -1814,13 +1600,11 @@ Refer: 277 926848 S 1 0 0 1 151 442 2
 EndChar
 
 StartChar: ZLM_MU
-Encoding: 149 926613 113
+Encoding: 149 926613 149
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: HW
-HStem: 0 80<50 303.953 441.412 550> 400 80<217.241 375.275> 597.1 61.1006<239.618 360.502>
-VStem: 384.7 62.3994<678.862 724.5> 439.997 110.002<186.082 338.106>
 LayerCount: 2
 Fore
 Refer: 108 926608 N 1 0 0 1 0 0 2
@@ -1828,13 +1612,11 @@ Refer: 288 926864 S 1 0 0 1 147 423 2
 EndChar
 
 StartChar: ZLM_MY
-Encoding: 150 926614 114
+Encoding: 150 926614 150
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 80<50 303.953 441.412 550> 400 80<217.241 375.275> 581.05 45.9502<259.403 342.263> 733 44.9502<260.132 342.135>
-VStem: 203.2 45.7998<637.341 722.505> 353 43.7998<638.173 721.748> 439.997 110.002<186.082 338.106>
 LayerCount: 2
 Fore
 Refer: 108 926608 N 1 0 0 1 0 0 2
@@ -1842,13 +1624,11 @@ Refer: 299 926880 S 1 0 0 1 145 445 2
 EndChar
 
 StartChar: ZLM_MAI
-Encoding: 151 926615 115
+Encoding: 151 926615 151
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 80<50 303.953 441.412 550> 400 80<217.241 375.275> 773 37<326.194 333.162>
-VStem: 240.798 73.4521<697.918 765.63> 287.393 79.54<596.326 668.324> 439.997 110.002<186.082 338.106>
 LayerCount: 2
 Fore
 Refer: 108 926608 N 1 0 0 1 0 0 2
@@ -1856,13 +1636,11 @@ Refer: 310 926896 S 1 0 0 1 143 443 2
 EndChar
 
 StartChar: ZLM_MEI
-Encoding: 152 926616 116
+Encoding: 152 926616 152
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: HW
-HStem: 0 80<50 303.953 441.412 550> 400 80<217.241 375.275> 680 61<238.477 360.718>
-VStem: 155 61<614 656.855> 384 60<614 656.855> 439.997 110.002<186.082 338.106>
 LayerCount: 2
 Fore
 Refer: 108 926608 N 1 0 0 1 0 0 2
@@ -1870,13 +1648,11 @@ Refer: 321 926912 S 1 0 0 1 150 439 2
 EndChar
 
 StartChar: ZLM_MOI
-Encoding: 153 926617 117
+Encoding: 153 926617 153
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 80<50 303.953 441.412 550> 400 80<217.241 375.275> 573 61<316.58 381.539> 622 60.6954<252.798 295.986>
-VStem: 389 56<641.237 671> 439.997 110.002<186.082 338.106>
 LayerCount: 2
 Fore
 Refer: 108 926608 N 1 0 0 1 0 0 2
@@ -1884,13 +1660,11 @@ Refer: 332 926928 S 1 0 0 1 151 445 2
 EndChar
 
 StartChar: ZLM_MAU
-Encoding: 154 926618 118
+Encoding: 154 926618 154
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 80<50 303.953 441.412 550> 400 80<217.241 375.275> 730.968 92.0319<241.394 289.692>
-VStem: 303.611 70.4574<647.414 733.87> 439.997 110.002<186.082 338.106>
 LayerCount: 2
 Fore
 Refer: 108 926608 N 1 0 0 1 0 0 2
@@ -1898,7 +1672,7 @@ Refer: 343 926944 S 1 0 0 1 190 469 2
 EndChar
 
 StartChar: ZLM_DASH_INIT
-Encoding: 159 926624 119
+Encoding: 159 926624 159
 Width: 454
 VWidth: 0
 GlyphClass: 2
@@ -1909,13 +1683,11 @@ Validated: 1
 EndChar
 
 StartChar: ZLM_X
-Encoding: 160 926624 120
+Encoding: 160 926624 160
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: -10 80<229.445 370.555> 400 80<229.445 370.555>
-VStem: 43 110<148.617 321.383> 447 110<148.617 321.383>
 LayerCount: 2
 Fore
 SplineSet
@@ -1933,28 +1705,24 @@ EndSplineSet
 EndChar
 
 StartChar: ZLM_XA
-Encoding: 161 926625 121
+Encoding: 161 926625 161
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: -10 80<229.445 370.555> 400 80<229.445 370.555> 556 244<272 327>
-VStem: 43 110<148.617 321.383> 255 90<631.778 800> 447 110<148.617 321.383>
 CounterMasks: 1 1c
 LayerCount: 2
 Fore
 Refer: 120 926624 N 1 0 0 1 0 0 2
-Refer: 244 926800 S 1 0 0 1 150 450 2
+Refer: 336 926800 S 1 0 0 1 150 450 2
 EndChar
 
 StartChar: ZLM_XE
-Encoding: 162 926626 122
+Encoding: 162 926626 162
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: -10 80<229.445 370.555> 400 80<229.445 370.555> 645 72<180 420>
-VStem: 43 110<148.617 321.383> 180 240<645 717> 447 110<148.617 321.383>
 CounterMasks: 1 1c
 LayerCount: 2
 Fore
@@ -1963,13 +1731,11 @@ Refer: 255 926816 S 1 0 0 1 150 445 2
 EndChar
 
 StartChar: ZLM_XI
-Encoding: 163 926627 123
+Encoding: 163 926627 163
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: -10 80<229.445 370.555> 400 80<229.445 370.555> 621 120<253.745 346.255>
-VStem: 43 110<148.617 321.383> 240 120<634.745 727.255> 447 110<148.617 321.383>
 CounterMasks: 1 1c
 LayerCount: 2
 Fore
@@ -1978,13 +1744,11 @@ Refer: 266 926832 S 1 0 0 1 150 446 2
 EndChar
 
 StartChar: ZLM_XO
-Encoding: 164 926628 124
+Encoding: 164 926628 164
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: -10 80<229.445 370.555> 400 80<229.445 370.555> 627 61<297.851 381.539> 667 57<219.545 299.178>
-VStem: 43 110<148.617 321.383> 155 58<626 655.67> 389 56<695.237 725> 447 110<148.617 321.383>
 LayerCount: 2
 Fore
 Refer: 120 926624 N 1 0 0 1 0 0 2
@@ -1992,13 +1756,11 @@ Refer: 277 926848 S 1 0 0 1 151 442 2
 EndChar
 
 StartChar: ZLM_XU
-Encoding: 165 926629 125
+Encoding: 165 926629 165
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: HW
-HStem: -10 80<229.445 370.555> 400 80<229.445 370.555> 597.1 61.1006<239.618 360.502>
-VStem: 43 110<148.617 321.383> 384.7 62.3994<678.862 724.5> 447 110<148.617 321.383>
 LayerCount: 2
 Fore
 Refer: 120 926624 N 1 0 0 1 0 0 2
@@ -2006,13 +1768,11 @@ Refer: 288 926864 S 1 0 0 1 147 423 2
 EndChar
 
 StartChar: ZLM_XY
-Encoding: 166 926630 126
+Encoding: 166 926630 166
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: -10 80<229.445 370.555> 400 80<229.445 370.555> 581.05 45.9502<259.403 342.263> 733 44.9502<260.132 342.135>
-VStem: 43 110<148.617 321.383> 203.2 45.7998<637.341 722.505> 353 43.7998<638.173 721.748> 447 110<148.617 321.383>
 LayerCount: 2
 Fore
 Refer: 120 926624 N 1 0 0 1 0 0 2
@@ -2020,13 +1780,11 @@ Refer: 299 926880 S 1 0 0 1 145 445 2
 EndChar
 
 StartChar: ZLM_XAI
-Encoding: 167 926631 127
+Encoding: 167 926631 167
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: -10 80<229.445 370.555> 400 80<229.445 370.555> 773 37<326.194 333.162>
-VStem: 43 110<148.617 321.383> 240.798 73.4521<697.918 765.63> 287.393 79.54<596.326 668.324> 447 110<148.617 321.383>
 LayerCount: 2
 Fore
 Refer: 120 926624 N 1 0 0 1 0 0 2
@@ -2034,13 +1792,11 @@ Refer: 310 926896 S 1 0 0 1 143 443 2
 EndChar
 
 StartChar: ZLM_XEI
-Encoding: 168 926632 128
+Encoding: 168 926632 168
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: HW
-HStem: -10 80<229.445 370.555> 400 80<229.445 370.555> 680 61<238.477 360.718>
-VStem: 43 110<148.617 321.383> 155 61<614 656.855> 384 60<614 656.855> 447 110<148.617 321.383>
 LayerCount: 2
 Fore
 Refer: 120 926624 N 1 0 0 1 0 0 2
@@ -2048,13 +1804,11 @@ Refer: 321 926912 S 1 0 0 1 150 439 2
 EndChar
 
 StartChar: ZLM_XOI
-Encoding: 169 926633 129
+Encoding: 169 926633 169
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: -10 80<229.445 370.555> 400 80<229.445 370.555> 573 61<316.58 381.539> 622 60.6954<252.798 295.986>
-VStem: 43 110<148.617 321.383> 389 56<641.237 671> 447 110<148.617 321.383>
 LayerCount: 2
 Fore
 Refer: 120 926624 N 1 0 0 1 0 0 2
@@ -2062,13 +1816,11 @@ Refer: 332 926928 S 1 0 0 1 151 445 2
 EndChar
 
 StartChar: ZLM_XAU
-Encoding: 170 926634 130
+Encoding: 170 926634 170
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: -10 80<229.445 370.555> 400 80<229.445 370.555> 730.968 92.0319<241.394 289.692>
-VStem: 43 110<148.617 321.383> 303.611 70.4574<647.414 733.87> 447 110<148.617 321.383>
 LayerCount: 2
 Fore
 Refer: 120 926624 N 1 0 0 1 0 0 2
@@ -2076,7 +1828,7 @@ Refer: 343 926944 N 1 0 0 1 190 469 2
 EndChar
 
 StartChar: ZLM_DASH_MEDI
-Encoding: 175 926639 131
+Encoding: 175 926639 175
 Width: 454
 VWidth: 0
 GlyphClass: 2
@@ -2087,13 +1839,11 @@ Validated: 1
 EndChar
 
 StartChar: ZLM_B
-Encoding: 176 926640 132
+Encoding: 176 926640 176
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<50 167.094>
-VStem: 450 100<-255 351>
 LayerCount: 2
 Fore
 SplineSet
@@ -2110,28 +1860,24 @@ Validated: 1
 EndChar
 
 StartChar: ZLM_BA
-Encoding: 177 926641 133
+Encoding: 177 926641 177
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<50 167.094> 556 244<272 327>
-VStem: 255 90<631.778 800> 450 100<-255 351>
 LayerCount: 2
 Fore
 Refer: 132 926640 N 1 0 0 1 0 0 2
-Refer: 244 926800 S 1 0 0 1 150 450 2
+Refer: 336 926800 S 1 0 0 1 150 450 2
 Validated: 1
 EndChar
 
 StartChar: ZLM_BE
-Encoding: 178 926642 134
+Encoding: 178 926642 178
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<50 167.094> 645 72<180 420>
-VStem: 180 240<645 717> 450 100<-255 351>
 LayerCount: 2
 Fore
 Refer: 132 926640 N 1 0 0 1 0 0 2
@@ -2140,13 +1886,11 @@ Validated: 1
 EndChar
 
 StartChar: ZLM_BI
-Encoding: 179 926643 135
+Encoding: 179 926643 179
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<50 167.094> 621 120<253.745 346.255>
-VStem: 240 120<634.745 727.255> 450 100<-255 351>
 LayerCount: 2
 Fore
 Refer: 132 926640 N 1 0 0 1 0 0 2
@@ -2155,13 +1899,11 @@ Validated: 1
 EndChar
 
 StartChar: ZLM_BO
-Encoding: 180 926644 136
+Encoding: 180 926644 180
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<50 167.094> 627 61<297.851 381.539> 667 57<219.545 299.178>
-VStem: 155 58<626 655.67> 389 56<695.237 725> 450 100<-255 351>
 LayerCount: 2
 Fore
 Refer: 132 926640 N 1 0 0 1 0 0 2
@@ -2170,13 +1912,11 @@ Validated: 1
 EndChar
 
 StartChar: ZLM_BU
-Encoding: 181 926645 137
+Encoding: 181 926645 181
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: HW
-HStem: 0 21G<50 167.094> 597.1 61.1006<239.618 360.502>
-VStem: 384.7 62.3994<678.862 724.5> 450 100<-255 351>
 LayerCount: 2
 Fore
 Refer: 132 926640 N 1 0 0 1 0 0 2
@@ -2184,13 +1924,11 @@ Refer: 288 926864 S 1 0 0 1 147 423 2
 EndChar
 
 StartChar: ZLM_BY
-Encoding: 182 926646 138
+Encoding: 182 926646 182
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<50 167.094> 581.05 45.9502<259.403 342.263> 733 44.9502<260.132 342.135>
-VStem: 203.2 45.7998<637.341 722.505> 353 43.7998<638.173 721.748> 450 100<-255 351>
 LayerCount: 2
 Fore
 Refer: 132 926640 N 1 0 0 1 0 0 2
@@ -2199,13 +1937,11 @@ Validated: 1
 EndChar
 
 StartChar: ZLM_BAI
-Encoding: 183 926647 139
+Encoding: 183 926647 183
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<50 167.094> 773 37<326.194 333.162>
-VStem: 240.798 73.4521<697.918 765.63> 287.393 79.54<596.326 668.324> 450 100<-255 351>
 LayerCount: 2
 Fore
 Refer: 132 926640 N 1 0 0 1 0 0 2
@@ -2213,13 +1949,11 @@ Refer: 310 926896 S 1 0 0 1 143 443 2
 EndChar
 
 StartChar: ZLM_BEI
-Encoding: 184 926648 140
+Encoding: 184 926648 184
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: HW
-HStem: 0 21G<50 167.094> 680 61<238.477 360.718>
-VStem: 155 61<614 656.855> 384 60<614 656.855> 450 100<-255 351>
 LayerCount: 2
 Fore
 Refer: 132 926640 N 1 0 0 1 0 0 2
@@ -2227,13 +1961,11 @@ Refer: 321 926912 S 1 0 0 1 150 439 2
 EndChar
 
 StartChar: ZLM_BOI
-Encoding: 185 926649 141
+Encoding: 185 926649 185
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<50 167.094> 573 61<316.58 381.539> 622 60.6954<252.798 295.986>
-VStem: 389 56<641.237 671> 450 100<-255 351>
 LayerCount: 2
 Fore
 Refer: 132 926640 N 1 0 0 1 0 0 2
@@ -2242,13 +1974,11 @@ Validated: 1
 EndChar
 
 StartChar: ZLM_BAU
-Encoding: 186 926650 142
+Encoding: 186 926650 186
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<50 167.094> 730.968 92.0319<241.394 289.692>
-VStem: 303.611 70.4574<647.414 733.87> 450 100<-255 351>
 LayerCount: 2
 Fore
 Refer: 132 926640 N 1 0 0 1 0 0 2
@@ -2257,7 +1987,7 @@ Validated: 1
 EndChar
 
 StartChar: ZLM_DASH_FINAL
-Encoding: 191 926656 143
+Encoding: 191 926656 191
 Width: 454
 VWidth: 0
 GlyphClass: 2
@@ -2268,13 +1998,11 @@ Validated: 1
 EndChar
 
 StartChar: ZLM_D
-Encoding: 192 926656 144
+Encoding: 192 926656 192
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: -10 80<228.153 371.329>
-VStem: 50 100<158.79 470> 450 100<-255 36 156.51 470>
 LayerCount: 2
 Fore
 SplineSet
@@ -2295,28 +2023,24 @@ EndSplineSet
 EndChar
 
 StartChar: ZLM_DA
-Encoding: 193 926657 145
+Encoding: 193 926657 193
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: -10 80<228.153 371.329> 556 244<272 327>
-VStem: 50 100<158.79 470> 255 90<631.778 800> 450 100<-255 36 156.51 470>
 CounterMasks: 1 38
 LayerCount: 2
 Fore
 Refer: 144 926656 N 1 0 0 1 0 0 2
-Refer: 244 926800 S 1 0 0 1 150 450 2
+Refer: 336 926800 S 1 0 0 1 150 450 2
 EndChar
 
 StartChar: ZLM_DE
-Encoding: 194 926658 146
+Encoding: 194 926658 194
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: -10 80<228.153 371.329> 645 72<180 420>
-VStem: 50 100<158.79 470> 180 240<645 717> 450 100<-255 36 156.51 470>
 CounterMasks: 1 38
 LayerCount: 2
 Fore
@@ -2325,13 +2049,11 @@ Refer: 255 926816 S 1 0 0 1 150 445 2
 EndChar
 
 StartChar: ZLM_DI
-Encoding: 195 926659 147
+Encoding: 195 926659 195
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: -10 80<228.153 371.329> 621 120<253.745 346.255>
-VStem: 50 100<158.79 470> 240 120<634.745 727.255> 450 100<-255 36 156.51 470>
 CounterMasks: 1 38
 LayerCount: 2
 Fore
@@ -2340,13 +2062,11 @@ Refer: 266 926832 S 1 0 0 1 150 446 2
 EndChar
 
 StartChar: ZLM_DO
-Encoding: 196 926660 148
+Encoding: 196 926660 196
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: -10 80<228.153 371.329> 627 61<297.851 381.539> 667 57<219.545 299.178>
-VStem: 50 100<158.79 470> 155 58<626 655.67> 389 56<695.237 725> 450 100<-255 36 156.51 470>
 LayerCount: 2
 Fore
 Refer: 144 926656 N 1 0 0 1 0 0 2
@@ -2354,13 +2074,11 @@ Refer: 277 926848 S 1 0 0 1 151 442 2
 EndChar
 
 StartChar: ZLM_DU
-Encoding: 197 926661 149
+Encoding: 197 926661 197
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: HW
-HStem: -10 80<228.153 371.329> 597.1 61.1006<239.618 360.502>
-VStem: 50 100<158.79 470> 384.7 62.3994<678.862 724.5> 450 100<-255 36 156.51 470>
 LayerCount: 2
 Fore
 Refer: 144 926656 N 1 0 0 1 0 0 2
@@ -2368,13 +2086,11 @@ Refer: 288 926864 S 1 0 0 1 147 423 2
 EndChar
 
 StartChar: ZLM_DY
-Encoding: 198 926662 150
+Encoding: 198 926662 198
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: -10 80<228.153 371.329> 581.05 45.9502<259.403 342.263> 733 44.9502<260.132 342.135>
-VStem: 50 100<158.79 470> 203.2 45.7998<637.341 722.505> 353 43.7998<638.173 721.748> 450 100<-255 36 156.51 470>
 LayerCount: 2
 Fore
 Refer: 144 926656 N 1 0 0 1 0 0 2
@@ -2382,13 +2098,11 @@ Refer: 299 926880 S 1 0 0 1 145 445 2
 EndChar
 
 StartChar: ZLM_DAI
-Encoding: 199 926663 151
+Encoding: 199 926663 199
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: -10 80<228.153 371.329> 773 37<326.194 333.162>
-VStem: 50 100<158.79 470> 240.798 73.4521<697.918 765.63> 287.393 79.54<596.326 668.324> 450 100<-255 36 156.51 470>
 LayerCount: 2
 Fore
 Refer: 144 926656 N 1 0 0 1 0 0 2
@@ -2396,13 +2110,11 @@ Refer: 310 926896 S 1 0 0 1 143 443 2
 EndChar
 
 StartChar: ZLM_DEI
-Encoding: 200 926664 152
+Encoding: 200 926664 200
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: HW
-HStem: -10 80<228.153 371.329> 680 61<238.477 360.718>
-VStem: 50 100<158.79 470> 155 61<614 656.855> 384 60<614 656.855> 450 100<-255 36 156.51 470>
 LayerCount: 2
 Fore
 Refer: 144 926656 N 1 0 0 1 0 0 2
@@ -2410,13 +2122,11 @@ Refer: 321 926912 S 1 0 0 1 150 439 2
 EndChar
 
 StartChar: ZLM_DOI
-Encoding: 201 926665 153
+Encoding: 201 926665 201
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: -10 80<228.153 371.329> 573 61<316.58 381.539> 622 60.6954<252.798 295.986>
-VStem: 50 100<158.79 470> 389 56<641.237 671> 450 100<-255 36 156.51 470>
 LayerCount: 2
 Fore
 Refer: 144 926656 N 1 0 0 1 0 0 2
@@ -2424,13 +2134,11 @@ Refer: 332 926928 S 1 0 0 1 151 445 2
 EndChar
 
 StartChar: ZLM_DAU
-Encoding: 202 926666 154
+Encoding: 202 926666 202
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: -10 80<228.153 371.329> 730.968 92.0319<241.394 289.692>
-VStem: 50 100<158.79 470> 303.611 70.4574<647.414 733.87> 450 100<-255 36 156.51 470>
 LayerCount: 2
 Fore
 Refer: 144 926656 N 1 0 0 1 0 0 2
@@ -2438,7 +2146,7 @@ Refer: 343 926944 S 1 0 0 1 190 469 2
 EndChar
 
 StartChar: ZLM_DASH_ISO
-Encoding: 207 926672 155
+Encoding: 207 926672 207
 Width: 454
 VWidth: 0
 GlyphClass: 2
@@ -2449,13 +2157,11 @@ Validated: 1
 EndChar
 
 StartChar: ZLM_G
-Encoding: 208 926672 156
+Encoding: 208 926672 208
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<50 167.745>
-VStem: 50 100<115 470> 449 101<-255 337>
 LayerCount: 2
 Fore
 SplineSet
@@ -2475,28 +2181,24 @@ Validated: 1
 EndChar
 
 StartChar: ZLM_GA
-Encoding: 209 926673 157
+Encoding: 209 926673 209
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<50 167.745> 556 244<272 327>
-VStem: 50 100<115 470> 255 90<631.778 800> 449 101<-255 337>
 LayerCount: 2
 Fore
 Refer: 156 926672 N 1 0 0 1 0 0 2
-Refer: 244 926800 S 1 0 0 1 150 450 2
+Refer: 336 926800 S 1 0 0 1 150 450 2
 Validated: 1
 EndChar
 
 StartChar: ZLM_GE
-Encoding: 210 926674 158
+Encoding: 210 926674 210
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<50 167.745> 645 72<180 420>
-VStem: 50 100<115 470> 180 240<645 717> 449 101<-255 337>
 LayerCount: 2
 Fore
 Refer: 156 926672 N 1 0 0 1 0 0 2
@@ -2505,13 +2207,11 @@ Validated: 1
 EndChar
 
 StartChar: ZLM_GI
-Encoding: 211 926675 159
+Encoding: 211 926675 211
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<50 167.745> 621 120<253.745 346.255>
-VStem: 50 100<115 470> 240 120<634.745 727.255> 449 101<-255 337>
 LayerCount: 2
 Fore
 Refer: 156 926672 N 1 0 0 1 0 0 2
@@ -2520,13 +2220,11 @@ Validated: 1
 EndChar
 
 StartChar: ZLM_GO
-Encoding: 212 926676 160
+Encoding: 212 926676 212
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<50 167.745> 627 61<297.851 381.539> 667 57<219.545 299.178>
-VStem: 50 100<115 470> 155 58<626 655.67> 389 56<695.237 725> 449 101<-255 337>
 LayerCount: 2
 Fore
 Refer: 156 926672 N 1 0 0 1 0 0 2
@@ -2535,13 +2233,11 @@ Validated: 1
 EndChar
 
 StartChar: ZLM_GU
-Encoding: 213 926677 161
+Encoding: 213 926677 213
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: HW
-HStem: 0 21G<50 167.745> 597.1 61.1006<239.618 360.502>
-VStem: 50 100<115 470> 384.7 62.3994<678.862 724.5> 449 101<-255 337>
 LayerCount: 2
 Fore
 Refer: 156 926672 N 1 0 0 1 0 0 2
@@ -2549,13 +2245,11 @@ Refer: 288 926864 S 1 0 0 1 147 423 2
 EndChar
 
 StartChar: ZLM_GY
-Encoding: 214 926678 162
+Encoding: 214 926678 214
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<50 167.745> 581.05 45.9502<259.403 342.263> 733 44.9502<260.132 342.135>
-VStem: 50 100<115 470> 203.2 45.7998<637.341 722.505> 353 43.7998<638.173 721.748> 449 101<-255 337>
 LayerCount: 2
 Fore
 Refer: 156 926672 N 1 0 0 1 0 0 2
@@ -2564,13 +2258,11 @@ Validated: 1
 EndChar
 
 StartChar: ZLM_GAI
-Encoding: 215 926679 163
+Encoding: 215 926679 215
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<50 167.745> 773 37<326.194 333.162>
-VStem: 50 100<115 470> 240.798 73.4521<697.918 765.63> 287.393 79.54<596.326 668.324> 449 101<-255 337>
 LayerCount: 2
 Fore
 Refer: 156 926672 N 1 0 0 1 0 0 2
@@ -2578,13 +2270,11 @@ Refer: 310 926896 S 1 0 0 1 143 443 2
 EndChar
 
 StartChar: ZLM_GEI
-Encoding: 216 926680 164
+Encoding: 216 926680 216
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: HW
-HStem: 0 21G<50 167.745> 680 61<238.477 360.718>
-VStem: 50 100<115 470> 155 61<614 656.855> 384 60<614 656.855> 449 101<-255 337>
 LayerCount: 2
 Fore
 Refer: 156 926672 N 1 0 0 1 0 0 2
@@ -2592,13 +2282,11 @@ Refer: 321 926912 S 1 0 0 1 150 439 2
 EndChar
 
 StartChar: ZLM_GOI
-Encoding: 217 926681 165
+Encoding: 217 926681 217
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<50 167.745> 573 61<316.58 381.539> 622 60.6954<252.798 295.986>
-VStem: 50 100<115 470> 389 56<641.237 671> 449 101<-255 337>
 LayerCount: 2
 Fore
 Refer: 156 926672 N 1 0 0 1 0 0 2
@@ -2607,13 +2295,11 @@ Validated: 1
 EndChar
 
 StartChar: ZLM_GAU
-Encoding: 218 926682 166
+Encoding: 218 926682 218
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<50 167.745> 730.968 92.0319<241.394 289.692>
-VStem: 50 100<115 470> 303.611 70.4574<647.414 733.87> 449 101<-255 337>
 LayerCount: 2
 Fore
 Refer: 156 926672 N 1 0 0 1 0 0 2
@@ -2622,13 +2308,11 @@ Validated: 1
 EndChar
 
 StartChar: ZLM_V
-Encoding: 224 926688 167
+Encoding: 224 926688 224
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 80<52 161.733 253.412 552>
-VStem: 272 100<173.605 470>
 LayerCount: 2
 Fore
 SplineSet
@@ -2646,27 +2330,23 @@ EndSplineSet
 EndChar
 
 StartChar: ZLM_VA
-Encoding: 225 926689 168
+Encoding: 225 926689 225
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 80<52 161.733 253.412 552> 556 244<272 327>
-VStem: 255 90<631.778 800> 272 100<173.605 470>
 LayerCount: 2
 Fore
 Refer: 167 926688 N 1 0 0 1 0 0 2
-Refer: 244 926800 S 1 0 0 1 150 450 2
+Refer: 336 926800 S 1 0 0 1 150 450 2
 EndChar
 
 StartChar: ZLM_VE
-Encoding: 226 926690 169
+Encoding: 226 926690 226
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 80<52 161.733 253.412 552> 645 72<180 420>
-VStem: 180 240<645 717> 272 100<173.605 470>
 LayerCount: 2
 Fore
 Refer: 167 926688 N 1 0 0 1 0 0 2
@@ -2674,13 +2354,11 @@ Refer: 255 926816 S 1 0 0 1 150 445 2
 EndChar
 
 StartChar: ZLM_VI
-Encoding: 227 926691 170
+Encoding: 227 926691 227
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 80<52 161.733 253.412 552> 621 120<253.745 346.255>
-VStem: 240 120<634.745 727.255> 272 100<173.605 470>
 LayerCount: 2
 Fore
 Refer: 167 926688 N 1 0 0 1 0 0 2
@@ -2688,13 +2366,11 @@ Refer: 266 926832 S 1 0 0 1 150 446 2
 EndChar
 
 StartChar: ZLM_VO
-Encoding: 228 926692 171
+Encoding: 228 926692 228
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 80<52 161.733 253.412 552> 627 61<297.851 381.539> 667 57<219.545 299.178>
-VStem: 155 58<626 655.67> 272 100<173.605 470> 389 56<695.237 725>
 LayerCount: 2
 Fore
 Refer: 167 926688 N 1 0 0 1 0 0 2
@@ -2702,13 +2378,11 @@ Refer: 277 926848 S 1 0 0 1 151 442 2
 EndChar
 
 StartChar: ZLM_VU
-Encoding: 229 926693 172
+Encoding: 229 926693 229
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: HW
-HStem: 0 80<52 161.733 253.412 552> 597.1 61.1006<239.618 360.502>
-VStem: 272 100<173.605 470> 384.7 62.3994<678.862 724.5>
 LayerCount: 2
 Fore
 Refer: 167 926688 N 1 0 0 1 0 0 2
@@ -2716,13 +2390,11 @@ Refer: 288 926864 S 1 0 0 1 147 423 2
 EndChar
 
 StartChar: ZLM_VY
-Encoding: 230 926694 173
+Encoding: 230 926694 230
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 80<52 161.733 253.412 552> 581.05 45.9502<259.403 342.263> 733 44.9502<260.132 342.135>
-VStem: 203.2 45.7998<637.341 722.505> 272 100<173.605 470> 353 43.7998<638.173 721.748>
 LayerCount: 2
 Fore
 Refer: 167 926688 N 1 0 0 1 0 0 2
@@ -2730,13 +2402,11 @@ Refer: 299 926880 S 1 0 0 1 145 445 2
 EndChar
 
 StartChar: ZLM_VAI
-Encoding: 231 926695 174
+Encoding: 231 926695 231
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 80<52 161.733 253.412 552> 773 37<326.194 333.162>
-VStem: 240.798 73.4521<697.918 765.63> 272 100<173.605 470> 287.393 79.54<596.326 668.324>
 LayerCount: 2
 Fore
 Refer: 167 926688 N 1 0 0 1 0 0 2
@@ -2744,13 +2414,11 @@ Refer: 310 926896 S 1 0 0 1 143 443 2
 EndChar
 
 StartChar: ZLM_VEI
-Encoding: 232 926696 175
+Encoding: 232 926696 232
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: HW
-HStem: 0 80<52 161.733 253.412 552> 680 61<238.477 360.718>
-VStem: 155 61<614 656.855> 272 100<173.605 470> 384 60<614 656.855>
 LayerCount: 2
 Fore
 Refer: 167 926688 N 1 0 0 1 0 0 2
@@ -2758,13 +2426,11 @@ Refer: 321 926912 S 1 0 0 1 150 439 2
 EndChar
 
 StartChar: ZLM_VOI
-Encoding: 233 926697 176
+Encoding: 233 926697 233
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 80<52 161.733 253.412 552> 573 61<316.58 381.539> 622 60.6954<252.798 295.986>
-VStem: 272 100<173.605 470> 389 56<641.237 671>
 LayerCount: 2
 Fore
 Refer: 167 926688 N 1 0 0 1 0 0 2
@@ -2772,13 +2438,11 @@ Refer: 332 926928 S 1 0 0 1 151 445 2
 EndChar
 
 StartChar: ZLM_VAU
-Encoding: 234 926698 177
+Encoding: 234 926698 234
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 80<52 161.733 253.412 552> 730.968 92.0319<241.394 289.692>
-VStem: 272 100<173.605 470> 303.611 70.4574<647.414 733.87>
 LayerCount: 2
 Fore
 Refer: 167 926688 N 1 0 0 1 0 0 2
@@ -2786,13 +2450,11 @@ Refer: 343 926944 S 1 0 0 1 190 469 2
 EndChar
 
 StartChar: ZLM_R
-Encoding: 240 926704 178
+Encoding: 240 926704 240
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: -10 80<212.594 363.555> 400 80<217.241 363.555>
-VStem: 440 110<148.617 321.383>
 LayerCount: 2
 Fore
 SplineSet
@@ -2811,27 +2473,23 @@ EndSplineSet
 EndChar
 
 StartChar: ZLM_RA
-Encoding: 241 926705 179
+Encoding: 241 926705 241
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: -10 80<212.594 363.555> 400 80<217.241 363.555> 556 244<272 327>
-VStem: 255 90<631.778 800> 440 110<148.617 321.383>
 LayerCount: 2
 Fore
 Refer: 178 926704 N 1 0 0 1 0 0 2
-Refer: 244 926800 S 1 0 0 1 150 450 2
+Refer: 336 926800 S 1 0 0 1 150 450 2
 EndChar
 
 StartChar: ZLM_RE
-Encoding: 242 926706 180
+Encoding: 242 926706 242
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: -10 80<212.594 363.555> 400 80<217.241 363.555> 645 72<180 420>
-VStem: 180 240<645 717> 440 110<148.617 321.383>
 LayerCount: 2
 Fore
 Refer: 178 926704 N 1 0 0 1 0 0 2
@@ -2839,13 +2497,11 @@ Refer: 255 926816 S 1 0 0 1 150 445 2
 EndChar
 
 StartChar: ZLM_RI
-Encoding: 243 926707 181
+Encoding: 243 926707 243
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: -10 80<212.594 363.555> 400 80<217.241 363.555> 621 120<253.745 346.255>
-VStem: 240 120<634.745 727.255> 440 110<148.617 321.383>
 LayerCount: 2
 Fore
 Refer: 178 926704 N 1 0 0 1 0 0 2
@@ -2853,13 +2509,11 @@ Refer: 266 926832 S 1 0 0 1 150 446 2
 EndChar
 
 StartChar: ZLM_RO
-Encoding: 244 926708 182
+Encoding: 244 926708 244
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: -10 80<212.594 363.555> 400 80<217.241 363.555> 627 61<297.851 381.539> 667 57<219.545 299.178>
-VStem: 155 58<626 655.67> 389 56<695.237 725> 440 110<148.617 321.383>
 LayerCount: 2
 Fore
 Refer: 178 926704 N 1 0 0 1 0 0 2
@@ -2867,13 +2521,11 @@ Refer: 277 926848 S 1 0 0 1 151 442 2
 EndChar
 
 StartChar: ZLM_RU
-Encoding: 245 926709 183
+Encoding: 245 926709 245
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: HW
-HStem: -10 80<212.594 363.555> 400 80<217.241 363.555> 597.1 61.1006<239.618 360.502>
-VStem: 384.7 62.3994<678.862 724.5> 440 110<148.617 321.383>
 LayerCount: 2
 Fore
 Refer: 178 926704 N 1 0 0 1 0 0 2
@@ -2881,13 +2533,11 @@ Refer: 288 926864 S 1 0 0 1 147 423 2
 EndChar
 
 StartChar: ZLM_RY
-Encoding: 246 926710 184
+Encoding: 246 926710 246
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: -10 80<212.594 363.555> 400 80<217.241 363.555> 581.05 45.9502<259.403 342.263> 733 44.9502<260.132 342.135>
-VStem: 203.2 45.7998<637.341 722.505> 353 43.7998<638.173 721.748> 440 110<148.617 321.383>
 LayerCount: 2
 Fore
 Refer: 178 926704 N 1 0 0 1 0 0 2
@@ -2895,13 +2545,11 @@ Refer: 299 926880 S 1 0 0 1 145 445 2
 EndChar
 
 StartChar: ZLM_RAI
-Encoding: 247 926711 185
+Encoding: 247 926711 247
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: -10 80<212.594 363.555> 400 80<217.241 363.555> 773 37<326.194 333.162>
-VStem: 240.798 73.4521<697.918 765.63> 287.393 79.54<596.326 668.324> 440 110<148.617 321.383>
 LayerCount: 2
 Fore
 Refer: 178 926704 N 1 0 0 1 0 0 2
@@ -2909,13 +2557,11 @@ Refer: 310 926896 S 1 0 0 1 143 443 2
 EndChar
 
 StartChar: ZLM_REI
-Encoding: 248 926712 186
+Encoding: 248 926712 248
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: HW
-HStem: -10 80<212.594 363.555> 400 80<217.241 363.555> 680 61<238.477 360.718>
-VStem: 155 61<614 656.855> 384 60<614 656.855> 440 110<148.617 321.383>
 LayerCount: 2
 Fore
 Refer: 178 926704 N 1 0 0 1 0 0 2
@@ -2923,13 +2569,11 @@ Refer: 321 926912 S 1 0 0 1 150 439 2
 EndChar
 
 StartChar: ZLM_ROI
-Encoding: 249 926713 187
+Encoding: 249 926713 249
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: -10 80<212.594 363.555> 400 80<217.241 363.555> 573 61<316.58 381.539> 622 60.6954<252.798 295.986>
-VStem: 389 56<641.237 671> 440 110<148.617 321.383>
 LayerCount: 2
 Fore
 Refer: 178 926704 N 1 0 0 1 0 0 2
@@ -2937,13 +2581,11 @@ Refer: 332 926928 S 1 0 0 1 151 445 2
 EndChar
 
 StartChar: ZLM_RAU
-Encoding: 250 926714 188
+Encoding: 250 926714 250
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: -10 80<212.594 363.555> 400 80<217.241 363.555> 730.968 92.0319<241.394 289.692>
-VStem: 303.611 70.4574<647.414 733.87> 440 110<148.617 321.383>
 LayerCount: 2
 Fore
 Refer: 178 926704 N 1 0 0 1 0 0 2
@@ -2951,13 +2593,11 @@ Refer: 343 926944 S 1 0 0 1 190 469 2
 EndChar
 
 StartChar: ZLM_Z
-Encoding: 256 926720 189
+Encoding: 256 926720 256
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: -10 80<322.291 414.067> 400 80<227.453 370.555>
-VStem: 50 100<-255 313.687> 204.237 105.893<81.4847 147.853> 447 110<111.594 321.383>
 LayerCount: 2
 Fore
 SplineSet
@@ -2978,27 +2618,23 @@ EndSplineSet
 EndChar
 
 StartChar: ZLM_ZA
-Encoding: 257 926721 190
+Encoding: 257 926721 257
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: -10 80<322.291 414.067> 400 80<227.453 370.555> 556 244<272 327>
-VStem: 50 100<-255 313.687> 204.237 105.893<81.4847 147.853> 255 90<631.778 800> 447 110<111.594 321.383>
 LayerCount: 2
 Fore
 Refer: 189 926720 N 1 0 0 1 0 0 2
-Refer: 244 926800 S 1 0 0 1 150 450 2
+Refer: 336 926800 S 1 0 0 1 150 450 2
 EndChar
 
 StartChar: ZLM_ZE
-Encoding: 258 926722 191
+Encoding: 258 926722 258
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: -10 80<322.291 414.067> 400 80<227.453 370.555> 645 72<180 420>
-VStem: 50 100<-255 313.687> 180 240<645 717> 204.237 105.893<81.4847 147.853> 447 110<111.594 321.383>
 LayerCount: 2
 Fore
 Refer: 189 926720 N 1 0 0 1 0 0 2
@@ -3006,13 +2642,11 @@ Refer: 255 926816 S 1 0 0 1 150 445 2
 EndChar
 
 StartChar: ZLM_ZI
-Encoding: 259 926723 192
+Encoding: 259 926723 259
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: -10 80<322.291 414.067> 400 80<227.453 370.555> 621 120<253.745 346.255>
-VStem: 50 100<-255 313.687> 204.237 105.893<81.4847 147.853> 240 120<634.745 727.255> 447 110<111.594 321.383>
 LayerCount: 2
 Fore
 Refer: 189 926720 N 1 0 0 1 0 0 2
@@ -3020,13 +2654,11 @@ Refer: 266 926832 S 1 0 0 1 150 446 2
 EndChar
 
 StartChar: ZLM_ZO
-Encoding: 260 926724 193
+Encoding: 260 926724 260
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: -10 80<322.291 414.067> 400 80<227.453 370.555> 627 61<297.851 381.539> 667 57<219.545 299.178>
-VStem: 50 100<-255 313.687> 155 58<626 655.67> 204.237 105.893<81.4847 147.853> 389 56<695.237 725> 447 110<111.594 321.383>
 LayerCount: 2
 Fore
 Refer: 189 926720 N 1 0 0 1 0 0 2
@@ -3034,13 +2666,11 @@ Refer: 277 926848 S 1 0 0 1 151 442 2
 EndChar
 
 StartChar: ZLM_ZU
-Encoding: 261 926725 194
+Encoding: 261 926725 261
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: HW
-HStem: -10 80<322.291 414.067> 400 80<227.453 370.555> 597.1 61.1006<239.618 360.502>
-VStem: 50 100<-255 313.687> 204.237 105.893<81.4847 147.853> 384.7 62.3994<678.862 724.5> 447 110<111.594 321.383>
 LayerCount: 2
 Fore
 Refer: 189 926720 N 1 0 0 1 0 0 2
@@ -3048,13 +2678,11 @@ Refer: 288 926864 S 1 0 0 1 147 423 2
 EndChar
 
 StartChar: ZLM_ZY
-Encoding: 262 926726 195
+Encoding: 262 926726 262
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: -10 80<322.291 414.067> 400 80<227.453 370.555> 581.05 45.9502<259.403 342.263> 733 44.9502<260.132 342.135>
-VStem: 50 100<-255 313.687> 203.2 45.7998<637.341 722.505> 204.237 105.893<81.4847 147.853> 353 43.7998<638.173 721.748> 447 110<111.594 321.383>
 LayerCount: 2
 Fore
 Refer: 189 926720 N 1 0 0 1 0 0 2
@@ -3062,13 +2690,11 @@ Refer: 299 926880 S 1 0 0 1 145 445 2
 EndChar
 
 StartChar: ZLM_ZAI
-Encoding: 263 926727 196
+Encoding: 263 926727 263
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: -10 80<322.291 414.067> 400 80<227.453 370.555> 773 37<326.194 333.162>
-VStem: 50 100<-255 313.687> 204.237 105.893<81.4847 147.853> 240.798 73.4521<697.918 765.63> 287.393 79.54<596.326 668.324> 447 110<111.594 321.383>
 LayerCount: 2
 Fore
 Refer: 189 926720 N 1 0 0 1 0 0 2
@@ -3076,13 +2702,11 @@ Refer: 310 926896 S 1 0 0 1 143 443 2
 EndChar
 
 StartChar: ZLM_ZEI
-Encoding: 264 926728 197
+Encoding: 264 926728 264
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: HW
-HStem: -10 80<322.291 414.067> 400 80<227.453 370.555> 680 61<238.477 360.718>
-VStem: 50 100<-255 313.687> 155 61<614 656.855> 204.237 105.893<81.4847 147.853> 384 60<614 656.855> 447 110<111.594 321.383>
 LayerCount: 2
 Fore
 Refer: 189 926720 N 1 0 0 1 0 0 2
@@ -3090,13 +2714,11 @@ Refer: 321 926912 S 1 0 0 1 150 439 2
 EndChar
 
 StartChar: ZLM_ZOI
-Encoding: 265 926729 198
+Encoding: 265 926729 265
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: -10 80<322.291 414.067> 400 80<227.453 370.555> 573 61<316.58 381.539> 622 60.6954<252.798 295.986>
-VStem: 50 100<-255 313.687> 204.237 105.893<81.4847 147.853> 389 56<641.237 671> 447 110<111.594 321.383>
 LayerCount: 2
 Fore
 Refer: 189 926720 N 1 0 0 1 0 0 2
@@ -3104,13 +2726,11 @@ Refer: 332 926928 S 1 0 0 1 151 445 2
 EndChar
 
 StartChar: ZLM_ZAU
-Encoding: 266 926730 199
+Encoding: 266 926730 266
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: -10 80<322.291 414.067> 400 80<227.453 370.555> 730.968 92.0319<241.394 289.692>
-VStem: 50 100<-255 313.687> 204.237 105.893<81.4847 147.853> 303.611 70.4574<647.414 733.87> 447 110<111.594 321.383>
 LayerCount: 2
 Fore
 Refer: 189 926720 N 1 0 0 1 0 0 2
@@ -3118,13 +2738,11 @@ Refer: 343 926944 S 1 0 0 1 190 469 2
 EndChar
 
 StartChar: ZLM_J
-Encoding: 272 926736 200
+Encoding: 272 926736 272
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: -10 80<228.671 372.777> 0 21G<450 550>
-VStem: 50 100<-255 36 156.51 470> 450 100<0 32.4736 154.53 470>
 LayerCount: 2
 Fore
 SplineSet
@@ -3150,28 +2768,24 @@ EndSplineSet
 EndChar
 
 StartChar: ZLM_JA
-Encoding: 273 926737 201
+Encoding: 273 926737 273
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: -10 80<228.671 372.777> 0 21G<450 550> 556 244<272 327>
-VStem: 50 100<-255 36 156.51 470> 255 90<631.778 800> 450 100<0 32.4736 154.53 470>
 CounterMasks: 1 1c
 LayerCount: 2
 Fore
 Refer: 200 926736 N 1 0 0 1 0 0 2
-Refer: 244 926800 S 1 0 0 1 150 450 2
+Refer: 336 926800 S 1 0 0 1 150 450 2
 EndChar
 
 StartChar: ZLM_JE
-Encoding: 274 926738 202
+Encoding: 274 926738 274
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: -10 80<228.671 372.777> 0 21G<450 550> 645 72<180 420>
-VStem: 50 100<-255 36 156.51 470> 180 240<645 717> 450 100<0 32.4736 154.53 470>
 CounterMasks: 1 1c
 LayerCount: 2
 Fore
@@ -3180,13 +2794,11 @@ Refer: 255 926816 S 1 0 0 1 150 445 2
 EndChar
 
 StartChar: ZLM_JI
-Encoding: 275 926739 203
+Encoding: 275 926739 275
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: -10 80<228.671 372.777> 0 21G<450 550> 621 120<253.745 346.255>
-VStem: 50 100<-255 36 156.51 470> 240 120<634.745 727.255> 450 100<0 32.4736 154.53 470>
 CounterMasks: 1 1c
 LayerCount: 2
 Fore
@@ -3195,13 +2807,11 @@ Refer: 266 926832 S 1 0 0 1 150 446 2
 EndChar
 
 StartChar: ZLM_JO
-Encoding: 276 926740 204
+Encoding: 276 926740 276
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: -10 80<228.671 372.777> 0 21G<450 550> 627 61<297.851 381.539> 667 57<219.545 299.178>
-VStem: 50 100<-255 36 156.51 470> 155 58<626 655.67> 389 56<695.237 725> 450 100<0 32.4736 154.53 470>
 LayerCount: 2
 Fore
 Refer: 200 926736 N 1 0 0 1 0 0 2
@@ -3209,13 +2819,11 @@ Refer: 277 926848 S 1 0 0 1 151 442 2
 EndChar
 
 StartChar: ZLM_JU
-Encoding: 277 926741 205
+Encoding: 277 926741 277
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: HW
-HStem: -10 80<228.671 372.777> 0 21G<450 550> 597.1 61.1006<239.618 360.502>
-VStem: 50 100<-255 36 156.51 470> 384.7 62.3994<678.862 724.5> 450 100<0 32.4736 154.53 470>
 LayerCount: 2
 Fore
 Refer: 200 926736 N 1 0 0 1 0 0 2
@@ -3223,13 +2831,11 @@ Refer: 288 926864 S 1 0 0 1 147 423 2
 EndChar
 
 StartChar: ZLM_JY
-Encoding: 278 926742 206
+Encoding: 278 926742 278
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: -10 80<228.671 372.777> 0 21G<450 550> 581.05 45.9502<259.403 342.263> 733 44.9502<260.132 342.135>
-VStem: 50 100<-255 36 156.51 470> 203.2 45.7998<637.341 722.505> 353 43.7998<638.173 721.748> 450 100<0 32.4736 154.53 470>
 LayerCount: 2
 Fore
 Refer: 200 926736 N 1 0 0 1 0 0 2
@@ -3237,13 +2843,11 @@ Refer: 299 926880 S 1 0 0 1 145 445 2
 EndChar
 
 StartChar: ZLM_JAI
-Encoding: 279 926743 207
+Encoding: 279 926743 279
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: -10 80<228.671 372.777> 0 21G<450 550> 773 37<326.194 333.162>
-VStem: 50 100<-255 36 156.51 470> 240.798 73.4521<697.918 765.63> 287.393 79.54<596.326 668.324> 450 100<0 32.4736 154.53 470>
 LayerCount: 2
 Fore
 Refer: 200 926736 N 1 0 0 1 0 0 2
@@ -3251,13 +2855,11 @@ Refer: 310 926896 S 1 0 0 1 143 443 2
 EndChar
 
 StartChar: ZLM_JEI
-Encoding: 280 926744 208
+Encoding: 280 926744 280
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: HW
-HStem: -10 80<228.671 372.777> 0 21G<450 550> 680 61<238.477 360.718>
-VStem: 50 100<-255 36 156.51 470> 155 61<614 656.855> 384 60<614 656.855> 450 100<0 32.4736 154.53 470>
 LayerCount: 2
 Fore
 Refer: 200 926736 N 1 0 0 1 0 0 2
@@ -3265,13 +2867,11 @@ Refer: 321 926912 S 1 0 0 1 150 439 2
 EndChar
 
 StartChar: ZLM_JOI
-Encoding: 281 926745 209
+Encoding: 281 926745 281
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: -10 80<228.671 372.777> 0 21G<450 550> 573 61<316.58 381.539> 622 60.6954<252.798 295.986>
-VStem: 50 100<-255 36 156.51 470> 389 56<641.237 671> 450 100<0 32.4736 154.53 470>
 LayerCount: 2
 Fore
 Refer: 200 926736 N 1 0 0 1 0 0 2
@@ -3279,13 +2879,11 @@ Refer: 332 926928 S 1 0 0 1 151 445 2
 EndChar
 
 StartChar: ZLM_JAU
-Encoding: 282 926746 210
+Encoding: 282 926746 282
 Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: -10 80<228.671 372.777> 0 21G<450 550> 730.968 92.0319<241.394 289.692>
-VStem: 50 100<-255 36 156.51 470> 303.611 70.4574<647.414 733.87> 450 100<0 32.4736 154.53 470>
 LayerCount: 2
 Fore
 Refer: 200 926736 N 1 0 0 1 0 0 2
@@ -3293,12 +2891,10 @@ Refer: 343 926944 S 1 0 0 1 190 469 2
 EndChar
 
 StartChar: ZLM_N
-Encoding: 288 926752 211
+Encoding: 288 926752 288
 Width: 600
 VWidth: 0
 Flags: W
-HStem: -10 80<223.725 381.759> 390 80<49 177.588 308.719 549>
-VStem: 49.001 110.002<131.894 279.803>
 LayerCount: 2
 Fore
 SplineSet
@@ -3319,25 +2915,21 @@ EndSplineSet
 EndChar
 
 StartChar: ZLM_NA
-Encoding: 289 926753 212
+Encoding: 289 926753 289
 Width: 600
 VWidth: 0
 Flags: W
-HStem: -10 80<223.725 381.759> 390 80<49 177.588 308.719 549> 556 244<272 327>
-VStem: 49.001 110.002<131.894 279.803> 255 90<631.778 800>
 LayerCount: 2
 Fore
 Refer: 211 926752 N 1 0 0 1 0 0 2
-Refer: 244 926800 S 1 0 0 1 150 450 2
+Refer: 336 926800 S 1 0 0 1 150 450 2
 EndChar
 
 StartChar: ZLM_NE
-Encoding: 290 926754 213
+Encoding: 290 926754 290
 Width: 600
 VWidth: 0
 Flags: W
-HStem: -10 80<223.725 381.759> 390 80<49 177.588 308.719 549> 645 72<180 420>
-VStem: 49.001 110.002<131.894 279.803> 180 240<645 717>
 LayerCount: 2
 Fore
 Refer: 211 926752 N 1 0 0 1 0 0 2
@@ -3345,12 +2937,10 @@ Refer: 255 926816 S 1 0 0 1 150 445 2
 EndChar
 
 StartChar: ZLM_NI
-Encoding: 291 926755 214
+Encoding: 291 926755 291
 Width: 600
 VWidth: 0
 Flags: W
-HStem: -10 80<223.725 381.759> 390 80<49 177.588 308.719 549> 621 120<253.745 346.255>
-VStem: 49.001 110.002<131.894 279.803> 240 120<634.745 727.255>
 LayerCount: 2
 Fore
 Refer: 211 926752 N 1 0 0 1 0 0 2
@@ -3358,12 +2948,10 @@ Refer: 266 926832 S 1 0 0 1 150 446 2
 EndChar
 
 StartChar: ZLM_NO
-Encoding: 292 926756 215
+Encoding: 292 926756 292
 Width: 600
 VWidth: 0
 Flags: W
-HStem: -10 80<223.725 381.759> 390 80<49 177.588 308.719 549> 627 61<297.851 381.539> 667 57<219.545 299.178>
-VStem: 49.001 110.002<131.894 279.803> 155 58<626 655.67> 389 56<695.237 725>
 LayerCount: 2
 Fore
 Refer: 211 926752 N 1 0 0 1 0 0 2
@@ -3371,12 +2959,10 @@ Refer: 277 926848 S 1 0 0 1 151 442 2
 EndChar
 
 StartChar: ZLM_NU
-Encoding: 293 926757 216
+Encoding: 293 926757 293
 Width: 600
 VWidth: 0
 Flags: HW
-HStem: -10 80<223.725 381.759> 390 80<49 177.588 308.719 549> 597.1 61.1006<239.618 360.502>
-VStem: 49.001 110.002<131.894 279.803> 384.7 62.3994<678.862 724.5>
 LayerCount: 2
 Fore
 Refer: 211 926752 N 1 0 0 1 0 0 2
@@ -3384,12 +2970,10 @@ Refer: 288 926864 S 1 0 0 1 147 423 2
 EndChar
 
 StartChar: ZLM_NY
-Encoding: 294 926758 217
+Encoding: 294 926758 294
 Width: 600
 VWidth: 0
 Flags: W
-HStem: -10 80<223.725 381.759> 390 80<49 177.588 308.719 549> 581.05 45.9502<259.403 342.263> 733 44.9502<260.132 342.135>
-VStem: 49.001 110.002<131.894 279.803> 203.2 45.7998<637.341 722.505> 353 43.7998<638.173 721.748>
 LayerCount: 2
 Fore
 Refer: 211 926752 N 1 0 0 1 0 0 2
@@ -3397,12 +2981,10 @@ Refer: 299 926880 S 1 0 0 1 145 445 2
 EndChar
 
 StartChar: ZLM_NAI
-Encoding: 295 926759 218
+Encoding: 295 926759 295
 Width: 600
 VWidth: 0
 Flags: W
-HStem: -10 80<223.725 381.759> 390 80<49 177.588 308.719 549> 773 37<326.194 333.162>
-VStem: 49.001 110.002<131.894 279.803> 240.798 73.4521<697.918 765.63> 287.393 79.54<596.326 668.324>
 LayerCount: 2
 Fore
 Refer: 211 926752 N 1 0 0 1 0 0 2
@@ -3410,12 +2992,10 @@ Refer: 310 926896 S 1 0 0 1 143 443 2
 EndChar
 
 StartChar: ZLM_NEI
-Encoding: 296 926760 219
+Encoding: 296 926760 296
 Width: 600
 VWidth: 0
 Flags: HW
-HStem: -10 80<223.725 381.759> 390 80<49 177.588 308.719 549> 680 61<238.477 360.718>
-VStem: 49.001 110.002<131.894 279.803> 155 61<614 656.855> 384 60<614 656.855>
 LayerCount: 2
 Fore
 Refer: 211 926752 N 1 0 0 1 0 0 2
@@ -3423,12 +3003,10 @@ Refer: 321 926912 S 1 0 0 1 150 439 2
 EndChar
 
 StartChar: ZLM_NOI
-Encoding: 297 926761 220
+Encoding: 297 926761 297
 Width: 600
 VWidth: 0
 Flags: W
-HStem: -10 80<223.725 381.759> 390 80<49 177.588 308.719 549> 573 61<316.58 381.539> 622 60.6954<252.798 295.986>
-VStem: 49.001 110.002<131.894 279.803> 389 56<641.237 671>
 LayerCount: 2
 Fore
 Refer: 211 926752 N 1 0 0 1 0 0 2
@@ -3436,12 +3014,10 @@ Refer: 332 926928 S 1 0 0 1 151 445 2
 EndChar
 
 StartChar: ZLM_NAU
-Encoding: 298 926762 221
+Encoding: 298 926762 298
 Width: 600
 VWidth: 0
 Flags: W
-HStem: -10 80<223.725 381.759> 390 80<49 177.588 308.719 549> 730.968 92.0319<241.394 289.692>
-VStem: 49.001 110.002<131.894 279.803> 303.611 70.4574<647.414 733.87>
 LayerCount: 2
 Fore
 Refer: 211 926752 N 1 0 0 1 0 0 2
@@ -3449,11 +3025,10 @@ Refer: 343 926944 S 1 0 0 1 190 469 2
 EndChar
 
 StartChar: ZLM_SEMIVOWEL_Q
-Encoding: 304 926768 222
+Encoding: 304 926768 304
 Width: 600
 VWidth: 0
 Flags: W
-HStem: 0 21G<51 158.511 442.489 550>
 LayerCount: 2
 Fore
 SplineSet
@@ -3469,25 +3044,21 @@ EndSplineSet
 EndChar
 
 StartChar: ZLM_QA
-Encoding: 305 926769 223
+Encoding: 305 926769 305
 Width: 600
 VWidth: 0
 Flags: W
-HStem: 0 21G<51 158.511 442.489 550> 556 244<272 327>
-VStem: 255 90<631.778 800>
 LayerCount: 2
 Fore
-Refer: 244 926800 S 1 0 0 1 150 450 2
+Refer: 336 926800 S 1 0 0 1 150 450 2
 Refer: 222 926768 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: ZLM_QE
-Encoding: 306 926770 224
+Encoding: 306 926770 306
 Width: 600
 VWidth: 0
 Flags: W
-HStem: 0 21G<51 158.511 442.489 550> 645 72<180 420>
-VStem: 180 240<645 717>
 LayerCount: 2
 Fore
 Refer: 255 926816 S 1 0 0 1 150 445 2
@@ -3495,12 +3066,10 @@ Refer: 222 926768 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: ZLM_QI
-Encoding: 307 926771 225
+Encoding: 307 926771 307
 Width: 600
 VWidth: 0
 Flags: W
-HStem: 0 21G<51 158.511 442.489 550> 621 120<253.745 346.255>
-VStem: 240 120<634.745 727.255>
 LayerCount: 2
 Fore
 Refer: 266 926832 S 1 0 0 1 150 446 2
@@ -3508,12 +3077,10 @@ Refer: 222 926768 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: ZLM_QO
-Encoding: 308 926772 226
+Encoding: 308 926772 308
 Width: 600
 VWidth: 0
 Flags: W
-HStem: 0 21G<51 158.511 442.489 550> 627 61<297.851 381.539> 667 57<219.545 299.178>
-VStem: 155 58<626 655.67> 389 56<695.237 725>
 LayerCount: 2
 Fore
 Refer: 277 926848 S 1 0 0 1 151 442 2
@@ -3521,12 +3088,10 @@ Refer: 222 926768 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: ZLM_QU
-Encoding: 309 926773 227
+Encoding: 309 926773 309
 Width: 600
 VWidth: 0
 Flags: HW
-HStem: 0 21G<51 158.511 442.489 550> 597.1 61.1006<239.618 360.502>
-VStem: 384.7 62.3994<678.862 724.5>
 LayerCount: 2
 Fore
 Refer: 288 926864 S 1 0 0 1 147 423 2
@@ -3534,12 +3099,10 @@ Refer: 222 926768 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: ZLM_QY
-Encoding: 310 926774 228
+Encoding: 310 926774 310
 Width: 600
 VWidth: 0
 Flags: W
-HStem: 0 21G<51 158.511 442.489 550> 581.05 45.9502<259.403 342.263> 733 44.9502<260.132 342.135>
-VStem: 203.2 45.7998<637.341 722.505> 353 43.7998<638.173 721.748>
 LayerCount: 2
 Fore
 Refer: 299 926880 S 1 0 0 1 145 445 2
@@ -3547,12 +3110,10 @@ Refer: 222 926768 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: ZLM_QAI
-Encoding: 311 926775 229
+Encoding: 311 926775 311
 Width: 600
 VWidth: 0
 Flags: W
-HStem: 0 21G<51 158.511 442.489 550> 773 37<326.194 333.162>
-VStem: 240.798 73.4521<697.918 765.63> 287.393 79.54<596.326 668.324>
 LayerCount: 2
 Fore
 Refer: 310 926896 S 1 0 0 1 143 443 2
@@ -3560,12 +3121,10 @@ Refer: 222 926768 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: ZLM_QEI
-Encoding: 312 926776 230
+Encoding: 312 926776 312
 Width: 600
 VWidth: 0
 Flags: HW
-HStem: 0 21G<51 158.511 442.489 550> 680 61<238.477 360.718>
-VStem: 155 61<614 656.855> 384 60<614 656.855>
 LayerCount: 2
 Fore
 Refer: 321 926912 S 1 0 0 1 150 439 2
@@ -3573,12 +3132,10 @@ Refer: 222 926768 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: ZLM_QOI
-Encoding: 313 926777 231
+Encoding: 313 926777 313
 Width: 600
 VWidth: 0
 Flags: W
-HStem: 0 21G<51 158.511 442.489 550> 573 61<316.58 381.539> 622 60.6954<252.798 295.986>
-VStem: 389 56<641.237 671>
 LayerCount: 2
 Fore
 Refer: 332 926928 S 1 0 0 1 151 445 2
@@ -3586,12 +3143,10 @@ Refer: 222 926768 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: ZLM_QAU
-Encoding: 314 926778 232
+Encoding: 314 926778 314
 Width: 600
 VWidth: 0
 Flags: W
-HStem: 0 21G<51 158.511 442.489 550> 730.968 92.0319<241.394 289.692>
-VStem: 303.611 70.4574<647.414 733.87>
 LayerCount: 2
 Fore
 Refer: 343 926944 S 1 0 0 1 190 469 2
@@ -3599,11 +3154,10 @@ Refer: 222 926768 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: ZLM_SEMIVOWEL_W
-Encoding: 320 926784 233
+Encoding: 320 926784 320
 Width: 600
 VWidth: 0
 Flags: W
-HStem: 0 21G<241.532 359.468>
 LayerCount: 2
 Fore
 SplineSet
@@ -3619,25 +3173,21 @@ EndSplineSet
 EndChar
 
 StartChar: ZLM_WA
-Encoding: 321 926785 234
+Encoding: 321 926785 321
 Width: 600
 VWidth: 0
 Flags: W
-HStem: 0 21G<241.532 359.468> 556 244<272 327>
-VStem: 255 90<631.778 800>
 LayerCount: 2
 Fore
-Refer: 244 926800 S 1 0 0 1 150 450 2
+Refer: 336 926800 S 1 0 0 1 150 450 2
 Refer: 233 926784 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: ZLM_WE
-Encoding: 322 926786 235
+Encoding: 322 926786 322
 Width: 600
 VWidth: 0
 Flags: W
-HStem: 0 21G<241.532 359.468> 645 72<180 420>
-VStem: 180 240<645 717>
 LayerCount: 2
 Fore
 Refer: 255 926816 S 1 0 0 1 150 445 2
@@ -3645,12 +3195,10 @@ Refer: 233 926784 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: ZLM_WI
-Encoding: 323 926787 236
+Encoding: 323 926787 323
 Width: 600
 VWidth: 0
 Flags: W
-HStem: 0 21G<241.532 359.468> 621 120<253.745 346.255>
-VStem: 240 120<634.745 727.255>
 LayerCount: 2
 Fore
 Refer: 266 926832 S 1 0 0 1 150 446 2
@@ -3658,12 +3206,10 @@ Refer: 233 926784 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: ZLM_WO
-Encoding: 324 926788 237
+Encoding: 324 926788 324
 Width: 600
 VWidth: 0
 Flags: W
-HStem: 0 21G<241.532 359.468> 627 61<297.851 381.539> 667 57<219.545 299.178>
-VStem: 155 58<626 655.67> 389 56<695.237 725>
 LayerCount: 2
 Fore
 Refer: 277 926848 S 1 0 0 1 151 442 2
@@ -3671,12 +3217,10 @@ Refer: 233 926784 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: ZLM_WU
-Encoding: 325 926789 238
+Encoding: 325 926789 325
 Width: 600
 VWidth: 0
 Flags: HW
-HStem: 0 21G<241.532 359.468> 597.1 61.1006<239.618 360.502>
-VStem: 384.7 62.3994<678.862 724.5>
 LayerCount: 2
 Fore
 Refer: 288 926864 S 1 0 0 1 147 423 2
@@ -3684,12 +3228,10 @@ Refer: 233 926784 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: ZLM_WY
-Encoding: 326 926790 239
+Encoding: 326 926790 326
 Width: 600
 VWidth: 0
 Flags: W
-HStem: 0 21G<241.532 359.468> 581.05 45.9502<259.403 342.263> 733 44.9502<260.132 342.135>
-VStem: 203.2 45.7998<637.341 722.505> 353 43.7998<638.173 721.748>
 LayerCount: 2
 Fore
 Refer: 299 926880 S 1 0 0 1 145 445 2
@@ -3697,11 +3239,10 @@ Refer: 233 926784 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: ZLM_WAI
-Encoding: 327 926791 240
+Encoding: 327 926791 327
 Width: 600
 VWidth: 0
 Flags: HW
-HStem: 0 21G<241.532 359.468>
 LayerCount: 2
 Fore
 Refer: 233 926784 N 1 0 0 1 0 0 2
@@ -3709,12 +3250,10 @@ Refer: 310 926896 S 1 0 0 1 143 443 2
 EndChar
 
 StartChar: ZLM_WEI
-Encoding: 328 926792 241
+Encoding: 328 926792 328
 Width: 600
 VWidth: 0
 Flags: HW
-HStem: 0 21G<241.532 359.468> 680 61<238.477 360.718>
-VStem: 155 61<614 656.855> 384 60<614 656.855>
 LayerCount: 2
 Fore
 Refer: 321 926912 S 1 0 0 1 150 439 2
@@ -3722,12 +3261,10 @@ Refer: 233 926784 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: ZLM_WOI
-Encoding: 329 926793 242
+Encoding: 329 926793 329
 Width: 600
 VWidth: 0
 Flags: W
-HStem: 0 21G<241.532 359.468> 573 61<316.58 381.539> 622 60.6954<252.798 295.986>
-VStem: 389 56<641.237 671>
 LayerCount: 2
 Fore
 Refer: 332 926928 S 1 0 0 1 151 445 2
@@ -3735,12 +3272,10 @@ Refer: 233 926784 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: ZLM_WAU
-Encoding: 330 926794 243
+Encoding: 330 926794 330
 Width: 600
 VWidth: 0
 Flags: W
-HStem: 0 21G<241.532 359.468> 730.968 92.0319<241.394 289.692>
-VStem: 303.611 70.4574<647.414 733.87>
 LayerCount: 2
 Fore
 Refer: 343 926944 S 1 0 0 1 190 469 2
@@ -3748,13 +3283,11 @@ Refer: 233 926784 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: ZLM_DIACRITIC_A
-Encoding: 336 926800 244
+Encoding: 336 926800 336
 Width: 300
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 106 244<122 177>
-VStem: 105 90<181.778 350>
 LayerCount: 2
 Fore
 SplineSet
@@ -3770,163 +3303,141 @@ Validated: 1
 EndChar
 
 StartChar: ZLM_CAS_AHA
-Encoding: 337 926801 245
+Encoding: 337 926801 337
 Width: 454
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<330 410> 246 91.8711<163.67 203.32> 556 244<72 127 339 394>
-VStem: 55 90<631.778 800> 322 90<631.778 800> 330 80<0 350>
 LayerCount: 2
 Fore
-Refer: 244 926800 N 1 0 0 1 217 450 2
+Refer: 336 926800 N 1 0 0 1 217 450 2
 Refer: 354 926960 N 1 0 0 1 0 0 2
-Refer: 244 926800 S 1 0 0 1 -50 450 2
+Refer: 336 926800 S 1 0 0 1 -50 450 2
 EndChar
 
 StartChar: ZLM_CAS_AHE
-Encoding: 338 926802 246
+Encoding: 338 926802 338
 Width: 454
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<330 410> 246 91.8711<163.67 203.32> 556 244<72 127> 646 72<249 489>
-VStem: 55 90<631.778 800> 249 240<646 718> 330 80<0 350>
 LayerCount: 2
 Fore
-Refer: 244 926800 N 1 0 0 1 -50 450 2
+Refer: 336 926800 N 1 0 0 1 -50 450 2
 Refer: 354 926960 N 1 0 0 1 0 0 2
 Refer: 255 926816 N 1 0 0 1 219 446 2
 EndChar
 
 StartChar: ZLM_CAS_AHI
-Encoding: 339 926803 247
+Encoding: 339 926803 339
 Width: 454
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<330 410> 246 91.8711<163.67 203.32> 556 244<72 127> 609 120<323.745 416.255>
-VStem: 55 90<631.778 800> 310 120<622.745 715.255> 330 80<0 350>
 LayerCount: 2
 Fore
-Refer: 244 926800 N 1 0 0 1 -50 450 2
+Refer: 336 926800 N 1 0 0 1 -50 450 2
 Refer: 354 926960 N 1 0 0 1 0 0 2
 Refer: 266 926832 N 1 0 0 1 220 434 2
 EndChar
 
 StartChar: ZLM_CAS_AHO
-Encoding: 340 926804 248
+Encoding: 340 926804 340
 Width: 454
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<330 410> 246 91.8711<163.67 203.32> 556 244<72 127> 636 61<374.851 458.539> 676 57<296.545 376.178>
-VStem: 55 90<631.778 800> 232 58<635 664.67> 330 80<0 350> 466 56<704.237 734>
 LayerCount: 2
 Fore
-Refer: 244 926800 N 1 0 0 1 -50 450 2
+Refer: 336 926800 N 1 0 0 1 -50 450 2
 Refer: 277 926848 S 1 0 0 1 228 451 2
 Refer: 354 926960 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: ZLM_CAS_AHU
-Encoding: 341 926805 249
+Encoding: 341 926805 341
 Width: 454
 VWidth: 0
 GlyphClass: 2
 Flags: HW
-HStem: 0 21G<330 410> 246 91.8711<163.67 203.32> 556 244<72 127> 618.1 61.1006<319.618 440.502>
-VStem: 55 90<631.778 800> 330 80<0 350> 464.7 62.3994<699.862 745.5>
 LayerCount: 2
 Fore
-Refer: 244 926800 N 1 0 0 1 -50 450 2
+Refer: 336 926800 N 1 0 0 1 -50 450 2
 Refer: 288 926864 S 1 0 0 1 227 444 2
 Refer: 354 926960 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: ZLM_CAS_AHY
-Encoding: 342 926806 250
+Encoding: 342 926806 342
 Width: 454
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<330 410> 246 91.8711<163.67 203.32> 556 244<72 127> 581.05 45.9502<341.403 424.263> 733 44.9502<342.132 424.135>
-VStem: 55 90<631.778 800> 285.2 45.7998<637.341 722.505> 330 80<0 350> 435 43.7998<638.173 721.748>
 LayerCount: 2
 Fore
-Refer: 244 926800 N 1 0 0 1 -50 450 2
+Refer: 336 926800 N 1 0 0 1 -50 450 2
 Refer: 299 926880 S 1 0 0 1 227 445 2
 Refer: 354 926960 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: ZLM_CAS_AHAI
-Encoding: 343 926807 251
+Encoding: 343 926807 343
 Width: 454
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<330 410> 246 91.8711<163.67 203.32> 556 244<72 127> 772 37<401.194 408.162>
-VStem: 55 90<631.778 800> 315.798 73.4521<696.918 764.63> 330 80<0 350> 362.393 79.54<595.326 667.324>
 LayerCount: 2
 Fore
-Refer: 244 926800 N 1 0 0 1 -50 450 2
+Refer: 336 926800 N 1 0 0 1 -50 450 2
 Refer: 310 926896 S 1 0 0 1 218 442 2
 Refer: 354 926960 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: ZLM_CAS_AHEI
-Encoding: 344 926808 252
+Encoding: 344 926808 344
 Width: 454
 VWidth: 0
 GlyphClass: 2
 Flags: HW
-HStem: 0 21G<330 410> 246 91.8711<163.67 203.32> 556 244<72 127> 677 61<315.477 437.718>
-VStem: 55 90<631.778 800> 232 61<611 653.855> 330 80<0 350> 461 60<611 653.855>
 LayerCount: 2
 Fore
-Refer: 244 926800 N 1 0 0 1 -50 450 2
+Refer: 336 926800 N 1 0 0 1 -50 450 2
 Refer: 321 926912 S 1 0 0 1 227 436 2
 Refer: 354 926960 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: ZLM_CAS_AHOI
-Encoding: 345 926809 253
+Encoding: 345 926809 345
 Width: 454
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<330 410> 246 91.8711<163.67 203.32> 556 244<72 127> 559 61<378.58 443.539> 608 60.6954<314.798 357.986>
-VStem: 55 90<631.778 800> 330 80<0 350> 451 56<627.237 657>
 LayerCount: 2
 Fore
-Refer: 244 926800 N 1 0 0 1 -50 450 2
+Refer: 336 926800 N 1 0 0 1 -50 450 2
 Refer: 332 926928 S 1 0 0 1 213 431 2
 Refer: 354 926960 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: ZLM_CAS_AHAU
-Encoding: 346 926810 254
+Encoding: 346 926810 346
 Width: 454
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<330 410> 246 91.8711<163.67 203.32> 556 244<72 127> 708.968 92.0319<297.394 345.692>
-VStem: 55 90<631.778 800> 330 80<0 350> 359.611 70.4574<625.414 711.87>
 LayerCount: 2
 Fore
-Refer: 244 926800 N 1 0 0 1 -50 450 2
+Refer: 336 926800 N 1 0 0 1 -50 450 2
 Refer: 343 926944 S 1 0 0 1 246 447 2
 Refer: 354 926960 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: ZLM_DIACRITIC_E
-Encoding: 352 926816 255
+Encoding: 352 926816 352
 Width: 300
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 200 72<30 270>
-VStem: 30 240<200 272>
 LayerCount: 2
 Fore
 SplineSet
@@ -3940,28 +3451,24 @@ Validated: 1
 EndChar
 
 StartChar: ZLM_CAS_EHA
-Encoding: 353 926817 256
+Encoding: 353 926817 353
 Width: 454
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<330 410> 246 91.8711<163.67 203.32> 556 244<339 394> 645 72<-30 210>
-VStem: -30 240<645 717> 322 90<631.778 800> 330 80<0 350>
 LayerCount: 2
 Fore
 Refer: 354 926960 N 1 0 0 1 0 0 2
 Refer: 255 926816 S 1 0 0 1 -60 445 2
-Refer: 244 926800 N 1 0 0 1 217 450 2
+Refer: 336 926800 N 1 0 0 1 217 450 2
 EndChar
 
 StartChar: ZLM_CAS_EHE
-Encoding: 354 926818 257
+Encoding: 354 926818 354
 Width: 454
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<330 410> 246 91.8711<163.67 203.32> 645 72<-30 210 259 499>
-VStem: -30 240<645 717> 259 240<645 717> 330 80<0 350>
 LayerCount: 2
 Fore
 Refer: 255 926816 S 1 0 0 1 -60 445 2
@@ -3970,13 +3477,11 @@ Refer: 255 926816 N 1 0 0 1 229 445 2
 EndChar
 
 StartChar: ZLM_CAS_EHI
-Encoding: 355 926819 258
+Encoding: 355 926819 355
 Width: 454
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<330 410> 246 91.8711<163.67 203.32> 619 120<323.745 416.255> 645 72<-30 210>
-VStem: -30 240<645 717> 310 120<632.745 725.255> 330 80<0 350>
 LayerCount: 2
 Fore
 Refer: 255 926816 N 1 0 0 1 -60 445 2
@@ -3985,13 +3490,11 @@ Refer: 266 926832 S 1 0 0 1 220 444 2
 EndChar
 
 StartChar: ZLM_CAS_EHO
-Encoding: 356 926820 259
+Encoding: 356 926820 356
 Width: 454
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<330 410> 246 91.8711<163.67 203.32> 636 61<374.851 458.539> 645 72<-30 210> 676 57<296.545 376.178>
-VStem: -30 240<645 717> 232 58<635 664.67> 330 80<0 350> 466 56<704.237 734>
 LayerCount: 2
 Fore
 Refer: 255 926816 N 1 0 0 1 -60 445 2
@@ -4000,13 +3503,11 @@ Refer: 277 926848 S 1 0 0 1 228 451 2
 EndChar
 
 StartChar: ZLM_CAS_EHU
-Encoding: 357 926821 260
+Encoding: 357 926821 357
 Width: 454
 VWidth: 0
 GlyphClass: 2
 Flags: HW
-HStem: 0 21G<330 410> 246 91.8711<163.67 203.32> 618.1 61.1006<319.618 440.502> 645 72<-30 210>
-VStem: -30 240<645 717> 330 80<0 350> 464.7 62.3994<699.862 745.5>
 LayerCount: 2
 Fore
 Refer: 255 926816 N 1 0 0 1 -60 445 2
@@ -4015,13 +3516,11 @@ Refer: 288 926864 N 1 0 0 1 227 444 2
 EndChar
 
 StartChar: ZLM_CAS_EHY
-Encoding: 358 926822 261
+Encoding: 358 926822 358
 Width: 454
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<330 410> 246 91.8711<163.67 203.32> 581.05 45.9502<341.403 424.263> 645 72<-30 210> 733 44.9502<342.132 424.135>
-VStem: -30 240<645 717> 285.2 45.7998<637.341 722.505> 330 80<0 350> 435 43.7998<638.173 721.748>
 LayerCount: 2
 Fore
 Refer: 255 926816 N 1 0 0 1 -60 445 2
@@ -4030,13 +3529,11 @@ Refer: 299 926880 N 1 0 0 1 227 445 2
 EndChar
 
 StartChar: ZLM_CAS_EHAI
-Encoding: 359 926823 262
+Encoding: 359 926823 359
 Width: 454
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<330 410> 246 91.8711<163.67 203.32> 645 72<-30 210> 772 37<401.194 408.162>
-VStem: -30 240<645 717> 315.798 73.4521<696.918 764.63> 330 80<0 350> 362.393 79.54<595.326 667.324>
 LayerCount: 2
 Fore
 Refer: 255 926816 N 1 0 0 1 -60 445 2
@@ -4045,13 +3542,11 @@ Refer: 310 926896 N 1 0 0 1 218 442 2
 EndChar
 
 StartChar: ZLM_CAS_EHEI
-Encoding: 360 926824 263
+Encoding: 360 926824 360
 Width: 454
 VWidth: 0
 GlyphClass: 2
 Flags: HW
-HStem: 0 21G<330 410> 246 91.8711<163.67 203.32> 645 72<-30 210> 677 61<315.477 437.718>
-VStem: -30 240<645 717> 232 61<611 653.855> 330 80<0 350> 461 60<611 653.855>
 LayerCount: 2
 Fore
 Refer: 255 926816 N 1 0 0 1 -60 445 2
@@ -4060,13 +3555,11 @@ Refer: 321 926912 N 1 0 0 1 227 436 2
 EndChar
 
 StartChar: ZLM_CAS_EHOI
-Encoding: 361 926825 264
+Encoding: 361 926825 361
 Width: 454
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<330 410> 246 91.8711<163.67 203.32> 559 61<378.58 443.539> 608 60.6954<314.798 357.986> 645 72<-30 210>
-VStem: -30 240<645 717> 330 80<0 350> 451 56<627.237 657>
 LayerCount: 2
 Fore
 Refer: 255 926816 N 1 0 0 1 -60 445 2
@@ -4075,13 +3568,11 @@ Refer: 332 926928 N 1 0 0 1 213 431 2
 EndChar
 
 StartChar: ZLM_CAS_EHAU
-Encoding: 362 926826 265
+Encoding: 362 926826 362
 Width: 454
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<330 410> 246 91.8711<163.67 203.32> 645 72<-30 210> 708.968 92.0319<297.394 345.692>
-VStem: -30 240<645 717> 330 80<0 350> 359.611 70.4574<625.414 711.87>
 LayerCount: 2
 Fore
 Refer: 255 926816 N 1 0 0 1 -60 445 2
@@ -4090,13 +3581,11 @@ Refer: 343 926944 N 1 0 0 1 246 447 2
 EndChar
 
 StartChar: ZLM_DIACRITIC_I
-Encoding: 368 926832 266
+Encoding: 368 926832 368
 Width: 300
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 175 120<103.745 196.255>
-VStem: 90 120<188.745 281.255>
 LayerCount: 2
 Fore
 SplineSet
@@ -4110,28 +3599,24 @@ Validated: 1
 EndChar
 
 StartChar: ZLM_CAS_IHA
-Encoding: 369 926833 267
+Encoding: 369 926833 369
 Width: 454
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<330 410> 246 91.8711<163.67 203.32> 556 244<339 394> 619 120<46.7454 139.255>
-VStem: 33 120<632.745 725.255> 322 90<631.778 800> 330 80<0 350>
 LayerCount: 2
 Fore
 Refer: 266 926832 S 1 0 0 1 -57 444 2
 Refer: 354 926960 N 1 0 0 1 0 0 2
-Refer: 244 926800 N 1 0 0 1 217 450 2
+Refer: 336 926800 N 1 0 0 1 217 450 2
 EndChar
 
 StartChar: ZLM_CAS_IHE
-Encoding: 370 926834 268
+Encoding: 370 926834 370
 Width: 454
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<330 410> 246 91.8711<163.67 203.32> 619 120<46.7454 139.255> 647 72<259 499>
-VStem: 33 120<632.745 725.255> 259 240<647 719> 330 80<0 350>
 LayerCount: 2
 Fore
 Refer: 354 926960 N 1 0 0 1 0 0 2
@@ -4140,13 +3625,11 @@ Refer: 266 926832 N 1 0 0 1 -57 444 2
 EndChar
 
 StartChar: ZLM_CAS_IHI
-Encoding: 371 926835 269
+Encoding: 371 926835 371
 Width: 454
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<330 410> 246 91.8711<163.67 203.32> 619 120<46.7454 139.255 323.745 416.255>
-VStem: 33 120<632.745 725.255> 310 120<632.745 725.255> 330 80<0 350>
 LayerCount: 2
 Fore
 Refer: 354 926960 N 1 0 0 1 0 0 2
@@ -4155,13 +3638,11 @@ Refer: 266 926832 S 1 0 0 1 -57 444 2
 EndChar
 
 StartChar: ZLM_CAS_IHO
-Encoding: 372 926836 270
+Encoding: 372 926836 372
 Width: 454
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<330 410> 246 91.8711<163.67 203.32> 619 120<46.7454 139.255> 636 61<374.851 458.539> 676 57<296.545 376.178>
-VStem: 33 120<632.745 725.255> 232 58<635 664.67> 330 80<0 350> 466 56<704.237 734>
 LayerCount: 2
 Fore
 Refer: 354 926960 N 1 0 0 1 0 0 2
@@ -4170,13 +3651,11 @@ Refer: 277 926848 N 1 0 0 1 228 451 2
 EndChar
 
 StartChar: ZLM_CAS_IHU
-Encoding: 373 926837 271
+Encoding: 373 926837 373
 Width: 454
 VWidth: 0
 GlyphClass: 2
 Flags: HW
-HStem: 0 21G<330 410> 246 91.8711<163.67 203.32> 618.1 61.1006<319.618 440.502> 619 120<46.7454 139.255>
-VStem: 33 120<632.745 725.255> 330 80<0 350> 464.7 62.3994<699.862 745.5>
 LayerCount: 2
 Fore
 Refer: 354 926960 N 1 0 0 1 0 0 2
@@ -4185,13 +3664,11 @@ Refer: 288 926864 N 1 0 0 1 227 444 2
 EndChar
 
 StartChar: ZLM_CAS_IHY
-Encoding: 374 926838 272
+Encoding: 374 926838 374
 Width: 454
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<330 410> 246 91.8711<163.67 203.32> 581.05 45.9502<341.403 424.263> 619 120<46.7454 139.255> 733 44.9502<342.132 424.135>
-VStem: 33 120<632.745 725.255> 285.2 45.7998<637.341 722.505> 330 80<0 350> 435 43.7998<638.173 721.748>
 LayerCount: 2
 Fore
 Refer: 354 926960 N 1 0 0 1 0 0 2
@@ -4200,13 +3677,11 @@ Refer: 299 926880 N 1 0 0 1 227 445 2
 EndChar
 
 StartChar: ZLM_CAS_IHAI
-Encoding: 375 926839 273
+Encoding: 375 926839 375
 Width: 454
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<330 410> 246 91.8711<163.67 203.32> 619 120<46.7454 139.255> 772 37<401.194 408.162>
-VStem: 33 120<632.745 725.255> 315.798 73.4521<696.918 764.63> 330 80<0 350> 362.393 79.54<595.326 667.324>
 LayerCount: 2
 Fore
 Refer: 354 926960 N 1 0 0 1 0 0 2
@@ -4215,13 +3690,11 @@ Refer: 310 926896 N 1 0 0 1 218 442 2
 EndChar
 
 StartChar: ZLM_CAS_IHEI
-Encoding: 376 926840 274
+Encoding: 376 926840 376
 Width: 454
 VWidth: 0
 GlyphClass: 2
 Flags: HW
-HStem: 0 21G<330 410> 246 91.8711<163.67 203.32> 619 120<46.7454 139.255> 677 61<315.477 437.718>
-VStem: 33 120<632.745 725.255> 232 61<611 653.855> 330 80<0 350> 461 60<611 653.855>
 LayerCount: 2
 Fore
 Refer: 354 926960 N 1 0 0 1 0 0 2
@@ -4230,13 +3703,11 @@ Refer: 321 926912 N 1 0 0 1 227 436 2
 EndChar
 
 StartChar: ZLM_CAS_IHOI
-Encoding: 377 926841 275
+Encoding: 377 926841 377
 Width: 454
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<330 410> 246 91.8711<163.67 203.32> 559 61<378.58 443.539> 608 60.6954<314.798 357.986> 619 120<46.7454 139.255>
-VStem: 33 120<632.745 725.255> 330 80<0 350> 451 56<627.237 657>
 LayerCount: 2
 Fore
 Refer: 354 926960 N 1 0 0 1 0 0 2
@@ -4245,13 +3716,11 @@ Refer: 332 926928 N 1 0 0 1 213 431 2
 EndChar
 
 StartChar: ZLM_CAS_IHAU
-Encoding: 378 926842 276
+Encoding: 378 926842 378
 Width: 454
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<330 410> 246 91.8711<163.67 203.32> 619 120<46.7454 139.255> 708.968 92.0319<297.394 345.692>
-VStem: 33 120<632.745 725.255> 330 80<0 350> 359.611 70.4574<625.414 711.87>
 LayerCount: 2
 Fore
 Refer: 354 926960 N 1 0 0 1 0 0 2
@@ -4260,13 +3729,11 @@ Refer: 343 926944 N 1 0 0 1 246 447 2
 EndChar
 
 StartChar: ZLM_DIACRITIC_O
-Encoding: 384 926848 277
+Encoding: 384 926848 384
 Width: 300
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 185 61<146.851 230.539> 225 57<68.5447 148.178>
-VStem: 4 58<184 213.67> 238 56<253.237 283>
 LayerCount: 2
 Fore
 SplineSet
@@ -4290,28 +3757,24 @@ Validated: 1
 EndChar
 
 StartChar: ZLM_CAS_OHA
-Encoding: 385 926849 278
+Encoding: 385 926849 385
 Width: 454
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<330 410> 246 91.8711<163.67 203.32> 556 244<339 394> 628 61<105.851 189.539> 668 57<27.5447 107.178>
-VStem: -37 58<627 656.67> 197 56<696.237 726> 322 90<631.778 800> 330 80<0 350>
 LayerCount: 2
 Fore
 Refer: 354 926960 N 1 0 0 1 0 0 2
 Refer: 277 926848 S 1 0 0 1 -41 443 2
-Refer: 244 926800 N 1 0 0 1 217 450 2
+Refer: 336 926800 N 1 0 0 1 217 450 2
 EndChar
 
 StartChar: ZLM_CAS_OHE
-Encoding: 386 926850 279
+Encoding: 386 926850 386
 Width: 454
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<330 410> 246 91.8711<163.67 203.32> 628 61<105.851 189.539> 647 72<259 499> 668 57<27.5447 107.178>
-VStem: -37 58<627 656.67> 197 56<696.237 726> 259 240<647 719> 330 80<0 350>
 LayerCount: 2
 Fore
 Refer: 354 926960 N 1 0 0 1 0 0 2
@@ -4320,13 +3783,11 @@ Refer: 255 926816 S 1 0 0 1 229 447 2
 EndChar
 
 StartChar: ZLM_CAS_OHI
-Encoding: 387 926851 280
+Encoding: 387 926851 387
 Width: 454
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<330 410> 246 91.8711<163.67 203.32> 619 120<323.745 416.255> 628 61<105.851 189.539> 668 57<27.5447 107.178>
-VStem: -37 58<627 656.67> 197 56<696.237 726> 310 120<632.745 725.255> 330 80<0 350>
 LayerCount: 2
 Fore
 Refer: 354 926960 N 1 0 0 1 0 0 2
@@ -4335,13 +3796,11 @@ Refer: 277 926848 S 1 0 0 1 -41 443 2
 EndChar
 
 StartChar: ZLM_CAS_OHO
-Encoding: 388 926852 281
+Encoding: 388 926852 388
 Width: 454
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<330 410> 246 91.8711<163.67 203.32> 558 61<105.851 189.539> 598 57<27.5447 107.178> 676 61<374.851 458.539> 716 57<296.545 376.178>
-VStem: -37 58<557 586.67> 197 56<626.237 656> 232 58<675 704.67> 330 80<0 350> 466 56<744.237 774>
 LayerCount: 2
 Fore
 Refer: 354 926960 N 1 0 0 1 0 0 2
@@ -4350,13 +3809,11 @@ Refer: 277 926848 N 1 0 0 1 -41 373 2
 EndChar
 
 StartChar: ZLM_CAS_OHU
-Encoding: 389 926853 282
+Encoding: 389 926853 389
 Width: 454
 VWidth: 0
 GlyphClass: 2
 Flags: HW
-HStem: 0 21G<330 410> 246 91.8711<163.67 203.32> 538 61<105.851 189.539> 578 57<27.5447 107.178> 638.1 61.1006<317.618 438.502>
-VStem: -37 58<537 566.67> 197 56<606.237 636> 330 80<0 350> 462.7 62.3994<719.862 765.5>
 LayerCount: 2
 Fore
 Refer: 354 926960 N 1 0 0 1 0 0 2
@@ -4365,13 +3822,11 @@ Refer: 277 926848 N 1 0 0 1 -41 353 2
 EndChar
 
 StartChar: ZLM_CAS_OHY
-Encoding: 390 926854 283
+Encoding: 390 926854 390
 Width: 454
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<330 410> 246 91.8711<163.67 203.32> 581.05 45.9502<341.403 424.263> 628 61<105.851 189.539> 668 57<27.5447 107.178> 733 44.9502<342.132 424.135>
-VStem: -37 58<627 656.67> 197 56<696.237 726> 285.2 45.7998<637.341 722.505> 330 80<0 350> 435 43.7998<638.173 721.748>
 LayerCount: 2
 Fore
 Refer: 354 926960 N 1 0 0 1 0 0 2
@@ -4380,13 +3835,11 @@ Refer: 277 926848 N 1 0 0 1 -41 443 2
 EndChar
 
 StartChar: ZLM_CAS_OHAI
-Encoding: 391 926855 284
+Encoding: 391 926855 391
 Width: 454
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<330 410> 246 91.8711<163.67 203.32> 628 61<105.851 189.539> 668 57<27.5447 107.178> 772 37<401.194 408.162>
-VStem: -37 58<627 656.67> 197 56<696.237 726> 315.798 73.4521<696.918 764.63> 330 80<0 350> 362.393 79.54<595.326 667.324>
 LayerCount: 2
 Fore
 Refer: 354 926960 N 1 0 0 1 0 0 2
@@ -4395,13 +3848,11 @@ Refer: 277 926848 N 1 0 0 1 -41 443 2
 EndChar
 
 StartChar: ZLM_CAS_OHEI
-Encoding: 392 926856 285
+Encoding: 392 926856 392
 Width: 454
 VWidth: 0
 GlyphClass: 2
 Flags: HW
-HStem: 0 21G<330 410> 246 91.8711<163.67 203.32> 578 61<105.851 189.539> 618 57<27.5447 107.178> 749 61<307.477 429.718>
-VStem: -37 58<577 606.67> 197 56<646.237 676> 224 61<683 725.855> 330 80<0 350> 453 60<683 725.855>
 LayerCount: 2
 Fore
 Refer: 354 926960 N 1 0 0 1 0 0 2
@@ -4410,13 +3861,11 @@ Refer: 277 926848 N 1 0 0 1 -41 393 2
 EndChar
 
 StartChar: ZLM_CAS_OHOI
-Encoding: 393 926857 286
+Encoding: 393 926857 393
 Width: 454
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<330 410> 246 91.8711<163.67 203.32> 559 61<378.58 443.539> 608 60.6954<314.798 357.986> 628 61<105.851 189.539> 668 57<27.5447 107.178>
-VStem: -37 58<627 656.67> 197 56<696.237 726> 330 80<0 350> 451 56<627.237 657>
 LayerCount: 2
 Fore
 Refer: 354 926960 N 1 0 0 1 0 0 2
@@ -4425,13 +3874,11 @@ Refer: 277 926848 N 1 0 0 1 -41 443 2
 EndChar
 
 StartChar: ZLM_CAS_OHAU
-Encoding: 394 926858 287
+Encoding: 394 926858 394
 Width: 454
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<330 410> 246 91.8711<163.67 203.32> 628 61<105.851 189.539> 668 57<27.5447 107.178> 708.968 92.0319<297.394 345.692>
-VStem: -37 58<627 656.67> 197 56<696.237 726> 330 80<0 350> 359.611 70.4574<625.414 711.87>
 LayerCount: 2
 Fore
 Refer: 354 926960 N 1 0 0 1 0 0 2
@@ -4440,13 +3887,11 @@ Refer: 277 926848 N 1 0 0 1 -41 443 2
 EndChar
 
 StartChar: ZLM_DIACRITIC_U
-Encoding: 400 926864 288
+Encoding: 400 926864 400
 Width: 300
 VWidth: 0
 GlyphClass: 2
 Flags: HW
-HStem: 174.1 61.1006<92.6182 213.502>
-VStem: 237.7 62.3994<255.862 301.5>
 LayerCount: 2
 Fore
 SplineSet
@@ -4465,28 +3910,24 @@ EndSplineSet
 EndChar
 
 StartChar: ZLM_CAS_UHA
-Encoding: 401 926865 289
+Encoding: 401 926865 401
 Width: 454
 VWidth: 0
 GlyphClass: 2
 Flags: HW
-HStem: 0 21G<330 410> 246 91.8711<163.67 203.32> 556 244<339 394> 618.1 61.1006<38.6182 159.502>
-VStem: 183.7 62.3994<699.862 745.5> 322 90<631.778 800> 330 80<0 350>
 LayerCount: 2
 Fore
 Refer: 354 926960 N 1 0 0 1 0 0 2
 Refer: 288 926864 S 1 0 0 1 -54 444 2
-Refer: 244 926800 N 1 0 0 1 217 450 2
+Refer: 336 926800 N 1 0 0 1 217 450 2
 EndChar
 
 StartChar: ZLM_CAS_UHE
-Encoding: 402 926866 290
+Encoding: 402 926866 402
 Width: 454
 VWidth: 0
 GlyphClass: 2
 Flags: HW
-HStem: 0 21G<330 410> 246 91.8711<163.67 203.32> 618.1 61.1006<38.6182 159.502> 647 72<259 499>
-VStem: 183.7 62.3994<699.862 745.5> 259 240<647 719> 330 80<0 350>
 LayerCount: 2
 Fore
 Refer: 354 926960 N 1 0 0 1 0 0 2
@@ -4495,13 +3936,11 @@ Refer: 288 926864 N 1 0 0 1 -54 444 2
 EndChar
 
 StartChar: ZLM_CAS_UHI
-Encoding: 403 926867 291
+Encoding: 403 926867 403
 Width: 454
 VWidth: 0
 GlyphClass: 2
 Flags: HW
-HStem: 0 21G<330 410> 246 91.8711<163.67 203.32> 618.1 61.1006<38.6182 159.502> 619 120<323.745 416.255>
-VStem: 183.7 62.3994<699.862 745.5> 310 120<632.745 725.255> 330 80<0 350>
 LayerCount: 2
 Fore
 Refer: 354 926960 N 1 0 0 1 0 0 2
@@ -4510,13 +3949,11 @@ Refer: 288 926864 S 1 0 0 1 -54 444 2
 EndChar
 
 StartChar: ZLM_CAS_UHO
-Encoding: 404 926868 292
+Encoding: 404 926868 404
 Width: 454
 VWidth: 0
 GlyphClass: 2
 Flags: HW
-HStem: 0 21G<330 410> 246 91.8711<163.67 203.32> 618.1 61.1006<38.6182 159.502> 636 61<374.851 458.539> 676 57<296.545 376.178>
-VStem: 183.7 62.3994<699.862 745.5> 232 58<635 664.67> 330 80<0 350> 466 56<704.237 734>
 LayerCount: 2
 Fore
 Refer: 354 926960 N 1 0 0 1 0 0 2
@@ -4525,13 +3962,11 @@ Refer: 288 926864 N 1 0 0 1 -54 444 2
 EndChar
 
 StartChar: ZLM_CAS_UHU
-Encoding: 405 926869 293
+Encoding: 405 926869 405
 Width: 454
 VWidth: 0
 GlyphClass: 2
 Flags: HW
-HStem: 0 21G<330 410> 246 91.8711<163.67 203.32> 618.1 61.1006<56.6182 177.502 289.618 410.502>
-VStem: 201.7 62.3994<699.862 745.5> 330 80<0 350> 434.7 62.3994<699.862 745.5>
 LayerCount: 2
 Fore
 Refer: 354 926960 N 1 0 0 1 0 0 2
@@ -4540,13 +3975,11 @@ Refer: 288 926864 N 1 0 0 1 -36 444 2
 EndChar
 
 StartChar: ZLM_CAS_UHY
-Encoding: 406 926870 294
+Encoding: 406 926870 406
 Width: 454
 VWidth: 0
 GlyphClass: 2
 Flags: HW
-HStem: 0 21G<330 410> 246 91.8711<163.67 203.32> 581.05 45.9502<341.403 424.263> 618.1 61.1006<38.6182 159.502> 733 44.9502<342.132 424.135>
-VStem: 183.7 62.3994<699.862 745.5> 285.2 45.7998<637.341 722.505> 330 80<0 350> 435 43.7998<638.173 721.748>
 LayerCount: 2
 Fore
 Refer: 354 926960 N 1 0 0 1 0 0 2
@@ -4555,13 +3988,11 @@ Refer: 288 926864 N 1 0 0 1 -54 444 2
 EndChar
 
 StartChar: ZLM_CAS_UHAI
-Encoding: 407 926871 295
+Encoding: 407 926871 407
 Width: 454
 VWidth: 0
 GlyphClass: 2
 Flags: HW
-HStem: 0 21G<330 410> 246 91.8711<163.67 203.32> 618.1 61.1006<38.6182 159.502> 772 37<401.194 408.162>
-VStem: 183.7 62.3994<699.862 745.5> 315.798 73.4521<696.918 764.63> 330 80<0 350> 362.393 79.54<595.326 667.324>
 LayerCount: 2
 Fore
 Refer: 354 926960 N 1 0 0 1 0 0 2
@@ -4570,13 +4001,11 @@ Refer: 288 926864 N 1 0 0 1 -54 444 2
 EndChar
 
 StartChar: ZLM_CAS_UHEI
-Encoding: 408 926872 296
+Encoding: 408 926872 408
 Width: 454
 VWidth: 0
 GlyphClass: 2
 Flags: HW
-HStem: 0 21G<330 410> 246 91.8711<163.67 203.32> 618.1 61.1006<38.6182 159.502> 677 61<315.477 437.718>
-VStem: 183.7 62.3994<699.862 745.5> 232 61<611 653.855> 330 80<0 350> 461 60<611 653.855>
 LayerCount: 2
 Fore
 Refer: 354 926960 N 1 0 0 1 0 0 2
@@ -4585,13 +4014,11 @@ Refer: 288 926864 N 1 0 0 1 -54 444 2
 EndChar
 
 StartChar: ZLM_CAS_UHOI
-Encoding: 409 926873 297
+Encoding: 409 926873 409
 Width: 454
 VWidth: 0
 GlyphClass: 2
 Flags: HW
-HStem: 0 21G<330 410> 246 91.8711<163.67 203.32> 559 61<378.58 443.539> 608 60.6954<314.798 357.986> 618.1 61.1006<38.6182 159.502>
-VStem: 183.7 62.3994<699.862 745.5> 330 80<0 350> 451 56<627.237 657>
 LayerCount: 2
 Fore
 Refer: 354 926960 N 1 0 0 1 0 0 2
@@ -4600,13 +4027,11 @@ Refer: 288 926864 N 1 0 0 1 -54 444 2
 EndChar
 
 StartChar: ZLM_CAS_UHAU
-Encoding: 410 926874 298
+Encoding: 410 926874 410
 Width: 454
 VWidth: 0
 GlyphClass: 2
 Flags: HW
-HStem: 0 21G<330 410> 246 91.8711<163.67 203.32> 618.1 61.1006<38.6182 159.502> 708.968 92.0319<297.394 345.692>
-VStem: 183.7 62.3994<699.862 745.5> 330 80<0 350> 359.611 70.4574<625.414 711.87>
 LayerCount: 2
 Fore
 Refer: 354 926960 N 1 0 0 1 0 0 2
@@ -4615,13 +4040,11 @@ Refer: 288 926864 N 1 0 0 1 -54 444 2
 EndChar
 
 StartChar: ZLM_DIACRITIC_Y
-Encoding: 416 926880 299
+Encoding: 416 926880 416
 Width: 300
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 136.05 45.9502<114.403 197.263> 288 44.9502<115.132 197.135>
-VStem: 58.2002 45.7998<192.341 277.505> 208 43.7998<193.173 276.748>
 LayerCount: 2
 Fore
 SplineSet
@@ -4640,28 +4063,24 @@ Validated: 1
 EndChar
 
 StartChar: ZLM_CAS_YHA
-Encoding: 417 926881 300
+Encoding: 417 926881 417
 Width: 454
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<330 410> 246 91.8711<163.67 203.32> 556 244<339 394> 581.05 45.9502<50.4025 133.263> 733 44.9502<51.1319 133.135>
-VStem: -5.7998 45.7998<637.341 722.505> 144 43.7998<638.173 721.748> 322 90<631.778 800> 330 80<0 350>
 LayerCount: 2
 Fore
 Refer: 354 926960 N 1 0 0 1 0 0 2
 Refer: 299 926880 S 1 0 0 1 -64 445 2
-Refer: 244 926800 N 1 0 0 1 217 450 2
+Refer: 336 926800 N 1 0 0 1 217 450 2
 EndChar
 
 StartChar: ZLM_CAS_YHE
-Encoding: 418 926882 301
+Encoding: 418 926882 418
 Width: 454
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<330 410> 246 91.8711<163.67 203.32> 581.05 45.9502<50.4025 133.263> 647 72<259 499> 733 44.9502<51.1319 133.135>
-VStem: -5.7998 45.7998<637.341 722.505> 144 43.7998<638.173 721.748> 259 240<647 719> 330 80<0 350>
 LayerCount: 2
 Fore
 Refer: 354 926960 N 1 0 0 1 0 0 2
@@ -4670,13 +4089,11 @@ Refer: 299 926880 S 1 0 0 1 -64 445 2
 EndChar
 
 StartChar: ZLM_CAS_YHI
-Encoding: 419 926883 302
+Encoding: 419 926883 419
 Width: 454
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<330 410> 246 91.8711<163.67 203.32> 581.05 45.9502<50.4025 133.263> 619 120<323.745 416.255> 733 44.9502<51.1319 133.135>
-VStem: -5.7998 45.7998<637.341 722.505> 144 43.7998<638.173 721.748> 310 120<632.745 725.255> 330 80<0 350>
 LayerCount: 2
 Fore
 Refer: 354 926960 N 1 0 0 1 0 0 2
@@ -4685,13 +4102,11 @@ Refer: 299 926880 S 1 0 0 1 -64 445 2
 EndChar
 
 StartChar: ZLM_CAS_YHO
-Encoding: 420 926884 303
+Encoding: 420 926884 420
 Width: 454
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<330 410> 246 91.8711<163.67 203.32> 581.05 45.9502<50.4025 133.263> 636 61<374.851 458.539> 676 57<296.545 376.178> 733 44.9502<51.1319 133.135>
-VStem: -5.7998 45.7998<637.341 722.505> 144 43.7998<638.173 721.748> 232 58<635 664.67> 330 80<0 350> 466 56<704.237 734>
 LayerCount: 2
 Fore
 Refer: 354 926960 N 1 0 0 1 0 0 2
@@ -4700,13 +4115,11 @@ Refer: 299 926880 S 1 0 0 1 -64 445 2
 EndChar
 
 StartChar: ZLM_CAS_YHU
-Encoding: 421 926885 304
+Encoding: 421 926885 421
 Width: 454
 VWidth: 0
 GlyphClass: 2
 Flags: HW
-HStem: 0 21G<330 410> 246 91.8711<163.67 203.32> 581.05 45.9502<50.4025 133.263> 618.1 61.1006<319.618 440.502> 733 44.9502<51.1319 133.135>
-VStem: -5.7998 45.7998<637.341 722.505> 144 43.7998<638.173 721.748> 330 80<0 350> 464.7 62.3994<699.862 745.5>
 LayerCount: 2
 Fore
 Refer: 354 926960 N 1 0 0 1 0 0 2
@@ -4715,13 +4128,11 @@ Refer: 299 926880 S 1 0 0 1 -64 445 2
 EndChar
 
 StartChar: ZLM_CAS_YHY
-Encoding: 422 926886 305
+Encoding: 422 926886 422
 Width: 454
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<330 410> 246 91.8711<163.67 203.32> 581.05 45.9502<50.4025 133.263 341.403 424.263> 733 44.9502<51.1319 133.135 342.132 424.135>
-VStem: -5.7998 45.7998<637.341 722.505> 144 43.7998<638.173 721.748> 285.2 45.7998<637.341 722.505> 330 80<0 350> 435 43.7998<638.173 721.748>
 LayerCount: 2
 Fore
 Refer: 354 926960 N 1 0 0 1 0 0 2
@@ -4730,13 +4141,11 @@ Refer: 299 926880 S 1 0 0 1 -64 445 2
 EndChar
 
 StartChar: ZLM_CAS_YHAI
-Encoding: 423 926887 306
+Encoding: 423 926887 423
 Width: 454
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<330 410> 246 91.8711<163.67 203.32> 581.05 45.9502<50.4025 133.263> 733 44.9502<51.1319 133.135> 772 37<401.194 408.162>
-VStem: -5.7998 45.7998<637.341 722.505> 144 43.7998<638.173 721.748> 315.798 73.4521<696.918 764.63> 330 80<0 350> 362.393 79.54<595.326 667.324>
 LayerCount: 2
 Fore
 Refer: 354 926960 N 1 0 0 1 0 0 2
@@ -4745,13 +4154,11 @@ Refer: 299 926880 S 1 0 0 1 -64 445 2
 EndChar
 
 StartChar: ZLM_CAS_YHEI
-Encoding: 424 926888 307
+Encoding: 424 926888 424
 Width: 454
 VWidth: 0
 GlyphClass: 2
 Flags: HW
-HStem: 0 21G<330 410> 246 91.8711<163.67 203.32> 581.05 45.9502<50.4025 133.263> 677 61<315.477 437.718> 733 44.9502<51.1319 133.135>
-VStem: -5.7998 45.7998<637.341 722.505> 144 43.7998<638.173 721.748> 232 61<611 653.855> 330 80<0 350> 461 60<611 653.855>
 LayerCount: 2
 Fore
 Refer: 354 926960 N 1 0 0 1 0 0 2
@@ -4760,13 +4167,11 @@ Refer: 299 926880 S 1 0 0 1 -64 445 2
 EndChar
 
 StartChar: ZLM_CAS_YHOI
-Encoding: 425 926889 308
+Encoding: 425 926889 425
 Width: 454
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<330 410> 246 91.8711<163.67 203.32> 559 61<378.58 443.539> 581.05 45.9502<50.4025 133.263> 608 60.6954<314.798 357.986> 733 44.9502<51.1319 133.135>
-VStem: -5.7998 45.7998<637.341 722.505> 144 43.7998<638.173 721.748> 330 80<0 350> 451 56<627.237 657>
 LayerCount: 2
 Fore
 Refer: 354 926960 N 1 0 0 1 0 0 2
@@ -4775,13 +4180,11 @@ Refer: 299 926880 S 1 0 0 1 -64 445 2
 EndChar
 
 StartChar: ZLM_CAS_YHAU
-Encoding: 426 926890 309
+Encoding: 426 926890 426
 Width: 454
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<330 410> 246 91.8711<163.67 203.32> 581.05 45.9502<50.4025 133.263> 708.968 92.0319<297.394 345.692> 733 44.9502<51.1319 133.135>
-VStem: -5.7998 45.7998<637.341 722.505> 144 43.7998<638.173 721.748> 330 80<0 350> 359.611 70.4574<625.414 711.87>
 LayerCount: 2
 Fore
 Refer: 354 926960 N 1 0 0 1 0 0 2
@@ -4790,13 +4193,11 @@ Refer: 299 926880 S 1 0 0 1 -64 445 2
 EndChar
 
 StartChar: ZLM_DIACRITIC_AI
-Encoding: 432 926896 310
+Encoding: 432 926896 432
 Width: 300
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 330 37<183.194 190.162>
-VStem: 97.7979 73.4521<254.918 322.63> 144.393 79.54<153.326 225.324>
 LayerCount: 2
 Fore
 SplineSet
@@ -4819,28 +4220,24 @@ EndSplineSet
 EndChar
 
 StartChar: ZLM_CAS_AIHA
-Encoding: 433 926897 311
+Encoding: 433 926897 433
 Width: 454
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<330 410> 246 91.8711<163.67 203.32> 556 244<339 394> 776 37<119.194 126.162>
-VStem: 33.7979 73.4521<700.918 768.63> 80.3926 79.54<599.326 671.324> 322 90<631.778 800> 330 80<0 350>
 LayerCount: 2
 Fore
 Refer: 354 926960 N 1 0 0 1 0 0 2
 Refer: 310 926896 S 1 0 0 1 -64 446 2
-Refer: 244 926800 N 1 0 0 1 217 450 2
+Refer: 336 926800 N 1 0 0 1 217 450 2
 EndChar
 
 StartChar: ZLM_CAS_AIHE
-Encoding: 434 926898 312
+Encoding: 434 926898 434
 Width: 454
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<330 410> 246 91.8711<163.67 203.32> 647 72<259 499> 776 37<119.194 126.162>
-VStem: 33.7979 73.4521<700.918 768.63> 80.3926 79.54<599.326 671.324> 259 240<647 719> 330 80<0 350>
 LayerCount: 2
 Fore
 Refer: 310 926896 N 1 0 0 1 -64 446 2
@@ -4849,13 +4246,11 @@ Refer: 255 926816 N 1 0 0 1 229 447 2
 EndChar
 
 StartChar: ZLM_CAS_AIHI
-Encoding: 435 926899 313
+Encoding: 435 926899 435
 Width: 454
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<330 410> 246 91.8711<163.67 203.32> 619 120<323.745 416.255> 776 37<119.194 126.162>
-VStem: 33.7979 73.4521<700.918 768.63> 80.3926 79.54<599.326 671.324> 310 120<632.745 725.255> 330 80<0 350>
 LayerCount: 2
 Fore
 Refer: 310 926896 S 1 0 0 1 -64 446 2
@@ -4864,13 +4259,11 @@ Refer: 266 926832 N 1 0 0 1 220 444 2
 EndChar
 
 StartChar: ZLM_CAS_AIHO
-Encoding: 436 926900 314
+Encoding: 436 926900 436
 Width: 454
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<330 410> 246 91.8711<163.67 203.32> 636 61<374.851 458.539> 676 57<296.545 376.178> 776 37<119.194 126.162>
-VStem: 33.7979 73.4521<700.918 768.63> 80.3926 79.54<599.326 671.324> 232 58<635 664.67> 330 80<0 350> 466 56<704.237 734>
 LayerCount: 2
 Fore
 Refer: 310 926896 N 1 0 0 1 -64 446 2
@@ -4879,13 +4272,11 @@ Refer: 277 926848 N 1 0 0 1 228 451 2
 EndChar
 
 StartChar: ZLM_CAS_AIHU
-Encoding: 437 926901 315
+Encoding: 437 926901 437
 Width: 454
 VWidth: 0
 GlyphClass: 2
 Flags: HW
-HStem: 0 21G<330 410> 246 91.8711<163.67 203.32> 618.1 61.1006<319.618 440.502> 776 37<119.194 126.162>
-VStem: 33.7979 73.4521<700.918 768.63> 80.3926 79.54<599.326 671.324> 330 80<0 350> 464.7 62.3994<699.862 745.5>
 LayerCount: 2
 Fore
 Refer: 310 926896 N 1 0 0 1 -64 446 2
@@ -4894,13 +4285,11 @@ Refer: 288 926864 N 1 0 0 1 227 444 2
 EndChar
 
 StartChar: ZLM_CAS_AIHY
-Encoding: 438 926902 316
+Encoding: 438 926902 438
 Width: 454
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<330 410> 246 91.8711<163.67 203.32> 581.05 45.9502<341.403 424.263> 733 44.9502<342.132 424.135> 776 37<119.194 126.162>
-VStem: 33.7979 73.4521<700.918 768.63> 80.3926 79.54<599.326 671.324> 285.2 45.7998<637.341 722.505> 330 80<0 350> 435 43.7998<638.173 721.748>
 LayerCount: 2
 Fore
 Refer: 310 926896 N 1 0 0 1 -64 446 2
@@ -4909,13 +4298,11 @@ Refer: 299 926880 N 1 0 0 1 227 445 2
 EndChar
 
 StartChar: ZLM_CAS_AIHAI
-Encoding: 439 926903 317
+Encoding: 439 926903 439
 Width: 454
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<330 410> 246 91.8711<163.67 203.32> 772 37<401.194 408.162> 776 37<119.194 126.162>
-VStem: 33.7979 73.4521<700.918 768.63> 80.3926 79.54<599.326 671.324> 315.798 73.4521<696.918 764.63> 330 80<0 350> 362.393 79.54<595.326 667.324>
 LayerCount: 2
 Fore
 Refer: 310 926896 N 1 0 0 1 -64 446 2
@@ -4924,13 +4311,11 @@ Refer: 310 926896 N 1 0 0 1 218 442 2
 EndChar
 
 StartChar: ZLM_CAS_AIHEI
-Encoding: 440 926904 318
+Encoding: 440 926904 440
 Width: 454
 VWidth: 0
 GlyphClass: 2
 Flags: HW
-HStem: 0 21G<330 410> 246 91.8711<163.67 203.32> 677 61<315.477 437.718> 776 37<119.194 126.162>
-VStem: 33.7979 73.4521<700.918 768.63> 80.3926 79.54<599.326 671.324> 232 61<611 653.855> 330 80<0 350> 461 60<611 653.855>
 LayerCount: 2
 Fore
 Refer: 310 926896 N 1 0 0 1 -64 446 2
@@ -4939,13 +4324,11 @@ Refer: 321 926912 N 1 0 0 1 227 436 2
 EndChar
 
 StartChar: ZLM_CAS_AIHOI
-Encoding: 441 926905 319
+Encoding: 441 926905 441
 Width: 454
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<330 410> 246 91.8711<163.67 203.32> 559 61<378.58 443.539> 608 60.6954<314.798 357.986> 776 37<119.194 126.162>
-VStem: 33.7979 73.4521<700.918 768.63> 80.3926 79.54<599.326 671.324> 330 80<0 350> 451 56<627.237 657>
 LayerCount: 2
 Fore
 Refer: 310 926896 N 1 0 0 1 -64 446 2
@@ -4954,13 +4337,11 @@ Refer: 332 926928 N 1 0 0 1 213 431 2
 EndChar
 
 StartChar: ZLM_CAS_AIHAU
-Encoding: 442 926906 320
+Encoding: 442 926906 442
 Width: 454
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<330 410> 246 91.8711<163.67 203.32> 708.968 92.0319<297.394 345.692> 776 37<119.194 126.162>
-VStem: 33.7979 73.4521<700.918 768.63> 80.3926 79.54<599.326 671.324> 330 80<0 350> 359.611 70.4574<625.414 711.87>
 LayerCount: 2
 Fore
 Refer: 310 926896 N 1 0 0 1 -64 446 2
@@ -4969,13 +4350,11 @@ Refer: 343 926944 N 1 0 0 1 246 447 2
 EndChar
 
 StartChar: ZLM_DIACRITIC_EI
-Encoding: 448 926912 321
+Encoding: 448 926912 448
 Width: 300
 VWidth: 0
 GlyphClass: 2
 Flags: HW
-HStem: 241 61<88.477 210.718>
-VStem: 5 61<175 217.855> 234 60<175 217.855>
 LayerCount: 2
 Fore
 SplineSet
@@ -4990,28 +4369,24 @@ EndSplineSet
 EndChar
 
 StartChar: ZLM_CAS_EIHA
-Encoding: 449 926913 322
+Encoding: 449 926913 449
 Width: 454
 VWidth: 0
 GlyphClass: 2
 Flags: HW
-HStem: 0 21G<330 410> 246 91.8711<163.67 203.32> 556 244<339 394> 681 61<38.477 160.718>
-VStem: -45 61<615 657.855> 184 60<615 657.855> 322 90<631.778 800> 330 80<0 350>
 LayerCount: 2
 Fore
 Refer: 354 926960 N 1 0 0 1 0 0 2
 Refer: 321 926912 S 1 0 0 1 -50 440 2
-Refer: 244 926800 N 1 0 0 1 217 450 2
+Refer: 336 926800 N 1 0 0 1 217 450 2
 EndChar
 
 StartChar: ZLM_CAS_EIHE
-Encoding: 450 926914 323
+Encoding: 450 926914 450
 Width: 454
 VWidth: 0
 GlyphClass: 2
 Flags: HW
-HStem: 0 21G<330 410> 246 91.8711<163.67 203.32> 647 72<259 499> 681 61<38.477 160.718>
-VStem: -45 61<615 657.855> 184 60<615 657.855> 259 240<647 719> 330 80<0 350>
 LayerCount: 2
 Fore
 Refer: 321 926912 N 1 0 0 1 -50 440 2
@@ -5020,13 +4395,11 @@ Refer: 255 926816 N 1 0 0 1 229 447 2
 EndChar
 
 StartChar: ZLM_CAS_EIHI
-Encoding: 451 926915 324
+Encoding: 451 926915 451
 Width: 454
 VWidth: 0
 GlyphClass: 2
 Flags: HW
-HStem: 0 21G<330 410> 246 91.8711<163.67 203.32> 619 120<323.745 416.255> 681 61<38.477 160.718>
-VStem: -45 61<615 657.855> 184 60<615 657.855> 310 120<632.745 725.255> 330 80<0 350>
 LayerCount: 2
 Fore
 Refer: 321 926912 S 1 0 0 1 -50 440 2
@@ -5035,13 +4408,11 @@ Refer: 266 926832 N 1 0 0 1 220 444 2
 EndChar
 
 StartChar: ZLM_CAS_EIHO
-Encoding: 452 926916 325
+Encoding: 452 926916 452
 Width: 454
 VWidth: 0
 GlyphClass: 2
 Flags: HW
-HStem: 0 21G<330 410> 246 91.8711<163.67 203.32> 641 61<38.477 160.718> 686 61<374.851 458.539> 726 57<296.545 376.178>
-VStem: -45 61<575 617.855> 184 60<575 617.855> 232 58<685 714.67> 330 80<0 350> 466 56<754.237 784>
 LayerCount: 2
 Fore
 Refer: 321 926912 N 1 0 0 1 -50 400 2
@@ -5050,13 +4421,11 @@ Refer: 277 926848 S 1 0 0 1 228 501 2
 EndChar
 
 StartChar: ZLM_CAS_EIHU
-Encoding: 453 926917 326
+Encoding: 453 926917 453
 Width: 454
 VWidth: 0
 GlyphClass: 2
 Flags: HW
-HStem: 0 21G<330 410> 246 91.8711<163.67 203.32> 618.1 61.1006<319.618 440.502> 681 61<38.477 160.718>
-VStem: -45 61<615 657.855> 184 60<615 657.855> 330 80<0 350> 464.7 62.3994<699.862 745.5>
 LayerCount: 2
 Fore
 Refer: 321 926912 N 1 0 0 1 -50 440 2
@@ -5065,13 +4434,11 @@ Refer: 288 926864 N 1 0 0 1 227 444 2
 EndChar
 
 StartChar: ZLM_CAS_EIHY
-Encoding: 454 926918 327
+Encoding: 454 926918 454
 Width: 454
 VWidth: 0
 GlyphClass: 2
 Flags: HW
-HStem: 0 21G<330 410> 246 91.8711<163.67 203.32> 581.05 45.9502<341.403 424.263> 681 61<38.477 160.718> 733 44.9502<342.132 424.135>
-VStem: -45 61<615 657.855> 184 60<615 657.855> 285.2 45.7998<637.341 722.505> 330 80<0 350> 435 43.7998<638.173 721.748>
 LayerCount: 2
 Fore
 Refer: 321 926912 N 1 0 0 1 -50 440 2
@@ -5080,13 +4447,11 @@ Refer: 299 926880 N 1 0 0 1 227 445 2
 EndChar
 
 StartChar: ZLM_CAS_EIHAI
-Encoding: 455 926919 328
+Encoding: 455 926919 455
 Width: 454
 VWidth: 0
 GlyphClass: 2
 Flags: HW
-HStem: 0 21G<330 410> 246 91.8711<163.67 203.32> 681 61<38.477 160.718> 772 37<401.194 408.162>
-VStem: -45 61<615 657.855> 184 60<615 657.855> 315.798 73.4521<696.918 764.63> 330 80<0 350> 362.393 79.54<595.326 667.324>
 LayerCount: 2
 Fore
 Refer: 321 926912 N 1 0 0 1 -50 440 2
@@ -5095,13 +4460,11 @@ Refer: 310 926896 N 1 0 0 1 218 442 2
 EndChar
 
 StartChar: ZLM_CAS_EIHEI
-Encoding: 456 926920 329
+Encoding: 456 926920 456
 Width: 454
 VWidth: 0
 GlyphClass: 2
 Flags: HW
-HStem: 0 21G<330 410> 246 91.8711<163.67 203.32> 677 61<53.477 175.718 281.477 403.718>
-VStem: -30 61<611 653.855> 198 61<611 653.855> 199 60<611 653.855> 330 80<0 350> 427 60<611 653.855>
 LayerCount: 2
 Fore
 Refer: 321 926912 S 1 0 0 1 -35 436 2
@@ -5110,13 +4473,11 @@ Refer: 321 926912 S 1 0 0 1 193 436 2
 EndChar
 
 StartChar: ZLM_CAS_EIHOI
-Encoding: 457 926921 330
+Encoding: 457 926921 457
 Width: 454
 VWidth: 0
 GlyphClass: 2
 Flags: HW
-HStem: 0 21G<330 410> 246 91.8711<163.67 203.32> 529 61<378.58 443.539> 578 60.6954<314.798 357.986> 715 61<38.477 160.718>
-VStem: -45 61<649 691.855> 184 60<649 691.855> 330 80<0 350> 451 56<597.237 627>
 LayerCount: 2
 Fore
 Refer: 321 926912 N 1 0 0 1 -50 474 2
@@ -5125,13 +4486,11 @@ Refer: 332 926928 S 1 0 0 1 213 401 2
 EndChar
 
 StartChar: ZLM_CAS_EIHAU
-Encoding: 458 926922 331
+Encoding: 458 926922 458
 Width: 454
 VWidth: 0
 GlyphClass: 2
 Flags: HW
-HStem: 0 21G<330 410> 246 91.8711<163.67 203.32> 681 61<38.477 160.718> 708.968 92.0319<297.394 345.692>
-VStem: -45 61<615 657.855> 184 60<615 657.855> 330 80<0 350> 359.611 70.4574<625.414 711.87>
 LayerCount: 2
 Fore
 Refer: 321 926912 N 1 0 0 1 -50 440 2
@@ -5140,13 +4499,11 @@ Refer: 343 926944 N 1 0 0 1 246 447 2
 EndChar
 
 StartChar: ZLM_DIACRITIC_OI
-Encoding: 464 926928 332
+Encoding: 464 926928 464
 Width: 300
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 128 61<165.58 230.539> 177 60.6954<101.798 144.986>
-VStem: 238 56<196.237 226>
 LayerCount: 2
 Fore
 SplineSet
@@ -5172,28 +4529,24 @@ Validated: 1
 EndChar
 
 StartChar: ZLM_CAS_OIHA
-Encoding: 465 926929 333
+Encoding: 465 926929 465
 Width: 454
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<330 410> 246 91.8711<163.67 203.32> 556 244<339 394> 559 61<106.58 171.539> 608 60.6954<42.7979 85.9856>
-VStem: 179 56<627.237 657> 322 90<631.778 800> 330 80<0 350>
 LayerCount: 2
 Fore
 Refer: 332 926928 S 1 0 0 1 -59 431 2
 Refer: 354 926960 N 1 0 0 1 0 0 2
-Refer: 244 926800 N 1 0 0 1 217 450 2
+Refer: 336 926800 N 1 0 0 1 217 450 2
 EndChar
 
 StartChar: ZLM_CAS_OIHE
-Encoding: 466 926930 334
+Encoding: 466 926930 466
 Width: 454
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<330 410> 246 91.8711<163.67 203.32> 559 61<106.58 171.539> 608 60.6954<42.7979 85.9856> 647 72<259 499>
-VStem: 179 56<627.237 657> 259 240<647 719> 330 80<0 350>
 LayerCount: 2
 Fore
 Refer: 332 926928 N 1 0 0 1 -59 431 2
@@ -5202,13 +4555,11 @@ Refer: 255 926816 N 1 0 0 1 229 447 2
 EndChar
 
 StartChar: ZLM_CAS_OIHI
-Encoding: 467 926931 335
+Encoding: 467 926931 467
 Width: 454
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<330 410> 246 91.8711<163.67 203.32> 559 61<106.58 171.539> 608 60.6954<42.7979 85.9856> 619 120<323.745 416.255>
-VStem: 179 56<627.237 657> 310 120<632.745 725.255> 330 80<0 350>
 LayerCount: 2
 Fore
 Refer: 332 926928 S 1 0 0 1 -59 431 2
@@ -5217,13 +4568,11 @@ Refer: 266 926832 N 1 0 0 1 220 444 2
 EndChar
 
 StartChar: ZLM_CAS_OIHO
-Encoding: 468 926932 336
+Encoding: 468 926932 468
 Width: 454
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<330 410> 246 91.8711<163.67 203.32> 519 61<106.58 171.539> 568 60.6954<42.7979 85.9856> 676 61<374.851 458.539> 716 57<296.545 376.178>
-VStem: 179 56<587.237 617> 232 58<675 704.67> 330 80<0 350> 466 56<744.237 774>
 LayerCount: 2
 Fore
 Refer: 332 926928 N 1 0 0 1 -59 391 2
@@ -5232,13 +4581,11 @@ Refer: 277 926848 N 1 0 0 1 228 491 2
 EndChar
 
 StartChar: ZLM_CAS_OIHU
-Encoding: 469 926933 337
+Encoding: 469 926933 469
 Width: 454
 VWidth: 0
 GlyphClass: 2
 Flags: HW
-HStem: 0 21G<330 410> 246 91.8711<163.67 203.32> 559 61<106.58 171.539> 608 60.6954<42.7979 85.9856> 618.1 61.1006<319.618 440.502>
-VStem: 179 56<627.237 657> 330 80<0 350> 464.7 62.3994<699.862 745.5>
 LayerCount: 2
 Fore
 Refer: 332 926928 N 1 0 0 1 -59 431 2
@@ -5247,13 +4594,11 @@ Refer: 288 926864 N 1 0 0 1 227 444 2
 EndChar
 
 StartChar: ZLM_CAS_OIHY
-Encoding: 470 926934 338
+Encoding: 470 926934 470
 Width: 454
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<330 410> 246 91.8711<163.67 203.32> 559 61<106.58 171.539> 581.05 45.9502<341.403 424.263> 608 60.6954<42.7979 85.9856> 733 44.9502<342.132 424.135>
-VStem: 179 56<627.237 657> 285.2 45.7998<637.341 722.505> 330 80<0 350> 435 43.7998<638.173 721.748>
 LayerCount: 2
 Fore
 Refer: 332 926928 N 1 0 0 1 -59 431 2
@@ -5262,13 +4607,11 @@ Refer: 299 926880 N 1 0 0 1 227 445 2
 EndChar
 
 StartChar: ZLM_CAS_OIHAI
-Encoding: 471 926935 339
+Encoding: 471 926935 471
 Width: 454
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<330 410> 246 91.8711<163.67 203.32> 559 61<106.58 171.539> 608 60.6954<42.7979 85.9856> 772 37<401.194 408.162>
-VStem: 179 56<627.237 657> 315.798 73.4521<696.918 764.63> 330 80<0 350> 362.393 79.54<595.326 667.324>
 LayerCount: 2
 Fore
 Refer: 332 926928 N 1 0 0 1 -59 431 2
@@ -5277,13 +4620,11 @@ Refer: 310 926896 N 1 0 0 1 218 442 2
 EndChar
 
 StartChar: ZLM_CAS_OIHEI
-Encoding: 472 926936 340
+Encoding: 472 926936 472
 Width: 454
 VWidth: 0
 GlyphClass: 2
 Flags: HW
-HStem: 0 21G<330 410> 246 91.8711<163.67 203.32> 559 61<106.58 171.539> 608 60.6954<42.7979 85.9856> 677 61<315.477 437.718>
-VStem: 179 56<627.237 657> 232 61<611 653.855> 330 80<0 350> 461 60<611 653.855>
 LayerCount: 2
 Fore
 Refer: 332 926928 N 1 0 0 1 -59 431 2
@@ -5292,13 +4633,11 @@ Refer: 321 926912 N 1 0 0 1 227 436 2
 EndChar
 
 StartChar: ZLM_CAS_OIHOI
-Encoding: 473 926937 341
+Encoding: 473 926937 473
 Width: 454
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<330 410> 246 91.8711<163.67 203.32> 559 61<106.58 171.539 378.58 443.539> 608 60.6954<42.7979 85.9856 314.798 357.986>
-VStem: 179 56<627.237 657> 330 80<0 350> 451 56<627.237 657>
 LayerCount: 2
 Fore
 Refer: 332 926928 N 1 0 0 1 -59 431 2
@@ -5307,13 +4646,11 @@ Refer: 332 926928 N 1 0 0 1 213 431 2
 EndChar
 
 StartChar: ZLM_CAS_OIHAU
-Encoding: 474 926938 342
+Encoding: 474 926938 474
 Width: 454
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<330 410> 246 91.8711<163.67 203.32> 559 61<106.58 171.539> 608 60.6954<42.7979 85.9856> 708.968 92.0319<297.394 345.692>
-VStem: 179 56<627.237 657> 330 80<0 350> 359.611 70.4574<625.414 711.87>
 LayerCount: 2
 Fore
 Refer: 332 926928 N 1 0 0 1 -59 431 2
@@ -5322,13 +4659,11 @@ Refer: 343 926944 N 1 0 0 1 246 447 2
 EndChar
 
 StartChar: ZLM_DIACRITIC_AU
-Encoding: 480 926944 343
+Encoding: 480 926944 480
 Width: 227
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 261.968 92.0319<51.3944 99.6918>
-VStem: 113.611 70.4574<178.414 264.87>
 LayerCount: 2
 Fore
 SplineSet
@@ -5348,28 +4683,24 @@ Validated: 1
 EndChar
 
 StartChar: ZLM_CAS_AUHA
-Encoding: 481 926945 344
+Encoding: 481 926945 481
 Width: 454
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<330 410> 246 91.8711<163.67 203.32> 556 244<339 394> 688.968 92.0319<37.3944 85.6918>
-VStem: 99.6106 70.4574<605.414 691.87> 322 90<631.778 800> 330 80<0 350>
 LayerCount: 2
 Fore
 Refer: 343 926944 S 1 0 0 1 -14 427 2
 Refer: 354 926960 N 1 0 0 1 0 0 2
-Refer: 244 926800 N 1 0 0 1 217 450 2
+Refer: 336 926800 N 1 0 0 1 217 450 2
 EndChar
 
 StartChar: ZLM_CAS_AUHE
-Encoding: 482 926946 345
+Encoding: 482 926946 482
 Width: 454
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<330 410> 246 91.8711<163.67 203.32> 647 72<259 499> 688.968 92.0319<37.3944 85.6918>
-VStem: 99.6106 70.4574<605.414 691.87> 259 240<647 719> 330 80<0 350>
 LayerCount: 2
 Fore
 Refer: 343 926944 N 1 0 0 1 -14 427 2
@@ -5378,13 +4709,11 @@ Refer: 255 926816 N 1 0 0 1 229 447 2
 EndChar
 
 StartChar: ZLM_CAS_AUHI
-Encoding: 483 926947 346
+Encoding: 483 926947 483
 Width: 454
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<330 410> 246 91.8711<163.67 203.32> 619 120<323.745 416.255> 688.968 92.0319<37.3944 85.6918>
-VStem: 99.6106 70.4574<605.414 691.87> 310 120<632.745 725.255> 330 80<0 350>
 LayerCount: 2
 Fore
 Refer: 343 926944 S 1 0 0 1 -14 427 2
@@ -5393,13 +4722,11 @@ Refer: 266 926832 N 1 0 0 1 220 444 2
 EndChar
 
 StartChar: ZLM_CAS_AUHO
-Encoding: 484 926948 347
+Encoding: 484 926948 484
 Width: 454
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<330 410> 246 91.8711<163.67 203.32> 636 61<374.851 458.539> 676 57<296.545 376.178> 688.968 92.0319<37.3944 85.6918>
-VStem: 99.6106 70.4574<605.414 691.87> 232 58<635 664.67> 330 80<0 350> 466 56<704.237 734>
 LayerCount: 2
 Fore
 Refer: 343 926944 N 1 0 0 1 -14 427 2
@@ -5408,13 +4735,11 @@ Refer: 277 926848 N 1 0 0 1 228 451 2
 EndChar
 
 StartChar: ZLM_CAS_AUHU
-Encoding: 485 926949 348
+Encoding: 485 926949 485
 Width: 454
 VWidth: 0
 GlyphClass: 2
 Flags: HW
-HStem: 0 21G<330 410> 246 91.8711<163.67 203.32> 618.1 61.1006<319.618 440.502> 688.968 92.0319<37.3944 85.6918>
-VStem: 99.6106 70.4574<605.414 691.87> 330 80<0 350> 464.7 62.3994<699.862 745.5>
 LayerCount: 2
 Fore
 Refer: 343 926944 N 1 0 0 1 -14 427 2
@@ -5423,13 +4748,11 @@ Refer: 288 926864 N 1 0 0 1 227 444 2
 EndChar
 
 StartChar: ZLM_CAS_AUHY
-Encoding: 486 926950 349
+Encoding: 486 926950 486
 Width: 454
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<330 410> 246 91.8711<163.67 203.32> 581.05 45.9502<341.403 424.263> 688.968 92.0319<37.3944 85.6918> 733 44.9502<342.132 424.135>
-VStem: 99.6106 70.4574<605.414 691.87> 285.2 45.7998<637.341 722.505> 330 80<0 350> 435 43.7998<638.173 721.748>
 LayerCount: 2
 Fore
 Refer: 343 926944 N 1 0 0 1 -14 427 2
@@ -5438,13 +4761,11 @@ Refer: 299 926880 N 1 0 0 1 227 445 2
 EndChar
 
 StartChar: ZLM_CAS_AUHAI
-Encoding: 487 926951 350
+Encoding: 487 926951 487
 Width: 454
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<330 410> 246 91.8711<163.67 203.32> 688.968 92.0319<37.3944 85.6918> 772 37<401.194 408.162>
-VStem: 99.6106 70.4574<605.414 691.87> 315.798 73.4521<696.918 764.63> 330 80<0 350> 362.393 79.54<595.326 667.324>
 LayerCount: 2
 Fore
 Refer: 343 926944 N 1 0 0 1 -14 427 2
@@ -5453,13 +4774,11 @@ Refer: 310 926896 N 1 0 0 1 218 442 2
 EndChar
 
 StartChar: ZLM_CAS_AUHEI
-Encoding: 488 926952 351
+Encoding: 488 926952 488
 Width: 454
 VWidth: 0
 GlyphClass: 2
 Flags: HW
-HStem: 0 21G<330 410> 246 91.8711<163.67 203.32> 677 61<315.477 437.718> 688.968 92.0319<37.3944 85.6918>
-VStem: 99.6106 70.4574<605.414 691.87> 232 61<611 653.855> 330 80<0 350> 461 60<611 653.855>
 LayerCount: 2
 Fore
 Refer: 343 926944 N 1 0 0 1 -14 427 2
@@ -5468,13 +4787,11 @@ Refer: 321 926912 N 1 0 0 1 227 436 2
 EndChar
 
 StartChar: ZLM_CAS_AUHOI
-Encoding: 489 926953 352
+Encoding: 489 926953 489
 Width: 454
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<330 410> 246 91.8711<163.67 203.32> 559 61<378.58 443.539> 608 60.6954<314.798 357.986> 688.968 92.0319<37.3944 85.6918>
-VStem: 99.6106 70.4574<605.414 691.87> 330 80<0 350> 451 56<627.237 657>
 LayerCount: 2
 Fore
 Refer: 343 926944 N 1 0 0 1 -14 427 2
@@ -5483,13 +4800,11 @@ Refer: 332 926928 N 1 0 0 1 213 431 2
 EndChar
 
 StartChar: ZLM_CAS_AUHAU
-Encoding: 490 926954 353
+Encoding: 490 926954 490
 Width: 454
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<330 410> 246 91.8711<163.67 203.32> 688.968 92.0319<37.3944 85.6918> 708.968 92.0319<297.394 345.692>
-VStem: 99.6106 70.4574<605.414 691.87> 330 80<0 350> 359.611 70.4574<625.414 711.87>
 LayerCount: 2
 Fore
 Refer: 343 926944 N 1 0 0 1 -14 427 2
@@ -5498,13 +4813,11 @@ Refer: 343 926944 N 1 0 0 1 246 447 2
 EndChar
 
 StartChar: ZLM_CAS_ISO
-Encoding: 496 926960 354
+Encoding: 496 926960 496
 Width: 460
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<330 410> 246 91.8711<163.67 203.32>
-VStem: 330 80<0 350>
 LayerCount: 2
 Fore
 SplineSet
@@ -5522,13 +4835,11 @@ EndSplineSet
 EndChar
 
 StartChar: ZLM_FULL_A
-Encoding: 497 926961 355
+Encoding: 497 926961 497
 Width: 600
 VWidth: 1024
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<50 150> 390 80<150 550>
-VStem: 50 100<0 390>
 LayerCount: 2
 Fore
 SplineSet
@@ -5543,13 +4854,11 @@ EndSplineSet
 EndChar
 
 StartChar: ZLM_FULL_E
-Encoding: 498 926962 356
+Encoding: 498 926962 498
 Width: 600
 VWidth: 1024
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<49 149> 195 80<149 550>
-VStem: 49 100<0 195 275 470>
 LayerCount: 2
 Fore
 SplineSet
@@ -5566,13 +4875,11 @@ EndSplineSet
 EndChar
 
 StartChar: ZLM_FULL_I
-Encoding: 499 926963 357
+Encoding: 499 926963 499
 Width: 600
 VWidth: 1024
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<49 149 449 549> 390 80<149 449 549 550>
-VStem: 49 100<0 390> 449 100<0 390>
 LayerCount: 2
 Fore
 SplineSet
@@ -5591,13 +4898,11 @@ EndSplineSet
 EndChar
 
 StartChar: ZLM_FULL_O
-Encoding: 500 926964 358
+Encoding: 500 926964 500
 Width: 600
 VWidth: 1024
 GlyphClass: 2
 Flags: W
-HStem: 0 80<50 450>
-VStem: 450 100<80 470>
 LayerCount: 2
 Fore
 SplineSet
@@ -5612,13 +4917,11 @@ EndSplineSet
 EndChar
 
 StartChar: ZLM_FULL_U
-Encoding: 501 926965 359
+Encoding: 501 926965 501
 Width: 600
 VWidth: 1024
 GlyphClass: 2
 Flags: W
-HStem: 0 80<150 450>
-VStem: 50 100<80 470> 450 100<80 470>
 LayerCount: 2
 Fore
 SplineSet
@@ -5635,13 +4938,11 @@ EndSplineSet
 EndChar
 
 StartChar: ZLM_FULL_Y
-Encoding: 502 926966 360
+Encoding: 502 926966 502
 Width: 599
 VWidth: 1024
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<251 350> 195 80<50 250 350 550>
-VStem: 251 99<0 195 275 470>
 LayerCount: 2
 Fore
 SplineSet
@@ -5662,13 +4963,11 @@ EndSplineSet
 EndChar
 
 StartChar: ZLM_FULL_AI
-Encoding: 503 926967 361
+Encoding: 503 926967 503
 Width: 600
 VWidth: 1024
 GlyphClass: 2
 Flags: W
-HStem: 0 80<150 550> 390 80<150 550>
-VStem: 50 100<80 390>
 LayerCount: 2
 Fore
 SplineSet
@@ -5685,13 +4984,11 @@ EndSplineSet
 EndChar
 
 StartChar: ZLM_FULL_EI
-Encoding: 504 926968 362
+Encoding: 504 926968 504
 Width: 600
 VWidth: 1024
 GlyphClass: 2
 Flags: W
-HStem: -5 62<199.965 416.429> 414 62<186.695 402.035>
-VStem: 42 108<99.7867 149 308.904 383.018> 452 108<87.7838 161.402 322 371.213>
 LayerCount: 2
 Fore
 SplineSet
@@ -5722,13 +5019,11 @@ EndSplineSet
 EndChar
 
 StartChar: ZLM_FULL_OI
-Encoding: 505 926969 363
+Encoding: 505 926969 505
 Width: 600
 VWidth: 1024
 GlyphClass: 2
 Flags: W
-HStem: 0 80<50 450> 390 80<50 450>
-VStem: 450 100<80 390>
 LayerCount: 2
 Fore
 SplineSet
@@ -5745,12 +5040,11 @@ EndSplineSet
 EndChar
 
 StartChar: ZLM_FULL_AU
-Encoding: 506 926970 364
+Encoding: 506 926970 506
 Width: 600
 VWidth: 1024
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<51 167.021 433.979 550>
 LayerCount: 2
 Fore
 SplineSet
