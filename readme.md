@@ -12,13 +12,15 @@ Zbalermorna, an alternative orthography for the constructed language Lojban.
 - Create reference glyphs
 - Complete opentype features declaration
 - Complete first working ZLM font
-
+- More complete sample jufra for test page
+- Create ibus config for existing unicode range
 
 ###### To Do
 
-- More complete sample jufra for test page
-- Create ibus config for new unicode range
-- Finalise buid process for new ont development
+- Decide on Unicode and glyph names
+- Finalise Unicode layout and submit to UCSUR
+- Finalise build process for new font development
+- Update existing fonts
 - Port the old ZLM font, now called 'Drakono' to new system
 - Create alternate typefaces and add them to this repo
 
@@ -31,7 +33,7 @@ Zbalermorna, an alternative orthography for the constructed language Lojban.
 **or**
 
 - Clone this repo
-- Open `test/index.html` and use the IME emulator
+- Open `test/ime.html` and use the IME emulator
 - Copy-paste the generated ZLM text
 
 Soon we will also have an online version of the IME emulator you can use to play
@@ -52,15 +54,11 @@ ZLM glyphs, which a correctly constructed ZLM font will automatically display
 as assembled composite glpyhs using OpenType features.
 
 
-### Currently Supported IMEs
+### Currently Supported IMEs using ligatured fonts
 
-None so far.
-
-
-#### IME support roadmap
-
-- `ibus` - just need to convert la suzil's original ibus config to the proper
-  range and create a non-ligating version.
+- Windows (`ime/windows/setup.exe`)
+- Javascript (`test/ime.html`)
+- ibus (`ime/zlm.ibus`)
 
 
 ### Creating a new Zbalermorna typeface
@@ -76,7 +74,9 @@ This procedure is still incomplete - build script and feature file have bugs
 - Modify vector shapes for component glyphs; composite glyphs will auto-update
 - Self-assembling composites can also be manually overriden with real vectors,
   if your typeface wants to use special forms for certain composites.
+- Build the font for preview with `./build.sh <name of file without .sfd> --update-test` or
 - When your `.sfd` file is saved, Gulp will automatically recompile it into a
   TrueType font, and refresh the preview page so you can see how your updates
   effect ligatures and kerning.
+
 

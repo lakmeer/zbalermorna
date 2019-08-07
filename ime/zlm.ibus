@@ -3,8 +3,8 @@ VERSION_1_0
 
 BEGIN_DEFINITION
 LICENSE = LGPL
-UUID = 26d097fd-0bb6-4fb6-a358-73dbc6754408
-SERIAL_NUMBER = 20161224
+UUID = 79b4b7e0-be3d-4108-b8e3-baecb8ba9008
+SERIAL_NUMBER = 201986
 ICON = zybu.svg
 PAGE_SIZE = 0
 SYMBOL = ZLM
@@ -13,7 +13,7 @@ DESCRIPTION = Basic input method for Zbalermorna text. Requires ligature support
 LANGUAGES = jbo
 AUTHOR = la kmir joi la suzil
 STATUS_PROMPT = ZLM
-VALID_INPUT_CHARS = abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ,.?!1234567890()":;#/'
+VALID_INPUT_CHARS = abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ,.?!1234567890()":;#/'~-
 LAYOUT = us
 MAX_KEY_LENGTH = 1
 AUTO_COMMIT = TRUE
@@ -25,7 +25,7 @@ PINYIN_MODE = FALSE
 DYNAMIC_ADJUST = FALSE
 END_DEFINITION
 BEGIN_TABLE
-' 󢌐 1
+. 󢌀 1
 h 󢌐 1
 p 󢌠 1
 t 󢌰 1
@@ -52,4 +52,39 @@ i 󢑰 1
 o 󢒀 1
 u 󢒐 1
 y 󢒠 1
+H 󣄀 1
+P 󣄐 1
+T 󣄠 1
+K 󣄰 1
+F 󣅀 1
+L 󣅐 1
+S 󣅠 1
+C 󣅰 1
+M 󣆀 1
+X 󣆐 1
+B 󣆠 1
+D 󣆰 1
+G 󣇀 1
+V 󣇐 1
+R 󣇠 1
+Z 󣇰 1
+J 󣈀 1
+N 󣈐 1
+Q 󣈠 1
+W 󣈰 1
+A 󢓱 1
+E 󢓲 1
+I 󢓳 1
+O 󢓴 1
+U 󢓵 1
+Y 󢓶 1
+' 󢌐 1
+, 󢎏 1
+~ 󢌏 1
+! 󢍟 1
+- 󢎯 1
+1 󢌟 1
+2 󢌯 1
+3 󢌿 1
+4 󢍏 1
 END_TABLE

@@ -1,0 +1,50 @@
+#!/usr/local/bin/fontforge
+# Sets up all of the CAS ligatures with ZLM_CAS_ISO and vowel references, and exports as new file with -cas-fixed appended
+# usage: fontforge -lang=ff -script tools/fix-cas.pe <font-name> <first-vowel-x-position> <second-vowel-x-position>
+
+Open("src/" + $1 + ".sfd")
+
+# width = GlyphInfo("Width")
+# SetWidth(width)
+
+Select("ZLM_CAS_ISO")
+CopyReference()
+
+i=0;
+while ( i<10 )
+	j=0;
+	while ( j<10 )
+		Select(UCodePoint(0xE2451 + (i * 16) + j))
+		Paste()
+		++j
+	endloop
+	++i
+endloop
+
+i=0;
+while ( i<10 )
+	Select(UCodePoint(0xE2450 + (i * 16)))
+	CopyReference()
+	j=0;
+	while ( j<10 )
+		Select(UCodePoint(0xE2451 + (i * 16) + j))
+		PasteWithOffset(Strtol($2), 0)
+		++j
+	endloop
+	++i
+endloop
+
+i=0;
+while ( i<10 )
+	j=0;
+	while ( j<10 )
+		Select(UCodePoint(0xE2450 + (j * 16)))
+		CopyReference()
+		Select(UCodePoint(0xE2451 + (i * 16) + j))
+		PasteWithOffset(Strtol($3), 0)
+		++j
+	endloop
+	++i
+endloop
+
+Save("src/" + $1 + "-cas-fixed.sfd")
