@@ -21,7 +21,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1481267425
-ModificationTime: 1565183388
+ModificationTime: 1565298297
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -2224,7 +2224,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 336 16 11
+WinInfo: 80 16 17
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -3288,22 +3288,22 @@ Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 21G<230 330> 390 80<50 348.588 440.267 550>
-VStem: 230 100<0 296.395>
-AnchorPoint: "Bottom" 270 0 basechar 0
+HStem: 0 80<52 161.733 253.412 552>
+VStem: 272 100<173.605 470>
+AnchorPoint: "Bottom" 320 0 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-348.587890625 390 m 5
- 50 390 l 5
- 50 470 l 1
- 550 470 l 1
- 550 390 l 5
- 501.237304688 390 330 364.703125 330 233 c 2
- 330 0 l 1
- 296.666992188 0 263.333007812 0 230 0 c 1
- 230 214 l 2
- 230 292.33582861 282.662109375 355.836914062 348.587890625 390 c 5
+253.412109375 80 m 1
+ 552 80 l 1
+ 552 0 l 1
+ 52 0 l 1
+ 52 80 l 1
+ 100.762695312 80 272 105.296875 272 237 c 2
+ 272 470 l 1
+ 305.333007812 470 338.666992188 470 372 470 c 1
+ 372 256 l 2
+ 372 177.6640625 319.337890625 114.163085938 253.412109375 80 c 1
 EndSplineSet
 EndChar
 
@@ -3312,7 +3312,7 @@ Encoding: 81 926545 61
 Width: 600
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 0 21G<230 330> 390 80<50 348.588 440.267 550> 556 244<272 327>
 VStem: 230 100<0 296.395> 255 90<631.778 800>
 AnchorPoint: "Bottom" 270 0 basechar 0
@@ -3328,7 +3328,7 @@ Encoding: 82 926546 62
 Width: 600
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 0 21G<230 330> 390 80<50 348.588 440.267 550> 645 72<180 420>
 VStem: 180 240<645 717> 230 100<0 296.395>
 AnchorPoint: "Bottom" 270 0 basechar 0
@@ -3344,7 +3344,7 @@ Encoding: 83 926547 63
 Width: 600
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 0 21G<230 330> 390 80<50 348.588 440.267 550> 621 120<253.745 346.255>
 VStem: 230 100<0 296.395> 240 120<634.745 727.255>
 AnchorPoint: "Bottom" 270 0 basechar 0
@@ -3360,7 +3360,7 @@ Encoding: 84 926548 64
 Width: 600
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 0 21G<230 330> 390 80<50 348.588 440.267 550> 627 61<297.851 381.539> 667 57<219.545 299.178>
 VStem: 155 58<626 655.67> 230 100<0 296.395> 389 56<695.237 725>
 AnchorPoint: "Bottom" 270 0 basechar 0
@@ -3376,7 +3376,7 @@ Encoding: 85 926549 65
 Width: 600
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 0 21G<230 330> 390 80<50 348.588 440.267 550> 587.1 61.1006<239.618 360.502>
 VStem: 230 100<0 296.395> 384.7 62.3994<668.862 714.5>
 AnchorPoint: "Bottom" 270 0 basechar 0
@@ -3393,7 +3393,7 @@ Encoding: 86 926550 66
 Width: 600
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 0 21G<230 330> 390 80<50 348.588 440.267 550> 581.05 45.9502<259.403 342.263> 733 44.9502<260.132 342.135>
 VStem: 203.2 45.7998<637.341 722.505> 230 100<0 296.395> 353 43.7998<638.173 721.748>
 AnchorPoint: "Bottom" 270 0 basechar 0
@@ -3409,7 +3409,7 @@ Encoding: 87 926551 67
 Width: 600
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 0 21G<230 330> 390 80<50 348.588 440.267 550> 773 37<326.194 333.162>
 VStem: 230 100<0 296.395> 240.798 73.4521<697.918 765.63> 287.393 79.54<596.326 668.324>
 AnchorPoint: "Bottom" 270 0 basechar 0
@@ -3425,7 +3425,7 @@ Encoding: 88 926552 68
 Width: 600
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 0 21G<230 330> 390 80<50 348.588 440.267 550> 690 61<238.477 360.718>
 VStem: 155 61<624 666.855> 230 100<0 296.395> 384 60<624 666.855>
 AnchorPoint: "Bottom" 270 0 basechar 0
@@ -3441,7 +3441,7 @@ Encoding: 89 926553 69
 Width: 600
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 0 21G<230 330> 390 80<50 348.588 440.267 550> 573 61<316.58 381.539> 622 60.6954<252.798 295.986>
 VStem: 230 100<0 296.395> 389 56<641.237 671>
 AnchorPoint: "Bottom" 270 0 basechar 0
@@ -3457,7 +3457,7 @@ Encoding: 90 926554 70
 Width: 600
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 0 21G<230 330> 390 80<50 348.588 440.267 550> 605.441 0.559012<261.767 265.682> 730.968 92.0319<241.394 289.692>
 VStem: 230 100<0 296.395> 303.611 70.4574<647.414 733.87>
 AnchorPoint: "Bottom" 270 0 basechar 0
@@ -5160,22 +5160,22 @@ Width: 600
 VWidth: 0
 GlyphClass: 2
 Flags: W
-HStem: 0 80<52 161.733 253.412 552>
-VStem: 272 100<173.605 470>
-AnchorPoint: "Bottom" 320 0 basechar 0
+HStem: 0 21G<230 330> 390 80<50 348.588 440.267 550>
+VStem: 230 100<0 296.395>
+AnchorPoint: "Bottom" 270 0 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-253.412109375 80 m 1
- 552 80 l 1
- 552 0 l 1
- 52 0 l 1
- 52 80 l 1
- 100.762695312 80 272 105.296875 272 237 c 2
- 272 470 l 1
- 305.333007812 470 338.666992188 470 372 470 c 1
- 372 256 l 2
- 372 177.6640625 319.337890625 114.163085938 253.412109375 80 c 1
+348.587890625 390 m 5
+ 50 390 l 5
+ 50 470 l 1
+ 550 470 l 1
+ 550 390 l 5
+ 501.237304688 390 330 364.703125 330 233 c 2
+ 330 0 l 1
+ 296.666992188 0 263.333007812 0 230 0 c 1
+ 230 214 l 2
+ 230 292.33582861 282.662109375 355.836914062 348.587890625 390 c 5
 EndSplineSet
 EndChar
 
@@ -5184,7 +5184,7 @@ Encoding: 225 926689 168
 Width: 600
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 0 80<52 161.733 253.412 552> 556 244<272 327>
 VStem: 255 90<631.778 800> 272 100<173.605 470>
 AnchorPoint: "Bottom" 320 0 basechar 0
@@ -5200,7 +5200,7 @@ Encoding: 226 926690 169
 Width: 600
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 0 80<52 161.733 253.412 552> 645 72<180 420>
 VStem: 180 240<645 717> 272 100<173.605 470>
 AnchorPoint: "Bottom" 320 0 basechar 0
@@ -5216,7 +5216,7 @@ Encoding: 227 926691 170
 Width: 600
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 0 80<52 161.733 253.412 552> 621 120<253.745 346.255>
 VStem: 240 120<634.745 727.255> 272 100<173.605 470>
 AnchorPoint: "Bottom" 320 0 basechar 0
@@ -5232,7 +5232,7 @@ Encoding: 228 926692 171
 Width: 600
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 0 80<52 161.733 253.412 552> 627 61<297.851 381.539> 667 57<219.545 299.178>
 VStem: 155 58<626 655.67> 272 100<173.605 470> 389 56<695.237 725>
 AnchorPoint: "Bottom" 320 0 basechar 0
@@ -5248,7 +5248,7 @@ Encoding: 229 926693 172
 Width: 600
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 0 80<52 161.733 253.412 552> 587.1 61.1006<239.618 360.502>
 VStem: 272 100<173.605 470> 384.7 62.3994<668.862 714.5>
 AnchorPoint: "Bottom" 320 0 basechar 0
@@ -5264,7 +5264,7 @@ Encoding: 230 926694 173
 Width: 600
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 0 80<52 161.733 253.412 552> 581.05 45.9502<259.403 342.263> 733 44.9502<260.132 342.135>
 VStem: 203.2 45.7998<637.341 722.505> 272 100<173.605 470> 353 43.7998<638.173 721.748>
 AnchorPoint: "Bottom" 320 0 basechar 0
@@ -5280,7 +5280,7 @@ Encoding: 231 926695 174
 Width: 600
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 0 80<52 161.733 253.412 552> 773 37<326.194 333.162>
 VStem: 240.798 73.4521<697.918 765.63> 272 100<173.605 470> 287.393 79.54<596.326 668.324>
 AnchorPoint: "Bottom" 320 0 basechar 0
@@ -5296,7 +5296,7 @@ Encoding: 232 926696 175
 Width: 600
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 0 80<52 161.733 253.412 552> 690 61<238.477 360.718>
 VStem: 155 61<624 666.855> 272 100<173.605 470> 384 60<624 666.855>
 AnchorPoint: "Bottom" 320 0 basechar 0
@@ -5312,7 +5312,7 @@ Encoding: 233 926697 176
 Width: 600
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 0 80<52 161.733 253.412 552> 573 61<316.58 381.539> 622 60.6954<252.798 295.986>
 VStem: 272 100<173.605 470> 389 56<641.237 671>
 AnchorPoint: "Bottom" 320 0 basechar 0
@@ -5328,7 +5328,7 @@ Encoding: 234 926698 177
 Width: 600
 VWidth: 0
 GlyphClass: 2
-Flags: W
+Flags: HW
 HStem: 0 80<52 161.733 253.412 552> 605.441 0.559012<261.767 265.682> 730.968 92.0319<241.394 289.692>
 VStem: 272 100<173.605 470> 303.611 70.4574<647.414 733.87>
 AnchorPoint: "Bottom" 320 0 basechar 0
