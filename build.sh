@@ -8,21 +8,21 @@ fi
 
 # Options
 INFILE="src/$1.sfd"
-FEATURE="src/zlm.feature"
 OUTFILE="output/$1.otf"
 TESTDIR="test/font"
+
+# Generate incorporating common feature file
+echo ""
+echo "Building feature: src/zlm.fea"
+
+lsc tools/zlm.fea.ls > src/zlm.fea
 
 # Generate incorporating common feature file
 echo ""
 echo "Building font: $INFILE -> $OUTFILE"
 echo ""
 
-FF_SCRIPT="'Open(\"$INFILE\"); MergeFeature(\"$FEATURE\"); Generate(\"$OUTFILE\");'"
-
-echo $FF_SCRIPT
-
-fontforge -lang=ff -c "$FF_SCRIPT"
-
+fontforge -lang=ff -script build.pe $1
 
 # Copy generated file to update test page
 if [ "$2" == "--update-test" ]; then

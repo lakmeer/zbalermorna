@@ -1,173 +1,592 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>ZLM FDK Test Page</title>
-    <meta name="viewport" content="width=device-width">
-    <style>
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Zbalermorna Font Examiner</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <!--link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css"-->
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/index.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+  <style>
     @font-face {
-      font-family: "ZLM Manri";
+      font-family: "zlm-manri";
       font-weight: normal;
-      src: url('font/zlm-manri.otf') format('opentype');
+      src: url('font/zlm-manri.otf');
     }
+  </style>
 
-    * { box-sizing: border-box; }
+</head>
 
-    table, p, pre {
-      font-size: 40px;
-      margin: 1em 0;
-    }
+<body>
 
-    table th {
-      font-size: 24px;
-    }
-
-    table td {
-      padding-right: 20px;
-    }
-
-    p + p {
-      margin-top: -1em;
-    }
-
-    p.rows span {
-      margin:  0;
-      display: block;
-    }
-
-    textarea {
-      display:   block;
-      font-size: 40px;
-    }
-
-    small {
-      font-size:   20px;
-      font-family: monospace;
-    }
-
-    .two-up {
-      display: flex;
-      width: 100%;
-      align-content: flex-start;
-    }
-
-    .two-up > * {
-      flex: 1;
-      margin: 0;
-    }
-
-    .two-up > * + * {
-      margin-left: 20px;
-    }
+  <header>
+    <div class="container">
+      <h1>Zbalermorna Font Examiner</h1>
+      <div class="flex-right">
+        <select id="font-selector">
+          <option value="zlm-manri">zlm-manri</option>
+        </select>
+        <!--label><input type="checkbox" id="liga" name="liga" /> <code>liga</code>: regular ligatures in latin (breaks some things)</label>
+      <label><input type="checkbox" id="calt" name="calt" /> <code>calt</code>: contextual alts (breaks some things)</label>
+      <label><input type="checkbox" id="ss10" name="ss10" /> <code>ss10</code>: latin to zlm conversion </label>
+      <label><input type="checkbox" id="ss11" name="ss11" /> <code>ss11</code>: numbers to zlm conversion</label>
+      <label><input type="checkbox" id="zlm2" name="zlm2" /> <code>zlm2</code>: stylistic zlm alternatives</label-->
+      </div>
+    </div>
+  </header>
 
 
-    /* Available fonts */
+  <div class="container">
+    <div class="row">
+      <div class="columns nine">
+        <p>This page has contains various featues of the Zbalermorna typeface, and can be used to preview fonts during development. If you've merged the <code>src/zlm.fea</code> feature file into your font, you should be able to copy text directly from this page into the metrics window in FontForge to modify the kerning/spacing if you see that something is off. Check out the Javascript Zbalermorna IME to test out everything in real-time. You can also use an OS IME to input text as well.</p>
+      </div>
+      <div class="columns three">
+        <a href="ime.html" id="ime-link" class="button button-primary u-full-width">Zbalermorna IME</a>
+      </div>
+    </div>
 
-    .reference { font-family: 'ZLM Manri'; }
+    <div class="row">
+      <div class="column" style="text-align: center;">
+        <h2>la berti brife jo'u la solri</h2>
+        <a href="https://en.wikipedia.org/wiki/Lojban#The_North_Wind_and_the_Sun">A translation of The North Wind and
+              the Sun</a>
+        <p id="eye-doctor" class="reference">󢐠󢑰󢌐󢒀 󢍠󢑐 󢎰󢑠󢏰󢌰󢑰 󢎰󢏰󢑰󢍐󢑠 󢐐󢒀󢌐󢒐 󢍠󢑐 󢍰󢒀󢍠󢏰󢑰 󢌠󢒐 󢌰󢏰󢒀󢎀󢑰 󢍠󢒀 󢍀󢑐 󢎀󢒐󢎠󢐠󢑐 󢍠󢒀 󢌠󢒀󢑰 󢎐󢑠 󢏠󢒀󢌐󢑐 󢏠󢑐󢒐 󢌰󢏰󢑐󢐐󢑰 󢎰󢑠 󢍠󢒀 󢍀󢑐 󢏠󢍠󢑰󢌠󢑐 󢑰 󢎀󢑐󢌐󢒀 󢎰󢒀 󢍠󢒀 󢌠󢑐 󢍠󢑰󢌰󢏰󢒐 󢐠󢒀󢑰 󢏀󢑐󢍰󢐠󢑰 󢍠󢒀 󢏐󢍠󢑐󢏰󢑠 󢍀󢒀󢍰󢌰󢑐 󢎀󢒐 󢍀󢍠󢑐󢎐󢑐 󢌀󢑰 󢍠󢑠 󢏰󢑠 󢎐󢑠󢑰 󢌠󢒐 󢍰󢑰󢎐󢎠󢒐 󢍠󢒀 󢍀󢑐 󢌰󢒐󢏐󢐠󢑰 󢍐󢑰 󢍠󢒀 󢐠󢒐 󢍠󢒀 󢌰󢏰󢑐󢐐󢑰 󢎰󢑠 󢍠󢒀 󢍀󢑐 󢎀󢍠󢑰󢏰󢑐 󢍐󢑐 󢍠󢒀 󢐠󢒐 󢎀󢑠󢌐󢒐 󢍰󢐠󢑐󢏀󢑐 󢍠󢒀 󢍀󢑐 󢏐󢑐󢍰󢐠󢒐 󢍠󢒀 󢐠󢒐 󢍠󢑠 󢍠󢑰󢌰󢏰󢒐 󢎀󢒀󢌐󢒐 󢏀󢑐󢍰󢐠󢑰 󢍠󢑠 󢍀󢒀󢍰󢌰󢑐 󢎀󢒐 󢌰󢏰󢑐󢐐󢑰 󢍠󢒀 󢍀󢑐 󢏠󢍠󢑰󢌠󢑐 󢌀󢑰 󢎰󢑐 󢎰󢒀 󢍠󢑐 󢎰󢑠󢏰󢌰󢑰 󢎰󢏰󢑰󢍐󢑠 󢎀󢒀󢌐󢑐 󢌰󢏰󢑐󢐐󢑰 󢎀󢒐󢌠󢏰󢑐 󢍠󢒀 󢎰󢏰󢑰󢍐󢑠 󢑰 󢍀󢒐󢌐󢑰 󢍠󢒀 󢐠󢒐 󢎰󢒠 󢎰󢒠 󢐀󢑠󢐠󢎰󢑐 󢍠󢒀 󢍀󢑐 󢎀󢒐󢌠󢏰󢑐 󢍠󢒀 󢎠󢒀 󢍀󢑐󢒐 󢎰󢏰󢑰󢍐󢑠 󢎀󢒐 󢏰󢑰󢐠󢍀󢑐 󢍠󢒀 󢐠󢒐 󢍠󢑠 󢍠󢑰󢌰󢏰󢒐 󢐀󢒐󢌐󢑠 󢏰󢑰 󢐀󢑠󢐠󢎰󢑐 󢍠󢒀 󢍀󢑐 󢍰󢑠 󢌰󢑐󢏐󢐐󢑰 󢍠󢑠 󢍀󢒀󢍰󢌰󢑐 󢑰 󢎰󢑐 󢎰󢒀 󢍠󢑐 󢎰󢑠󢏰󢌰󢑰 󢎰󢏰󢑰󢍐󢑠 󢎀󢒀󢌐󢒐 󢌰󢏰󢒀󢎀󢑰 󢑰 󢎰󢑐 󢎰󢒀 󢍠󢑐 󢍰󢒀󢍠󢏰󢑰 󢎀󢒀󢌐󢑐 󢏐󢍠󢑐󢏰󢑠 󢏀󢑰󢏰󢎀󢑠 󢑰 󢎰󢑐 󢐀󢑰 󢎰󢒀 󢍠󢑠 󢍠󢑰󢌰󢏰󢒐 󢎀󢒀󢌐󢒐 󢏀󢑐󢍰󢐠󢑰 󢍠󢑠 󢍀󢒀󢍰󢌰󢑐 󢌀󢑰 󢍰󢑠 󢍀󢑰󢌐󢒐 󢎰󢒀 󢍠󢑐 󢎰󢑠󢏰󢌰󢑰 󢎰󢏰󢑰󢍐󢑠 󢎀󢒐 󢎰󢑰󢍠󢏐󢑐 󢍠󢒀 󢍀󢑐 󢌰󢒐󢏐󢐠󢑰 󢍐󢑰 󢍠󢒀 󢐠󢒐 󢍠󢑐 󢍰󢒀󢍠󢏰󢑰 󢎀󢒐 󢌰󢏰󢑐󢐐󢑰 󢍠󢒀 󢍀󢑐 󢏠󢍠󢑰󢌠󢑐</p>
+        <style>
+          #eye-doctor { font-size: 8px; }
+          #eye-doctor .line[index="1"]  { font-size: 128px; }
+          #eye-doctor .line[index="2"]  { font-size: 96px; }
+          #eye-doctor .line[index="3"]  { font-size: 72px; }
+          #eye-doctor .line[index="4"]  { font-size: 64px; }
+          #eye-doctor .line[index="5"]  { font-size: 48px; }
+          #eye-doctor .line[index="6"]  { font-size: 36px; }
+          #eye-doctor .line[index="7"]  { font-size: 24px; }
+          #eye-doctor .line[index="8"]  { font-size: 16px; }
+          #eye-doctor .line[index="9"]  { font-size: 14px; }
+          #eye-doctor .line[index="10"] { font-size: 12px; }
+          #eye-doctor .line[index="11"] { font-size: 10px; }
+          #eye-doctor .line[index="12"] { font-size: 8px; }
+        </style>
 
-    </style>
-  </head>
+        <script src="lining.js"></script>
 
-  <body>
-    <h1>ZLM FDK Test Page</h1>
+      </div>
+    </div>
+    <p></p>
+    <div class="row">
+      <div class="column">
+        <h3>Ligature precedence in the IME</h3>
 
+        <table class="u-full-width">
+          <tr>
+            <th>Input</th>
+            <th>IME Output</th>
+            <th>Expected</th>
+          </tr>
+
+          <tr class="reference">
+            <td> co'o ci'izra </td>
+            <td data-zlm-translate> co'o ci'izra </td>
+            <td>&#xe2384;&#xe2314; &#Xe2383;&#Xe2313;&#Xe2400;&#Xe23f1;</td>
+          </tr>
+
+          <tr class="reference">
+            <td> uau je'u do'oi </td>
+            <td data-zlm-translate> uau je'u do'oi </td>
+            <td> &#xe244a; &#xe2412;&#xe2315; &#xe23c4;&#xe2319;</td>
+          </tr>
+
+          <tr class="reference">
+            <td> plukauaii </td>
+            <td data-zlm-translate> plukauaii </td>
+            <td> &#xe2320;&#xe2365;&#xe2341;&#xe2441;&#xe2433;</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <p></p>
+    <div class="row">
+      <div class="column one-half">
+        <h3>Size WRT latin text</h3>
+        <p class="reference">
+          <span>k</span><span data-zlm-translate>pa</span>
+          <span>h</span><span data-zlm-translate>ta</span>
+          <span>p</span><span data-zlm-translate>za</span>
+          <span>o</span><span data-zlm-translate>xau</span>
+          <span>i</span><span data-zlm-translate>.i'i</span>
+        </p>
+      </div>
+      <div class="column one-half">
+        <h3>Full vowels</h3>
+        <p class="reference">
+          <span>&#xe24F1; &#xe24F2; &#xe24F3; &#xe24F4; &#xe24F5; &#xe24F6; &#xe24F7; &#xe24F8; &#xe24F9;
+            &#xe24FA;</span>
+        </p>
+      </div>
+    </div>
+    <p></p>
+    <div class="row">
+      <div class="column one-half">
+        <h3>Optional features</h3>
+        <p class="reference">
+          <span>󢎐󢑠󢍟󢍟󢍟󢍠󢍟󢍟󢎰󢑰󢍟 󢎯󢎯󢎯 󢏐󢍠󢑠󢎏󢍀󢑰󢎏 󢎐󢑰󢌟 󢏀󢒀󢌯 󢐠󢒀󢌿 󢍠󢑠󢍏 </span>
+        </p>
+      </div>
+      <div class="column one-half">
+        <h3>Using the slakabu</h3>
+        <p class="reference">
+          <span>󢑀󢓲󢌏󢓳󢐠 󢑀󢓲󢓳󢐠 󢌏󢑰 󢌏󢑠</span>
+        </p>
+      </div>
+    </div>
+
+    <p></p>
+    <div class="row">
+      <div class="column one-half">
+        <h3>CV ligatures</h3>
+        <div class="table-row reference">
+          <div>󢌠󢑐</div>
+          <div>󢌠󢑠</div>
+          <div>󢌠󢑰</div>
+          <div>󢌠󢒀</div>
+          <div>󢌠󢒐</div>
+          <div>󢌠󢒠</div>
+          <div>󢌠󢑐󢑰</div>
+          <div>󢌠󢑠󢑰</div>
+          <div>󢌠󢒀󢑰</div>
+          <div>󢌠󢑐󢒐</div>
+        </div>
+        <div class="table-row reference">
+          <div>󢌰󢑐</div>
+          <div>󢌰󢑠</div>
+          <div>󢌰󢑰</div>
+          <div>󢌰󢒀</div>
+          <div>󢌰󢒐</div>
+          <div>󢌰󢒠</div>
+          <div>󢌰󢑐󢑰</div>
+          <div>󢌰󢑠󢑰</div>
+          <div>󢌰󢒀󢑰</div>
+          <div>󢌰󢑐󢒐</div>
+        </div>
+        <div class="table-row reference">
+          <div>󢍀󢑐</div>
+          <div>󢍀󢑠</div>
+          <div>󢍀󢑰</div>
+          <div>󢍀󢒀</div>
+          <div>󢍀󢒐</div>
+          <div>󢍀󢒠</div>
+          <div>󢍀󢑐󢑰</div>
+          <div>󢍀󢑠󢑰</div>
+          <div>󢍀󢒀󢑰</div>
+          <div>󢍀󢑐󢒐</div>
+        </div>
+        <div class="table-row reference">
+          <div>󢍐󢑐</div>
+          <div>󢍐󢑠</div>
+          <div>󢍐󢑰</div>
+          <div>󢍐󢒀</div>
+          <div>󢍐󢒐</div>
+          <div>󢍐󢒠</div>
+          <div>󢍐󢑐󢑰</div>
+          <div>󢍐󢑠󢑰</div>
+          <div>󢍐󢒀󢑰</div>
+          <div>󢍐󢑐󢒐</div>
+        </div>
+        <div class="table-row reference">
+          <div>󢍠󢑐</div>
+          <div>󢍠󢑠</div>
+          <div>󢍠󢑰</div>
+          <div>󢍠󢒀</div>
+          <div>󢍠󢒐</div>
+          <div>󢍠󢒠</div>
+          <div>󢍠󢑐󢑰</div>
+          <div>󢍠󢑠󢑰</div>
+          <div>󢍠󢒀󢑰</div>
+          <div>󢍠󢑐󢒐</div>
+        </div>
+        <div class="table-row reference">
+          <div>󢍰󢑐</div>
+          <div>󢍰󢑠</div>
+          <div>󢍰󢑰</div>
+          <div>󢍰󢒀</div>
+          <div>󢍰󢒐</div>
+          <div>󢍰󢒠</div>
+          <div>󢍰󢑐󢑰</div>
+          <div>󢍰󢑠󢑰</div>
+          <div>󢍰󢒀󢑰</div>
+          <div>󢍰󢑐󢒐</div>
+        </div>
+        <div class="table-row reference">
+          <div>󢎀󢑐</div>
+          <div>󢎀󢑠</div>
+          <div>󢎀󢑰</div>
+          <div>󢎀󢒀</div>
+          <div>󢎀󢒐</div>
+          <div>󢎀󢒠</div>
+          <div>󢎀󢑐󢑰</div>
+          <div>󢎀󢑠󢑰</div>
+          <div>󢎀󢒀󢑰</div>
+          <div>󢎀󢑐󢒐</div>
+        </div>
+        <div class="table-row reference">
+          <div>󢎐󢑐</div>
+          <div>󢎐󢑠</div>
+          <div>󢎐󢑰</div>
+          <div>󢎐󢒀</div>
+          <div>󢎐󢒐</div>
+          <div>󢎐󢒠</div>
+          <div>󢎐󢑐󢑰</div>
+          <div>󢎐󢑠󢑰</div>
+          <div>󢎐󢒀󢑰</div>
+          <div>󢎐󢑐󢒐</div>
+        </div>
+        <div class="table-row reference">
+          <div>󢎠󢑐</div>
+          <div>󢎠󢑠</div>
+          <div>󢎠󢑰</div>
+          <div>󢎠󢒀</div>
+          <div>󢎠󢒐</div>
+          <div>󢎠󢒠</div>
+          <div>󢎠󢑐󢑰</div>
+          <div>󢎠󢑠󢑰</div>
+          <div>󢎠󢒀󢑰</div>
+          <div>󢎠󢑐󢒐</div>
+        </div>
+        <div class="table-row reference">
+          <div>󢎰󢑐</div>
+          <div>󢎰󢑠</div>
+          <div>󢎰󢑰</div>
+          <div>󢎰󢒀</div>
+          <div>󢎰󢒐</div>
+          <div>󢎰󢒠</div>
+          <div>󢎰󢑐󢑰</div>
+          <div>󢎰󢑠󢑰</div>
+          <div>󢎰󢒀󢑰</div>
+          <div>󢎰󢑐󢒐</div>
+        </div>
+        <div class="table-row reference">
+          <div>󢏀󢑐</div>
+          <div>󢏀󢑠</div>
+          <div>󢏀󢑰</div>
+          <div>󢏀󢒀</div>
+          <div>󢏀󢒐</div>
+          <div>󢏀󢒠</div>
+          <div>󢏀󢑐󢑰</div>
+          <div>󢏀󢑠󢑰</div>
+          <div>󢏀󢒀󢑰</div>
+          <div>󢏀󢑐󢒐</div>
+        </div>
+        <div class="table-row reference">
+          <div>󢏐󢑐</div>
+          <div>󢏐󢑠</div>
+          <div>󢏐󢑰</div>
+          <div>󢏐󢒀</div>
+          <div>󢏐󢒐</div>
+          <div>󢏐󢒠</div>
+          <div>󢏐󢑐󢑰</div>
+          <div>󢏐󢑠󢑰</div>
+          <div>󢏐󢒀󢑰</div>
+          <div>󢏐󢑐󢒐</div>
+        </div>
+        <div class="table-row reference">
+          <div>󢏠󢑐</div>
+          <div>󢏠󢑠</div>
+          <div>󢏠󢑰</div>
+          <div>󢏠󢒀</div>
+          <div>󢏠󢒐</div>
+          <div>󢏠󢒠</div>
+          <div>󢏠󢑐󢑰</div>
+          <div>󢏠󢑠󢑰</div>
+          <div>󢏠󢒀󢑰</div>
+          <div>󢏠󢑐󢒐</div>
+        </div>
+        <div class="table-row reference">
+          <div>󢏰󢑐</div>
+          <div>󢏰󢑠</div>
+          <div>󢏰󢑰</div>
+          <div>󢏰󢒀</div>
+          <div>󢏰󢒐</div>
+          <div>󢏰󢒠</div>
+          <div>󢏰󢑐󢑰</div>
+          <div>󢏰󢑠󢑰</div>
+          <div>󢏰󢒀󢑰</div>
+          <div>󢏰󢑐󢒐</div>
+        </div>
+        <div class="table-row reference">
+          <div>󢐀󢑐</div>
+          <div>󢐀󢑠</div>
+          <div>󢐀󢑰</div>
+          <div>󢐀󢒀</div>
+          <div>󢐀󢒐</div>
+          <div>󢐀󢒠</div>
+          <div>󢐀󢑐󢑰</div>
+          <div>󢐀󢑠󢑰</div>
+          <div>󢐀󢒀󢑰</div>
+          <div>󢐀󢑐󢒐</div>
+        </div>
+        <div class="table-row reference">
+          <div>󢐐󢑐</div>
+          <div>󢐐󢑠</div>
+          <div>󢐐󢑰</div>
+          <div>󢐐󢒀</div>
+          <div>󢐐󢒐</div>
+          <div>󢐐󢒠</div>
+          <div>󢐐󢑐󢑰</div>
+          <div>󢐐󢑠󢑰</div>
+          <div>󢐐󢒀󢑰</div>
+          <div>󢐐󢑐󢒐</div>
+        </div>
+        <div class="table-row reference">
+          <div>󢐠󢑐</div>
+          <div>󢐠󢑠</div>
+          <div>󢐠󢑰</div>
+          <div>󢐠󢒀</div>
+          <div>󢐠󢒐</div>
+          <div>󢐠󢒠</div>
+          <div>󢐠󢑐󢑰</div>
+          <div>󢐠󢑠󢑰</div>
+          <div>󢐠󢒀󢑰</div>
+          <div>󢐠󢑐󢒐</div>
+        </div>
+      </div>
+      <div class="column one-half">
+        <h3>Vowels</h3>
+        <div class="reference rows">
+          <div class="table-row">
+            <div>󢌀󢑐</div>
+            <div>󢌀󢑠</div>
+            <div>󢌀󢑰</div>
+            <div>󢌀󢒀</div>
+            <div>󢌀󢒐</div>
+            <div>󢌀󢒠</div>
+            <div>󢌀󢑐󢑰</div>
+            <div>󢌀󢑠󢑰</div>
+            <div>󢌀󢒀󢑰</div>
+            <div>󢌀󢑐󢒐</div>
+          </div>
+          <div class="table-row">
+            <div>󢌐󢑐</div>
+            <div>󢌐󢑠</div>
+            <div>󢌐󢑰</div>
+            <div>󢌐󢒀</div>
+            <div>󢌐󢒐</div>
+            <div>󢌐󢒠</div>
+            <div>󢌐󢑐󢑰</div>
+            <div>󢌐󢑠󢑰</div>
+            <div>󢌐󢒀󢑰</div>
+            <div>󢌐󢑐󢒐</div>
+          </div>
+        </div>
+        <h3>Semivowels</h3>
+        <div class="reference rows">
+          <div class="table-row">
+            <div>󢑰󢑐</div>
+            <div>󢑰󢑠</div>
+            <div>󢑰󢑰</div>
+            <div>󢑰󢒀</div>
+            <div>󢑰󢒐</div>
+            <div>󢑰󢒠</div>
+            <div>󢑰󢑐󢑰</div>
+            <div>󢑰󢑠󢑰</div>
+            <div>󢑰󢒀󢑰</div>
+            <div>󢑰󢑐󢒐</div>
+          </div>
+          <div class="table-row">
+            <div>󢒐󢑐</div>
+            <div>󢒐󢑠</div>
+            <div>󢒐󢑰</div>
+            <div>󢒐󢒀</div>
+            <div>󢒐󢒐</div>
+            <div>󢒐󢒠</div>
+            <div>󢒐󢑐󢑰</div>
+            <div>󢒐󢑠󢑰</div>
+            <div>󢒐󢒀󢑰</div>
+            <div>󢒐󢑐󢒐</div>
+          </div>
+        </div>
+        <h3>Attitudinal ligatures</h3>
+        <div class="reference rows">
+          <div class="table-row">
+            <div>󢑐󢌐󢑐</div>
+            <div>󢑐󢌐󢑠</div>
+            <div>󢑐󢌐󢑰</div>
+            <div>󢑐󢌐󢒀</div>
+            <div>󢑐󢌐󢒐</div>
+            <div>󢑐󢌐󢒠</div>
+            <div>󢑐󢌐󢑐󢑰</div>
+            <div>󢑐󢌐󢑠󢑰</div>
+            <div>󢑐󢌐󢒀󢑰</div>
+            <div>󢑐󢌐󢑐󢒐</div>
+          </div>
+          <div class="table-row">
+            <div>󢑠󢌐󢑐</div>
+            <div>󢑠󢌐󢑠</div>
+            <div>󢑠󢌐󢑰</div>
+            <div>󢑠󢌐󢒀</div>
+            <div>󢑠󢌐󢒐</div>
+            <div>󢑠󢌐󢒠</div>
+            <div>󢑠󢌐󢑐󢑰</div>
+            <div>󢑠󢌐󢑠󢑰</div>
+            <div>󢑠󢌐󢒀󢑰</div>
+            <div>󢑠󢌐󢑐󢒐</div>
+          </div>
+          <div class="table-row">
+            <div>󢑰󢌐󢑐</div>
+            <div>󢑰󢌐󢑠</div>
+            <div>󢑰󢌐󢑰</div>
+            <div>󢑰󢌐󢒀</div>
+            <div>󢑰󢌐󢒐</div>
+            <div>󢑰󢌐󢒠</div>
+            <div>󢑰󢌐󢑐󢑰</div>
+            <div>󢑰󢌐󢑠󢑰</div>
+            <div>󢑰󢌐󢒀󢑰</div>
+            <div>󢑰󢌐󢑐󢒐</div>
+          </div>
+          <div class="table-row">
+            <div>󢒀󢌐󢑐</div>
+            <div>󢒀󢌐󢑠</div>
+            <div>󢒀󢌐󢑰</div>
+            <div>󢒀󢌐󢒀</div>
+            <div>󢒀󢌐󢒐</div>
+            <div>󢒀󢌐󢒠</div>
+            <div>󢒀󢌐󢑐󢑰</div>
+            <div>󢒀󢌐󢑠󢑰</div>
+            <div>󢒀󢌐󢒀󢑰</div>
+            <div>󢒀󢌐󢑐󢒐</div>
+          </div>
+          <div class="table-row">
+            <div>󢒐󢌐󢑐</div>
+            <div>󢒐󢌐󢑠</div>
+            <div>󢒐󢌐󢑰</div>
+            <div>󢒐󢌐󢒀</div>
+            <div>󢒐󢌐󢒐</div>
+            <div>󢒐󢌐󢒠</div>
+            <div>󢒐󢌐󢑐󢑰</div>
+            <div>󢒐󢌐󢑠󢑰</div>
+            <div>󢒐󢌐󢒀󢑰</div>
+            <div>󢒐󢌐󢑐󢒐</div>
+          </div>
+          <div class="table-row">
+            <div>󢑰󢌐󢑐</div>
+            <div>󢑰󢌐󢑠</div>
+            <div>󢑰󢌐󢑰</div>
+            <div>󢑰󢌐󢒀</div>
+            <div>󢑰󢌐󢒐</div>
+            <div>󢑰󢌐󢒠</div>
+            <div>󢑰󢌐󢑐󢑰</div>
+            <div>󢑰󢌐󢑠󢑰</div>
+            <div>󢑰󢌐󢒀󢑰</div>
+            <div>󢑰󢌐󢑐󢒐</div>
+          </div>
+          <div class="table-row">
+            <div>󢒠󢌐󢑐</div>
+            <div>󢒠󢌐󢑠</div>
+            <div>󢒠󢌐󢑰</div>
+            <div>󢒠󢌐󢒀</div>
+            <div>󢒠󢌐󢒐</div>
+            <div>󢒠󢌐󢒠</div>
+            <div>󢒠󢌐󢑐󢑰</div>
+            <div>󢒠󢌐󢑠󢑰</div>
+            <div>󢒠󢌐󢒀󢑰</div>
+            <div>󢒠󢌐󢑐󢒐</div>
+          </div>
+          <div class="table-row">
+            <div>󢑐󢑰󢌐󢑐</div>
+            <div>󢑐󢑰󢌐󢑠</div>
+            <div>󢑐󢑰󢌐󢑰</div>
+            <div>󢑐󢑰󢌐󢒀</div>
+            <div>󢑐󢑰󢌐󢒐</div>
+            <div>󢑐󢑰󢌐󢒠</div>
+            <div>󢑐󢑰󢌐󢑐󢑰</div>
+            <div>󢑐󢑰󢌐󢑠󢑰</div>
+            <div>󢑐󢑰󢌐󢒀󢑰</div>
+            <div>󢑐󢑰󢌐󢑐󢒐</div>
+          </div>
+          <div class="table-row">
+            <div>󢑠󢑰󢌐󢑐</div>
+            <div>󢑠󢑰󢌐󢑠</div>
+            <div>󢑠󢑰󢌐󢑰</div>
+            <div>󢑠󢑰󢌐󢒀</div>
+            <div>󢑠󢑰󢌐󢒐</div>
+            <div>󢑠󢑰󢌐󢒠</div>
+            <div>󢑠󢑰󢌐󢑐󢑰</div>
+            <div>󢑠󢑰󢌐󢑠󢑰</div>
+            <div>󢑠󢑰󢌐󢒀󢑰</div>
+            <div>󢑠󢑰󢌐󢑐󢒐</div>
+          </div>
+          <div class="table-row">
+            <div>󢒀󢑰󢌐󢑐</div>
+            <div>󢒀󢑰󢌐󢑠</div>
+            <div>󢒀󢑰󢌐󢑰</div>
+            <div>󢒀󢑰󢌐󢒀</div>
+            <div>󢒀󢑰󢌐󢒐</div>
+            <div>󢒀󢑰󢌐󢒠</div>
+            <div>󢒀󢑰󢌐󢑐󢑰</div>
+            <div>󢒀󢑰󢌐󢑠󢑰</div>
+            <div>󢒀󢑰󢌐󢒀󢑰</div>
+            <div>󢒀󢑰󢌐󢑐󢒐</div>
+          </div>
+          <div class="table-row">
+            <div>󢑐󢒐󢌐󢑐</div>
+            <div>󢑐󢒐󢌐󢑠</div>
+            <div>󢑐󢒐󢌐󢑰</div>
+            <div>󢑐󢒐󢌐󢒀</div>
+            <div>󢑐󢒐󢌐󢒐</div>
+            <div>󢑐󢒐󢌐󢒠</div>
+            <div>󢑐󢒐󢌐󢑐󢑰</div>
+            <div>󢑐󢒐󢌐󢑠󢑰</div>
+            <div>󢑐󢒐󢌐󢒀󢑰</div>
+            <div>󢑐󢒐󢌐󢑐󢒐</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <p></p>
+
+    <!--div class="test-blocks">
     <div class="test-block">
-      <h3>CV ligatures</h3>
-      <p class="reference rows" >
-        <span data-zlm-translate> pa pe pi po pu py pai pei poi pau </span>
-        <span data-zlm-translate> ta te ti to tu ty tai tei toi tau </span>
-        <span data-zlm-translate> ka ke ki ko ku ky kai kei koi kau </span>
-        <span data-zlm-translate> fa fe fi fo fu fy fai fei foi fau </span>
-        <span data-zlm-translate> la le li lo lu ly lai lei loi lau </span>
-        <span data-zlm-translate> sa se si so su sy sai sei soi sau </span>
-        <span data-zlm-translate> ca ce ci co cu cy cai cei coi cau </span>
-        <span data-zlm-translate> ma me mi mo mu my mai mei moi mau </span>
-        <span data-zlm-translate> xa xe xi xo xu xy xai xei xoi xau </span>
-        <span data-zlm-translate> ba be bi bo bu by bai bei boi bau </span>
-        <span data-zlm-translate> da de di do du dy dai dei doi dau </span>
-        <span data-zlm-translate> ga ge gi go gu gy gai gei goi gau </span>
-        <span data-zlm-translate> va ve vi vo vu vy vai vei voi vau </span>
-        <span data-zlm-translate> ra re ri ro ru ry rai rei roi rau </span>
-        <span data-zlm-translate> za ze zi zo zu zy zai zei zoi zau </span>
-        <span data-zlm-translate> ja je ji jo ju jy jai jei joi jau </span>
-        <span data-zlm-translate> na ne ni no nu ny nai nei noi nau </span>
-      </p>
+    <h3>Consonant Pairs</h3>
+    <pre class="reference" data-zlm-translate>
+pl  pr                          fl  fr
+bl  br                          vl  vr
 
+cp  cf      ct  ck  cm  cn      cl  cr
+jb  jv      jd  jg  jm
+sp  sf      st  sk  sm  sn      sl  sr
+zb  zv      zd  zg  zm
 
-      <h3>Self-dotting vowels</h3>
-      <p class="reference rows">
-        <span data-zlm-translate>    a    e    i    o    u    y    ai    ei    oi    au </span>
-      </p>
+tc  tr      ts                  kl  kr
+dj  dr      dz                  gl  gr
+ml  mr                          xl  xr
+</pre>
 
-      <h3>Attitudinal ligatures</h3>
-      <p class="reference rows">
-        <span data-zlm-translate>  a'a  a'e  a'i  a'o  a'u  a'y  a'ai  a'ei  a'oi  a'au </span>
-        <span data-zlm-translate>  e'a  e'e  e'i  e'o  e'u  e'y  e'ai  e'ei  e'oi  e'au </span>
-        <span data-zlm-translate>  i'a  i'e  i'i  i'o  i'u  i'y  i'ai  i'ei  i'oi  i'au </span>
-        <span data-zlm-translate>  o'a  o'e  o'i  o'o  o'u  o'y  o'ai  o'ei  o'oi  o'au </span>
-        <span data-zlm-translate>  u'a  u'e  u'i  u'o  u'u  u'y  u'ai  u'ei  u'oi  u'au </span>
-        <span data-zlm-translate>  i'a  i'e  i'i  i'o  i'u  i'y  i'ai  i'ei  i'oi  i'au </span>
-        <span data-zlm-translate>  y'a  y'e  y'i  y'o  y'u  y'y  y'ai  y'ei  y'oi  y'au </span>
-        <span data-zlm-translate> ai'a ai'e ai'i ai'o ai'u ai'y ai'ai ai'ei ai'oi ai'au </span>
-        <span data-zlm-translate> ei'a ei'e ei'i ei'o ei'u ei'y ei'ai ei'ei ei'oi ei'au </span>
-        <span data-zlm-translate> oi'a oi'e oi'i oi'o oi'u oi'y oi'ai oi'ei oi'oi oi'au </span>
-        <span data-zlm-translate> au'a au'e au'i au'o au'u au'y au'ai au'ei au'oi au'au </span>
-      </p>
+</div>
+</div-->
 
-      <h3>Auto semivowels</h3>
-      <p class="reference rows">
-        <span data-zlm-translate>   ia   ie   ii   io   iu   iy   iai   iei   ioi   iau </span>
-        <span data-zlm-translate>   ua   ue   ui   uo   uu   uy   uai   uei   uoi   uau </span>
-      </p>
+  </div>
+  <script src="zbalermorna.js"></script>
+  <script src="index.js"></script>
+</body>
 
-      <h3>Diacritic vertical alignment</h3>
-      <p data-zlm-translate class="reference"> a e i o u y ai ei oi au </p>
-
-
-      <h3>Ligature precedence</h3>
-
-      <table class="reference">
-        <tr>
-          <th> output</th> <th>should be</th>
-        </tr>
-
-        <tr>
-          <td data-zlm-translate> co'o ci'izra </td> <td>&#xe2384;&#xe2314; &#Xe2383;&#Xe2313;&#Xe2400;&#Xe23f1;</td>
-        </tr>
-
-        <tr>
-          <td data-zlm-translate> uau je'u do'oi </td> <td> &#xe244a; &#xe2412;&#xe2315; &#xe23c4;&#xe2319;</td>
-        </tr>
-
-        <tr>
-          <td data-zlm-translate> plukauaii </td> <td> &#xe2320;&#xe2365;&#xe2341;&#xe2441;&#xe2433;</td>
-        </tr>
-      </table>
-    </div>
-
-    <!--
-    <div class="test-block">
-      <h2>Size WRT latin text</h2>
-      <p class="reference">
-        k<span data-zlm-translate>pa</span>
-        h<span data-zlm-translate>ta</span>
-        g<span data-zlm-translate>ka</span>
-        o<span data-zlm-translate>xau</span>
-        i<span data-zlm-translate>.i'i</span>
-      </p>
-    </div>
-    -->
-
-    <h2>IME Emulation</h2>
-    <div class="two-up">
-      <textarea data-ime-emulation class="reference" rows="10">
-cizra
-je ci'izra
-sei mi ciska
-      </textarea>
-      <pre class="reference" data-ime-output>&#xe2389;</pre>
-    </div>
-    <script src="preview.js"></script>
-  </body>
 </html>

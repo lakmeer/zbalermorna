@@ -1,0 +1,70 @@
+body {
+  margin: 140px auto 0px;
+  font-family: "Lato", "Lato ZLM", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.reference {
+  font-size: 40px;
+}
+
+p.rows span {
+  margin:  0;
+  display: block;
+}
+
+textarea.reference {
+  font-size: 40px;
+}
+
+small {
+  font-size:   20px;
+  font-family: monospace;
+}
+
+.test-blocks {
+  display: flex;
+  padding: 0px 20px;
+}
+
+.test-block {
+  flex: 1;
+}
+
+#ime-output {
+  margin-left: 10px;
+  font-size: 40px;
+  white-space: pre-wrap;
+}
+header {
+    width: 100%;
+    position: fixed;   
+    top: 0px;
+    background: #fff;
+    border-bottom: solid 1px #ccc;
+    height: 100px;
+    z-index: 5;
+}
+header .container {
+  display: flex;
+}
+
+header .container h1 {
+  line-height: 100px;
+}
+header select {
+  line-height: 100px;
+}
+
+.flex-right {
+  margin-left: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.table-row {
+  display: flex;
+}
+
+.table-row div {
+  flex: 1;
+}

@@ -1,0 +1,102 @@
+
+body { 
+	font-family: "Lato", "zlm-manri", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	padding-top: 50px;
+}
+
+h1 {
+	text-align: center;
+}
+
+#textarea-highlight {
+	width: 100%;
+	min-height: 300px;
+	font-size: 36px;
+	position: absolute;
+	z-index: -1;    
+	border: 1px solid rgba(0, 0, 0, 0);
+    outline: 0;
+    margin-bottom: 1.5rem;
+    padding: 6px 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 4px;
+    box-shadow: none;
+    box-sizing: border-box;  
+    color: transparent;
+    overflow: auto;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+}
+
+#textarea-highlight .base {
+	background: #99d7ea;
+	border-radius: 3px;
+	line-height: 65%;
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+
+#textarea-highlight .base.full {
+	line-height: 100%;
+	vertical-align: baseline;
+}
+
+#textarea-highlight #leftCharSelector {
+	position: relative;
+}
+#textarea-highlight #leftCharSelector.top:before {
+	content: "↓";
+	color: #33C3F0;
+    font-size: 50%;
+    top: -18px;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+#textarea-highlight #leftCharSelector.bottom:before {
+	content: "↑";
+	color: #33C3F0;
+    font-size: 50%;
+    top: 37px;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+
+
+
+#textarea {
+	width: 100%;
+	min-width: 100%;
+	max-width: 100%;
+	min-height: 300px;
+	font-size: 36px;
+	background: transparent;
+}
+
+#font-selector {
+	position: absolute;
+	right: 0px;
+	top: 15px;
+}
+
+
+code, .zlm {
+    padding: 0rem .5rem;
+    margin: 0 .2rem;
+    font-size: 90%;
+    white-space: nowrap;
+    background: #F1F1F1;
+    border: 1px solid #E1E1E1;
+    border-radius: 4px;
+	font-size: 110%;
+	line-height: 100%;
+}
+
+.back-button {
+	position: absolute;
+	top: 15px;
+}

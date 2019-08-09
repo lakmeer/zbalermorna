@@ -34,7 +34,7 @@ ibus-preamble = ({ name, symbol, author, desc }) -> log """
   LANGUAGES = jbo
   AUTHOR = #author
   STATUS_PROMPT = #symbol
-  VALID_INPUT_CHARS = abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ,.?!1234567890()":;#/'
+  VALID_INPUT_CHARS = abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ,.?!1234567890()":;#/'~-
   LAYOUT = us
   MAX_KEY_LENGTH = 1
   AUTO_COMMIT = TRUE
@@ -58,8 +58,12 @@ entry = (input, codepoint) ->
 
 # Data
 
-INPUTS  = <[ ' h p t k f l s c m x b d g v r z j n q w a e i o u y ]>
-OFFSET  = 0xE2300
+LOWERCASE  = <[ . h p t k f l s c m x b d g v r z j n q w a e i o u y ]>
+UPPERCASE  = <[ H P T K F L S C M X B D G V R Z J N Q W ]>
+FULL_VOWELS = <[ A E I O U Y ]>
+LOWERCASE_OFFSET = 0xE2300
+UPPERCASE_OFFSET = 0xE3100
+FULL_VOWEL_OFFSET = 0xE24F1
 
 
 # Output
@@ -71,10 +75,19 @@ ibus-preamble do
   desc: "Basic input method for Zbalermorna text. Requires ligature support in font engine."
 
 table ->
-  for input, ix in INPUTS
-    if input is \'
-      entry input, OFFSET + 0x10
-    else
-      entry input, OFFSET + ix * 0x10
-
+  for input, ix in LOWERCASE
+    entry input, LOWERCASE_OFFSET + ix * 0x10
+  for input, ix in UPPERCASE
+    entry input, UPPERCASE_OFFSET + ix * 0x10
+  for vowel, ix in FULL_VOWELS
+    entry vowel, FULL_VOWEL_OFFSET + ix
+  entry \' 0xe2310
+  entry \, 0xe238f
+  entry \~ 0xe230f
+  entry \! 0xe235f
+  entry \- 0xe23af
+  entry \1 0xe231f
+  entry \2 0xe232f
+  entry \3 0xe233f
+  entry \4 0xe234f
 

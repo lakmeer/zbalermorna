@@ -1,0 +1,45 @@
+#!/usr/local/bin/fontforge
+
+Open("src/" + $1 + ".sfd")
+
+# can be used to inspect features
+#GenerateFeatureFile("src/" + $1 + "-old.fea")
+
+# List of lookup tables defined in zlm.feature.ls / zlm.fea
+# Add new ones here to prevent a build-up when creating the font
+
+RemoveLookup("zlmFF")
+RemoveLookup("zlmSFF")
+RemoveLookup("zlmSF")
+RemoveLookup("zlmNVVHVV")
+RemoveLookup("zlmVVHVV")
+RemoveLookup("zlmNVVHV")
+RemoveLookup("zlmNVHVV")
+RemoveLookup("zlmVVHV")
+RemoveLookup("zlmNVHV")
+RemoveLookup("zlmVHVV")
+RemoveLookup("zlmVHV")
+RemoveLookup("zlmQVV")
+RemoveLookup("zlmWVV")
+RemoveLookup("zlmCVV")
+RemoveLookup("zlmQV")
+RemoveLookup("zlmWV")
+RemoveLookup("zlmCV")
+RemoveLookup("zlmVV")
+RemoveLookup("zlmNV")
+RemoveLookup("zlmBahebu")
+RemoveLookup("zlmSmajibuInit")
+RemoveLookup("zlmSmajibuFinal")
+RemoveLookup("zlmSmajibuIso")
+RemoveLookup("zlmSelfDottingVowels")
+
+MergeFeature("src/zlm.fea")
+
+if ( FileAccess("src/" + $1 + ".fea") == 0 )
+	MergeFeature("src/" + $1 + ".fea")
+endif
+
+# inspect what has changed after merging
+#GenerateFeatureFile("src/" + $1 + "-new.fea")
+
+Generate("output/" + $1 + ".otf")

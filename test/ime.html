@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Zbalermorna IME</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <!--link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css"-->
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/ime.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+  <style>
+    @font-face { font-family: "zlm-manri"; font-weight: normal; src: url('font/zlm-manri.otf'); }
+  </style>
+
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="column">
+        <a href="index.html" class="button u-pull-left back-button">← Back to examiner</a>
+
+        <h1>Zbalermorna IME</h1>
+
+        <select id="font-selector">
+          <option value="zlm-manri">zlm-manri</option>
+        </select>
+
+        <div id="textarea-highlight" class="reference"></div>
+        <textarea id="textarea" class="reference"></textarea>
+
+        <p>Type any consonant to insert the zlm equivalent. Lowercase vowels are inserted as diacritics, unless they form semivowels. Uppercase vowels form full vowels. All diphthongs are automatic. <code>h</code> or <code>'</code> will insert a .y'ybu <span class="zlm">󢌐</span>, and <code>.</code> will insert denpabu <span class="zlm">󢌀</span>. The attitudinal shorthand (<span class="zlm">󢌀󢒐󢌐󢒀</span>) is created automatically with ligatures.</p>
+
+        <p>
+          <code>,</code> will separate two full vowels from becoming a diphthong, or prevent a vowel from being self-dotted with a denpabu<br />
+          <code>-</code> inserts one character of silence<br />
+          <code>~</code> applies stretch to the previous character - use after the vowel<br />
+          <code>1234</code> adds the respective intonation to the previous character - use after the vowel<br />
+          <code>!</code> adds dynamics to the previous character - use after the vowel
+        </p>
+
+        <p>Text can be typed or <strong>pasted</strong> in, but may take some time to transcribe - the result should be the same. Any text copied from the textarea will be encoded to the Zbalermorna Unicode space, and will only display correctly with Zbalermorna-compatible fonts.</p>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="zbalermorna.js"></script>
+<script>
+
+const font_selector = document.getElementById('font-selector');
+
+font_selector.addEventListener('change', function (event) {
+  window.location.hash = event.target.value;
+  for (var i = 0; i < document.getElementsByClassName('reference').length; i++) {
+    document.getElementsByClassName('reference')[i].style["font-family"] = event.target.value;
+  }
+})
+
+if (window.location.hash) {
+  font_selector.value = window.location.hash.substring(1);
+} else {
+  font_selector.value = "zlm-manri";
+  window.location.hash = font_selector.value;
+}
+
+for (var i = 0; i < document.getElementsByClassName('reference').length; i++) {
+  document.getElementsByClassName('reference')[i].style["font-family"] = font_selector.value;
+}
+
+
+HTMLTextAreaElement.prototype.insertAtCaret = function (text) {
+  if (this.selectionStart || this.selectionStart === 0) {
+    var startPos = this.selectionStart,
+        endPos   = this.selectionEnd,
+        before   = this.value.substring(0, startPos),
+        after    = this.value.substring(endPos, this.value.length);
+    this.value = before + text + after;
+    this.selectionStart = startPos + text.length;
+    this.selectionEnd   = startPos + text.length;
+  } else {
+    this.value += text;
+  }
+};
+
+HTMLTextAreaElement.prototype.uSelectionStart = function() {
+  return [...this.value.substring(0, this.selectionStart)].length;
+}
+
+HTMLTextAreaElement.prototype.uSelectionEnd = function() {
+  return [...this.value.substring(0, this.selectionEnd)].length;
+}
+
+// Config
+const top_diacritics =     [0xe2450, 0xe2460, 0xe2470, 0xe2480, 
+                            0xe2490, 0xe24a0, 0xe24b0, 0xe24c0, 
+                            0xe24d0, 0xe24e0];
+const bottom_diacritics =  [0xe231f, 0xe232f, 0xe233f, 0xe234f,
+                            0xe235f, 0xe236f, 0xe237f, 0xe238f, 
+                            0xe239f, 0xe23bf, 0xe23cf];
+const diacritics = top_diacritics.concat(bottom_diacritics);;
+
+// Global Helpers
+
+var log = console.log.bind(console);
+
+function id (x) {
+  return x;
+}
+
+function trim (str) {
+  return str.trim();
+}
+
+function toArray (list) {
+  return Array.prototype.slice.apply(list);
+}
+
+function Q (sel, parent) {
+  return toArray((parent || document).querySelectorAll(sel));
+};
+
+function comp (a, b) {
+  return function (x) { return a(b(x)); }
+}
+
+function defer (λ) {
+  return setTimeout(λ, 0);
+}
+
+function deferOf (λ) {
+  return function () { defer(λ); };
+}
+
+var ta = document.getElementById("textarea");
+var taHL = document.getElementById("textarea-highlight");
+
+function updateHighlighter() {
+  var selectorPlusRight = "", 
+      diacritic = false;
+  var left = [...ta.value].slice(0, ta.uSelectionStart() - 1).join("");
+  var lastChar = [...ta.value].slice(ta.uSelectionStart() - 1, ta.uSelectionStart()).join("");
+  if (diacritics.indexOf(lastChar.codePointAt(0)) == -1 ) {
+      selectorPlusRight += "<span class='base'>" + lastChar + "</span>";
+  } else {
+    if ([...ta.value][ta.uSelectionStart() - 2] == " " || [...ta.value][ta.uSelectionStart() - 2] == undefined) {
+      selectorPlusRight += "<span class='base full'>" + lastChar + "</span>";
+    } else {
+      diacritic = true;
+    }
+  }
+  rightBit = [...ta.value].slice(ta.uSelectionStart(), [...ta.value].length).join("");
+  selectorPlusRight += "<span id='rightBit'>" + rightBit + "</span>";
+  taHL.innerHTML = left + selectorPlusRight;
+
+  if (diacritic) {
+    var rightBitOL = 0, 
+        newRightBitOL = 1, 
+        secondLastCharWidth = 0;
+    for (i = 2; ((rightBitOL != newRightBitOL) || (secondLastCharWidth == 0)) && (i <= 5); i++) {
+      var rightBitOL = document.getElementById('rightBit').offsetLeft;
+      var newLeft = [...ta.value].slice(0, ta.uSelectionStart() - i).join("");
+      taHL.innerHTML = newLeft + "<span id='leftCharSelector'>" + [...ta.value].slice(ta.uSelectionStart() - i, ta.uSelectionStart()).join("") + "</span>" + selectorPlusRight;
+      var newRightBitOL = document.getElementById('rightBit').offsetLeft;
+
+      secondLastCharWidth = document.getElementById('leftCharSelector').offsetWidth;
+    }
+    if (top_diacritics.indexOf(lastChar.codePointAt(0)) == -1) {
+      document.getElementById('leftCharSelector').className += "bottom";
+    } else {
+      document.getElementById('leftCharSelector').className += "top";
+    }
+  }
+}
+
+ta.onkeydown = function(event) {
+  log(event);
+  var kc = event.keyCode;
+  var k = event.key;
+  if (kc == 8) // backspace
+    return true;
+  if (kc >= 37 && kc <= 40) // arrow keys
+    return true;
+  if (event.ctrlKey && event.code == "KeyZ") {
+    event.preventDefault(); 
+    return false;
+  }
+  if (event.ctrlKey) // ignore anything with ctrl
+    return true;
+  if (kc == 13)
+    k = "\n";
+  if (kc == 9)
+    k = "\t";
+  if (k == "Unidentified")
+    return true;
+  ta.insertAtCaret(latinToZbalermorna(k));
+  updateHighlighter();
+  return false;
+};
+
+ta.onkeyup = updateHighlighter;
+ta.onfocusout = updateHighlighter;
+ta.onkeypress = updateHighlighter;
+ta.onchange = updateHighlighter;
+ta.onfocus = updateHighlighter;
+ta.oninput = updateHighlighter;
+ta.onclick = updateHighlighter;
+
+ta.onpaste = function(event) {
+  var text = undefined;
+  if (window.clipboardData && window.clipboardData.getData) { // IE
+    text = window.clipboardData.getData('Text');
+  } else if (event.clipboardData && event.clipboardData.getData) {
+    text = event.clipboardData.getData('text/plain');
+  }
+  for (var i = 0; i < [...text].length; i++) {
+    ta.insertAtCaret(latinToZbalermorna([...text][i]));
+  }
+  updateHighlighter();
+  return false;
+}; 
+
+ta.focus();
+
+</script>
+</body>
+</html>
